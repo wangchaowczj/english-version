@@ -1,0 +1,9 @@
+.\obj\logo34.o: ..\Logo\Logo34.c
+.\obj\logo34.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\logo34.o: ..\STemWinLibrary522\inc\GUI.h
+.\obj\logo34.o: ..\STemWinLibrary522\inc\GUI_ConfDefaults.h
+.\obj\logo34.o: ..\STemWinLibrary522\Config\GUIConf.h
+.\obj\logo34.o: ..\STemWinLibrary522\inc\GUI_Type.h
+.\obj\logo34.o: ..\STemWinLibrary522\inc\LCD.h
+.\obj\logo34.o: ..\STemWinLibrary522\inc\Global.h
+.\obj\logo34.o: ..\STemWinLibrary522\inc\GUI_Version.h

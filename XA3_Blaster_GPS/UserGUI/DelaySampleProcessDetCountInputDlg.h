@@ -1,0 +1,6 @@
+#ifndef _DELAYSAMPLEPROCESSDETCOUNTINPUTDLG_H_
+#define _DELAYSAMPLEPROCESSDETCOUNTINPUTDLG_H_
+
+extern void ShowDelaySampleProcessDetCountInputDlg(void);
+
+#endif

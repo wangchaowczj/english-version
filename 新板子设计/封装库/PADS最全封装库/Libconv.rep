@@ -1,0 +1,1089 @@
+Library Converter 报告 - 2015年10月16日 19:17:31
+
+
+Converting Library: C:\Users\Administrator\Desktop\ourdev_449775\2D-Decal
+
+Part Types converted: 0 - Errors: 0
+
+PCB Decals converted: 0 - Errors: 0
+
+Schematic Decals converted: 0 - Errors: 0
+
+Line Items converted: 11 - Errors: 0
+
+
+
+Converting Library: C:\Users\Administrator\Desktop\ourdev_449775\2D-Lines
+
+Part Types converted: 0 - Errors: 0
+
+PCB Decals converted: 0 - Errors: 0
+
+Schematic Decals converted: 0 - Errors: 0
+
+Line Items converted: 167 - Errors: 0
+
+
+
+Converting Library: C:\Users\Administrator\Desktop\ourdev_449775\MISC
+
+Part Type 1N4001 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-41 
+
+Part Type 1N4002 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-41 
+
+Part Type 1N4003 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-41 
+
+Part Type 1N4004 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-41 
+
+Part Type 1N4005 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-41 
+
+Part Type 1N4006 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-41 
+
+Part Type 1N4007 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-41 
+
+Part Type DIO_1.5KE6-400CA converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-201AD 
+
+Part Type DIO_1N4148W converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: SOD-323N 
+
+Part Type DIO_1N6267-6303A converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-201AD 
+
+Part Type DIO_BAT400D converted with alphanumeric pin mapping:
+   Pins:   A NC C 
+   Decals: SOT-23N 
+
+Part Type DIO_BAT54A converted with alphanumeric pin mapping:
+   Pins:   C1 C2 A 
+   Decals: SOT-23N 
+
+Part Type DIO_BAT54C converted with alphanumeric pin mapping:
+   Pins:   A1 C A2 
+   Decals: SOT-23N 
+
+Part Type DIO_BAT54S converted with alphanumeric pin mapping:
+   Pins:   A NC C 
+   Decals: SOT-23N 
+
+Part Type DIO_BZX99 converted with alphanumeric pin mapping:
+   Pins:   A NC C 
+   Decals: SOT-23N 
+
+Part Type DIO_CMPSH-3 converted with alphanumeric pin mapping:
+   Pins:   A NC C 
+   Decals: SOT-23N 
+
+Part Type DIO_CMPSH-3A converted with alphanumeric pin mapping:
+   Pins:   C1 C2 A 
+   Decals: SOT-23N 
+
+Part Type DIO_CMPSH-3C converted with alphanumeric pin mapping:
+   Pins:   A2 A1 C 
+   Decals: SOT-23N 
+
+Part Type DIO_CMPSH-3S converted with alphanumeric pin mapping:
+   Pins:   A NC C 
+   Decals: SOT-23N 
+
+Part Type DIO_CMSH1 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSMAN 
+
+Part Type DIO_DT25.1A converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: SOD-323N 
+
+Part Type DIO_FMMD6100 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 C 
+   Decals: SOT-23N 
+
+Part Type DIO_LL4148 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIO_MINIMELF 
+
+Part Type DIO_LL4448 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIO_MINIMELF 
+
+Part Type DIO_MA2S728 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIO_MA2S728 
+
+Part Type DIO_MBR0540T converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: SOD-123N 
+
+Part Type DIO_MBRS1100T3 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSMBN 
+
+Part Type DIO_MBRS140T3 converted with alphanumeric pin mapping:
+   Pins:   A C 
+   Decals: DIOSMBN 
+
+Part Type DIO_MBRS340T3 converted with alphanumeric pin mapping:
+   Pins:   A C 
+   Decals: DIOSMCN 
+
+Part Type DIO_MBRS360T3 converted with alphanumeric pin mapping:
+   Pins:   A C 
+   Decals: DIOSMCN 
+
+Part Type DIO_MMBD914LT1 converted with alphanumeric pin mapping:
+   Pins:   A NC C 
+   Decals: SOT-23N 
+
+Part Type DIO_MMBZ5221BLT1 converted with alphanumeric pin mapping:
+   Pins:   A NC C 
+   Decals: SOT-23N 
+
+Part Type DIO_MUR3020WT converted with alphanumeric pin mapping:
+   Pins:   A1 C A2 
+   Decals: TO-247ACV 
+
+Part Type DIO_P1101SC converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-214AAN 
+
+Part Type DIO_SB520-560 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-201AD 
+
+Part Type MBRM120LT3 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIO_POWERMITE 
+
+Part Type SOT-223BCECN converted with alphanumeric pin mapping:
+   Pins:   B E C NC 
+   Decals: SOT-223N 
+
+Part Type SOT-223N_ACA converted with alphanumeric pin mapping:
+   Pins:   A1 C1 A2 C2 
+   Decals: SOT-223N 
+
+Part Type SOT-223N_ACN converted with alphanumeric pin mapping:
+   Pins:   A C1 NC C2 
+   Decals: SOT-223N 
+
+Part Type SOT-223N_BCE converted with alphanumeric pin mapping:
+   Pins:   B C1 E C2 
+   Decals: SOT-223N 
+
+Part Type SOT-223N_CAG converted with alphanumeric pin mapping:
+   Pins:   C A1 G A2 
+   Decals: SOT-223N 
+
+Part Type SOT-223N_DGS converted with alphanumeric pin mapping:
+   Pins:   D G1 S G2 
+   Decals: SOT-223N 
+
+Part Type SOT-223N_GDS converted with alphanumeric pin mapping:
+   Pins:   G D1 S D2 
+   Decals: SOT-223N 
+
+Part Type SOT-223N_SDG converted with alphanumeric pin mapping:
+   Pins:   S D1 G D2 
+   Decals: SOT-223N 
+
+Part Type SOT-23N_AAC converted with alphanumeric pin mapping:
+   Pins:   A1 A2 C 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_ACC converted with alphanumeric pin mapping:
+   Pins:   A C1 C2 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_ACG converted with alphanumeric pin mapping:
+   Pins:   A C G 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_AC_CA converted with alphanumeric pin mapping:
+   Pins:   A C AC 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_ANC converted with alphanumeric pin mapping:
+   Pins:   A NC C 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_BEC converted with alphanumeric pin mapping:
+   Pins:   B E C 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_CAG converted with alphanumeric pin mapping:
+   Pins:   C A G 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_CA_CA converted with alphanumeric pin mapping:
+   Pins:   C A CA 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_CCA converted with alphanumeric pin mapping:
+   Pins:   C1 C2 A 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_CGA converted with alphanumeric pin mapping:
+   Pins:   C G A 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_DSG converted with alphanumeric pin mapping:
+   Pins:   D S G 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_EBC converted with alphanumeric pin mapping:
+   Pins:   E B C 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_GCA converted with alphanumeric pin mapping:
+   Pins:   G C A 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_GDS converted with alphanumeric pin mapping:
+   Pins:   G D S 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_GSD converted with alphanumeric pin mapping:
+   Pins:   G S D 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_NAC converted with alphanumeric pin mapping:
+   Pins:   NC A C 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_NCA converted with alphanumeric pin mapping:
+   Pins:   NC C A 
+   Decals: SOT-23N 
+
+Part Type SOT-23N_SDG converted with alphanumeric pin mapping:
+   Pins:   S D G 
+   Decals: SOT-23N 
+
+Part Type TRANS_2N7002 converted with alphanumeric pin mapping:
+   Pins:   G S D 
+   Decals: SOT-23N 
+
+Part Type TRANS_FMMT2222A converted with alphanumeric pin mapping:
+   Pins:   B E C 
+   Decals: SOT-23N 
+
+Part Type TRANS_FMMT619 converted with alphanumeric pin mapping:
+   Pins:   B E C 
+   Decals: SOT-23N 
+
+Part Type TRANS_FZT951 converted with alphanumeric pin mapping:
+   Pins:   B C1 E C2 
+   Decals: SOT-223N 
+
+Part Type TRANS_IRF644N converted with alphanumeric pin mapping:
+   Pins:   G D S 
+   Decals: TO-220ABVS 
+
+Part Type TRANS_IRLML2502 converted with alphanumeric pin mapping:
+   Pins:   G S D 
+   Decals: SOT-23N 
+
+Part Type TRANS_MJE200 converted with alphanumeric pin mapping:
+   Pins:   E C B C2 
+   Decals: TO-225AA 
+
+Part Type TRANS_MMBT1010LT1 converted with alphanumeric pin mapping:
+   Pins:   B E C 
+   Decals: SOT-23N 
+
+Part Type TRANS_MMBT2222LT1 converted with alphanumeric pin mapping:
+   Pins:   B E C 
+   Decals: SOT-23N 
+
+Part Type TRANS_MMBT2907ALT1 converted with alphanumeric pin mapping:
+   Pins:   B E C 
+   Decals: SOT-23N 
+
+Part Type TRANS_MMBT3904LT1 converted with alphanumeric pin mapping:
+   Pins:   B E C 
+   Decals: SOT-23N 
+
+Part Type TRANS_MMBT3906LT1 converted with alphanumeric pin mapping:
+   Pins:   B E C 
+   Decals: SOT-23N 
+
+Part Type TRANS_MMBT5401LT1 converted with alphanumeric pin mapping:
+   Pins:   B E C 
+   Decals: SOT-23N 
+
+Part Type TRANS_MMBT5550LT1 converted with alphanumeric pin mapping:
+   Pins:   B E C 
+   Decals: SOT-23N 
+
+Part Type TRANS_MMFT3055VL converted with alphanumeric pin mapping:
+   Pins:   G D1 S D2 
+   Decals: SOT-223N 
+
+Part Type TRANS_NDS9953A converted with alphanumeric pin mapping:
+   Pins:   S1 G1 S2 G2 D22 D21 D12 D11 
+   Decals: SO8N 
+
+Part Type TRANS_NE85633 converted with alphanumeric pin mapping:
+   Pins:   B E C 
+   Decals: SOT-23N 
+
+Part Type TRANS_SI2301DS converted with alphanumeric pin mapping:
+   Pins:   G S D 
+   Decals: SOT-23N 
+
+Part Type TRANS_SI4410DY converted with alphanumeric pin mapping:
+   Pins:   S1 S2 S3 G D1 D2 D3 D4 
+   Decals: SO8N 
+
+Part Type TRANS_SI4925DY converted with alphanumeric pin mapping:
+   Pins:   S1 G1 S2 G2 D22 D21 D12 D11 
+   Decals: SO8N 
+
+Part Types converted: 98 - Errors: 0
+
+PCB Decals converted: 0 - Errors: 0
+
+Schematic Decals converted: 0 - Errors: 0
+
+Line Items converted: 0 - Errors: 0
+
+
+
+Converting Library: C:\Users\Administrator\Desktop\ourdev_449775\SML
+
+Part Type DIOMLL34L converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOMLL34L 
+
+Part Type DIOMLL41L converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOMLL41L 
+
+Part Type DIOSMAL converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSMAL 
+
+Part Type DIOSMBL converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSMBL 
+
+Part Type DIOSMCL converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSMCL 
+
+Part Type DIOSOD-123L converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSOD-123L 
+
+Part Type DIOSOD-323L converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSOD-323L 
+
+Part Type DIOSOD-523L converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSOD-523L 
+
+Part Type DO-214AAL converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-214AAL 
+
+Part Type DO-214ABL converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-214ABL 
+
+Part Type DO-214ACL converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-214ACL 
+
+Part Types converted: 534 - Errors: 0
+
+PCB Decals converted: 534 - Errors: 0
+
+Schematic Decals converted: 0 - Errors: 0
+
+Line Items converted: 0 - Errors: 0
+
+
+
+Converting Library: C:\Users\Administrator\Desktop\ourdev_449775\SMM
+
+Part Type DIOMLL34M converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOMLL34M 
+
+Part Type DIOMLL41M converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOMLL41M 
+
+Part Type DIOSMAM converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSMAM 
+
+Part Type DIOSMBM converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSMBM 
+
+Part Type DIOSMCM converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSMCM 
+
+Part Type DIOSOD-123M converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSOD-123M 
+
+Part Type DIOSOD-323M converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSOD-323M 
+
+Part Type DIOSOD-523M converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSOD-523M 
+
+Part Type DO-214AAM converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-214AAM 
+
+Part Type DO-214ABM converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-214ABM 
+
+Part Type DO-214ACM converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-214ACM 
+
+Part Types converted: 532 - Errors: 0
+
+PCB Decals converted: 532 - Errors: 0
+
+Schematic Decals converted: 0 - Errors: 0
+
+Line Items converted: 0 - Errors: 0
+
+
+
+Converting Library: C:\Users\Administrator\Desktop\ourdev_449775\SMN
+
+Part Type AMP_MGF4953A converted with alphanumeric pin mapping:
+   Pins:   G S1 D S2 
+   Decals: AMP_MGF4953A 
+
+Part Type AMP_NE3210S01 converted with alphanumeric pin mapping:
+   Pins:   S1 D S2 G 
+   Decals: AMP_NE3210S01 
+
+Part Type BGA100P11X15-165 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 B1 B2 B3 B4 B5 B6 B7 B8 B9 ...
+   Decals: BGA100P11X15-165 
+
+Part Type BGA100P14X14-148 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 B1 B2 B3 B4 B5 B6 ...
+   Decals: BGA100P14X14-148 
+
+Part Type BGA100P14X14-196 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 B1 B2 B3 B4 B5 B6 ...
+   Decals: BGA100P14X14-196 
+
+Part Type BGA100P16X16-255 converted with alphanumeric pin mapping:
+   Pins:   A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 B1 B2 B3 B4 B5 ...
+   Decals: BGA100P16X16-255 
+
+Part Type BGA100P16X16-256 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 B1 B2 B3 B4 ...
+   Decals: BGA100P16X16-256 
+
+Part Type BGA100P16X16-256A converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 B1 B2 B3 B4 ...
+   Decals: BGA100P16X16-256A 
+
+Part Type BGA100P17X17-284 converted with alphanumeric pin mapping:
+   Pins:   A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 B1 B2 B3 B4 ...
+   Decals: BGA100P17X17-284 
+
+Part Type BGA100P20X20-256 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA100P20X20-256 
+
+Part Type BGA100P20X20-364 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA100P20X20-364 
+
+Part Type BGA100P22X22-360 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA100P22X22-360 
+
+Part Type BGA100P22X22-456 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA100P22X22-456 
+
+Part Type BGA100P22X22-484 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA100P22X22-484 
+
+Part Type BGA100P26X26-456 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA100P26X26-456 
+
+Part Type BGA100P26X26-672 converted with alphanumeric pin mapping:
+   Pins:   A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 A21 ...
+   Decals: BGA100P26X26-672 
+
+Part Type BGA100P26X26-676 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA100P26X26-676 
+
+Part Type BGA100P30X30-608 converted with alphanumeric pin mapping:
+   Pins:   A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 A21 ...
+   Decals: BGA100P30X30-608 
+
+Part Type BGA100P30X30-640 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA100P30X30-640 
+
+Part Type BGA100P8X8-64 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 B1 B2 B3 B4 B5 B6 B7 B8 C1 C2 C3 C4 ...
+   Decals: BGA100P8X8-64 
+
+Part Type BGA100P9X13-117 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 B1 B2 B3 B4 B5 B6 B7 B8 B9 C1 C2 ...
+   Decals: BGA100P9X13-117 
+
+Part Type BGA127P16X16-256 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 B1 B2 B3 B4 ...
+   Decals: BGA127P16X16-256 
+
+Part Type BGA127P17X17-192 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 B1 B2 B3 ...
+   Decals: BGA127P17X17-192 
+
+Part Type BGA127P17X17-233 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 B1 B2 B3 ...
+   Decals: BGA127P17X17-233 
+
+Part Type BGA127P17X17-241 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 B1 B2 B3 ...
+   Decals: BGA127P17X17-241 
+
+Part Type BGA127P19X19-357 converted with alphanumeric pin mapping:
+   Pins:   A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 B1 B2 B3 ...
+   Decals: BGA127P19X19-357 
+
+Part Type BGA127P19X19-360 converted with alphanumeric pin mapping:
+   Pins:   NC1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 B1 ...
+   Decals: BGA127P19X19-360 
+
+Part Type BGA127P19X19-361 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 B1 ...
+   Decals: BGA127P19X19-361 
+
+Part Type BGA127P20X20-256 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P20X20-256 
+
+Part Type BGA127P20X20-272 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P20X20-272 
+
+Part Type BGA127P20X20-292 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P20X20-292 
+
+Part Type BGA127P20X20-308 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P20X20-308 
+
+Part Type BGA127P20X20-324 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P20X20-324 
+
+Part Type BGA127P20X20-328 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P20X20-328 
+
+Part Type BGA127P20X20-330 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P20X20-330 
+
+Part Type BGA127P20X20-348 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P20X20-348 
+
+Part Type BGA127P21X24-495 converted with alphanumeric pin mapping:
+   Pins:   A2 A3 A4 A5 A6 A7 A8 A9 A12 A13 A14 A15 A16 A17 A18 A19 A20 A21 B1 B2 ...
+   Decals: BGA127P21X24-495 
+
+Part Type BGA127P23X23-304 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P23X23-304 
+
+Part Type BGA127P23X23-421 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P23X23-421 
+
+Part Type BGA127P24X24-324 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P24X24-324 
+
+Part Type BGA127P26X26-312 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P26X26-312 
+
+Part Type BGA127P26X26-352 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P26X26-352 
+
+Part Type BGA127P26X26-356 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P26X26-356 
+
+Part Type BGA127P26X26-388 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P26X26-388 
+
+Part Type BGA127P26X26-420 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P26X26-420 
+
+Part Type BGA127P26X26-436 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P26X26-436 
+
+Part Type BGA127P26X26-452 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P26X26-452 
+
+Part Type BGA127P26X26-456 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P26X26-456 
+
+Part Type BGA127P26X26-492 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P26X26-492 
+
+Part Type BGA127P29X29-400 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P29X29-400 
+
+Part Type BGA127P29X29-480 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P29X29-480 
+
+Part Type BGA127P29X29-503 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P29X29-503 
+
+Part Type BGA127P31X31-432 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P31X31-432 
+
+Part Type BGA127P31X31-520 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P31X31-520 
+
+Part Type BGA127P31X31-600 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P31X31-600 
+
+Part Type BGA127P31X31-665 converted with alphanumeric pin mapping:
+   Pins:   A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 A21 A22 ...
+   Decals: BGA127P31X31-665 
+
+Part Type BGA127P31X31-873 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P31X31-873 
+
+Part Type BGA127P31X31-957 converted with alphanumeric pin mapping:
+   Pins:   A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 A21 ...
+   Decals: BGA127P31X31-957 
+
+Part Type BGA127P32X32-540 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P32X32-540 
+
+Part Type BGA127P33X33-560 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P33X33-560 
+
+Part Type BGA127P34X34-630 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P34X34-630 
+
+Part Type BGA127P35X35-600 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P35X35-600 
+
+Part Type BGA127P35X35-652 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA127P35X35-652 
+
+Part Type BGA127P7X17-119 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 B1 B2 B3 B4 B5 B6 B7 C1 C2 C3 C4 C5 C6 ...
+   Decals: BGA127P7X17-119 
+
+Part Type BGA150P15X15-225 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 B1 B2 B3 B4 B5 ...
+   Decals: BGA150P15X15-225 
+
+Part Type BGA50P14X14-108 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 B1 B14 C1 C3 C4 C5 ...
+   Decals: BGA50P14X14-108 
+
+Part Type BGA65P20X20-204 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 ...
+   Decals: BGA65P20X20-204 
+
+Part Type BGA75P6X8-48 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 B1 B2 B3 B4 B5 B6 C1 C2 C3 C4 C5 C6 D1 D2 ...
+   Decals: BGA75P6X8-48 
+
+Part Type BGA80P13X13-144 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 B1 B2 B3 B4 B5 B6 B7 ...
+   Decals: BGA80P13X13-144 
+
+Part Type BGA80P14X14-180 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 B1 B2 B3 B4 B5 B6 ...
+   Decals: BGA80P14X14-180 
+
+Part Type BGA80P19X19-210 converted with alphanumeric pin mapping:
+   Pins:   A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 B5 B6 B7 B8 B9 B10 B11 ...
+   Decals: BGA80P19X19-210 
+
+Part Type BGA80P19X19-280 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 B1 ...
+   Decals: BGA80P19X19-280 
+
+Part Type BGA80P20X20-399 converted with alphanumeric pin mapping:
+   Pins:   A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A20 B1 ...
+   Decals: BGA80P20X20-399 
+
+Part Type BGA80P4X15-60 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A7 A8 B1 B2 B7 B8 C1 C2 C7 C8 D1 D2 D7 D8 E1 E2 E7 E8 ...
+   Decals: BGA80P4X15-60 
+
+Part Type BGA80P6X16-96 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 B1 B2 B3 B4 B5 B6 C1 C2 C3 C4 C5 C6 D1 D2 ...
+   Decals: BGA80P6X16-96 
+
+Part Type BGA80P6X19-114 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 B1 B2 B3 B4 B5 B6 C1 C2 C3 C4 C5 C6 D1 D2 ...
+   Decals: BGA80P6X19-114 
+
+Part Type BGA80P6X9-54 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A7 A8 A9 B1 B2 B3 B7 B8 B9 C1 C2 C3 C7 C8 C9 D1 D2 ...
+   Decals: BGA80P6X9-54 
+
+Part Type BGA80P7X7-32 converted with alphanumeric pin mapping:
+   Pins:   A2 A3 A4 A5 A6 B1 B3 B4 B5 B7 C1 C2 C6 C7 D1 D2 D6 D7 E1 E2 ...
+   Decals: BGA80P7X7-32 
+
+Part Type BGA80P7X7-48 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 B1 B2 B3 B4 B5 B6 B7 C1 C2 C3 C4 C5 C6 ...
+   Decals: BGA80P7X7-48 
+
+Part Type BGA80P8X12-96 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 B1 B2 B3 B4 B5 B6 B7 B8 C1 C2 C3 C4 ...
+   Decals: BGA80P8X12-96 
+
+Part Type BGA80P8X8-64 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 B1 B2 B3 B4 B5 B6 B7 B8 C1 C2 C3 C4 ...
+   Decals: BGA80P8X8-64 
+
+Part Type CGA19X19-200 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 B1 ...
+   Decals: CGA19X19-200 
+
+Part Type DIOMLL34 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOMLL34 
+
+Part Type DIOMLL41 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOMLL41 
+
+Part Type DIOSMA converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSMA 
+
+Part Type DIOSMB converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSMB 
+
+Part Type DIOSMC converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSMC 
+
+Part Type DIOSOD-123 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSOD-123 
+
+Part Type DIOSOD-323 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSOD-323 
+
+Part Type DIOSOD-523 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIOSOD-523 
+
+Part Type DIO_MA111 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIO_MA111 
+
+Part Type DIO_MA2S728 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIO_MA2S728 
+
+Part Type DIO_MELF-A converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIO_MELF-A 
+
+Part Type DIO_MELF-B converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIO_MELF-B 
+
+Part Type DIO_MINIMELF converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIO_MINIMELF 
+
+Part Type DIO_POWERMITE converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIO_POWERMITE 
+
+Part Type DO-214AA converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-214AA 
+
+Part Type DO-214AB converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-214AB 
+
+Part Type DO-214AC converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-214AC 
+
+Part Type LED_0603 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: LED_0603 
+
+Part Type LED_0805 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: LED_0805 
+
+Part Type LED_1206 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: LED_1206 
+
+Part Type LED_3216 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: LED_3216 
+
+Part Type LED_LN1261C converted with alphanumeric pin mapping:
+   Pins:   A C 
+   Decals: LED_LN1261C 
+
+Part Type LED_LNJ261C3ARA converted with alphanumeric pin mapping:
+   Pins:   A C 
+   Decals: LED_LNJ261C3ARA 
+
+Part Type LED_LTST-S320 converted with alphanumeric pin mapping:
+   Pins:   C A NC 
+   Decals: LED_LTST-S320 
+
+Part Type LED_SML-LX23 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: LED_SML-LX23 
+
+Part Type LED_SML10XXT-TR converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: LED_SML10XXT-TR 
+
+Part Type LED_SSL-LXA228SC-TR11 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: LED_SSL-LXA228SC-TR11 
+
+Part Type SOT-23_132 converted with alphanumeric pin mapping:
+   Pins:   1 3 2 
+   Decals: SOT-23_132 
+
+Part Types converted: 950 - Errors: 0
+
+PCB Decals converted: 950 - Errors: 0
+
+Schematic Decals converted: 0 - Errors: 0
+
+Line Items converted: 0 - Errors: 0
+
+
+
+Converting Library: C:\Users\Administrator\Desktop\ourdev_449775\TH
+
+Part Type BAT_DS9094F converted with alphanumeric pin mapping:
+   Pins:   G D 
+   Decals: BAT_DS9094F 
+
+Part Type DIO_BYV26 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DIO_BYV26 
+
+Part Type DO-14 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-14 
+
+Part Type DO-15 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-15 
+
+Part Type DO-16 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-16 
+
+Part Type DO-201 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-201 
+
+Part Type DO-201AD converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-201AD 
+
+Part Type DO-26 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-26 
+
+Part Type DO-27 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-27 
+
+Part Type DO-29 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-29 
+
+Part Type DO-32 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-32 
+
+Part Type DO-34 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-34 
+
+Part Type DO-35 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-35 
+
+Part Type DO-39 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-39 
+
+Part Type DO-41 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-41 
+
+Part Type DO-7 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: DO-7 
+
+Part Type LED_5300 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: LED_5300 
+
+Part Type LED_551-XX07 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: LED_551-XX07 
+
+Part Type LED_551-XX09 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: LED_551-XX09 
+
+Part Type LED_555-3XXX converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: LED_555-3XXX 
+
+Part Type LED_5650 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: LED_5650 
+
+Part Type LED_CMD converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: LED_CMD 
+
+Part Type LED_L53BR508 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: LED_L53BR508 
+
+Part Type LED_L934 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: LED_L934 
+
+Part Type LED_LN11CP23 converted with alphanumeric pin mapping:
+   Pins:   A1 C A2 
+   Decals: LED_LN11CP23 
+
+Part Type LED_SSF-LXH100MXX converted with alphanumeric pin mapping:
+   Pins:   A C 
+   Decals: LED_SSF-LXH100MXX 
+
+Part Type LED_SSF-LXH103XX converted with alphanumeric pin mapping:
+   Pins:   A C 
+   Decals: LED_SSF-LXH103XX 
+
+Part Type LED_ZI-550 converted with alphanumeric pin mapping:
+   Pins:   C A 
+   Decals: LED_ZI-550 
+
+Part Type PGA19X19-200 converted with alphanumeric pin mapping:
+   Pins:   A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 B1 ...
+   Decals: PGA19X19-200 
+
+Part Type RELAY_AROMAT-CB1-P converted with alphanumeric pin mapping:
+   Pins:   30 86 87 85 87A 
+   Decals: RELAY_AROMAT-CB1-P 
+
+Part Type SW_D501-A converted with alphanumeric pin mapping:
+   Pins:   1 1A 1B 4 5 
+   Decals: SW_D501-A 
+
+Part Type TO-220V_AAVID-590302B03600 converted with alphanumeric pin mapping:
+   Pins:   1 2 3 M1 M2 
+   Decals: TO-220V_AAVID-590302B03600 
+
+Part Type TO-220V_AAVID-590302B03600_BCE converted with alphanumeric pin mapping:
+   Pins:   B C E M1 M2 
+   Decals: TO-220V_AAVID-590302B03600_BCE 
+
+Part Type TO-220V_AAVID-590302B03600_GDS converted with alphanumeric pin mapping:
+   Pins:   G D S M1 M2 
+   Decals: TO-220V_AAVID-590302B03600_GDS 
+
+Part Type TO-220V_AAVID-590302B03600_IGO converted with alphanumeric pin mapping:
+   Pins:   IN GND OUT M1 M2 
+   Decals: TO-220V_AAVID-590302B03600_IGO 
+
+Part Type TO-220V_AAVID-593202B03500 converted with alphanumeric pin mapping:
+   Pins:   1 2 3 T1 T2 
+   Decals: TO-220V_AAVID-593202B03500 
+
+Part Type TO-247ACV_AAVID-593101B03600 converted with alphanumeric pin mapping:
+   Pins:   1 2 3 T1 T2 
+   Decals: TO-247ACV_AAVID-593101B03600 
+
+Part Types converted: 485 - Errors: 0
+
+PCB Decals converted: 473 - Errors: 0
+
+Schematic Decals converted: 0 - Errors: 0
+
+Line Items converted: 0 - Errors: 0
+

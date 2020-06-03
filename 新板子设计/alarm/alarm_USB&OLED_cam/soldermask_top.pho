@@ -1,0 +1,110 @@
+*
+*
+G04 PADS 9.5 Build Number: 522968 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "alarm_USB&OLED.pcb"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD015C,0.07*%
+%ADD075C,0.001*%
+%ADD088C,0.08087*%
+%ADD112R,0.03953X0.02575*%
+%ADD113R,0.05331X0.02181*%
+%ADD114R,0.032X0.036*%
+%ADD115R,0.032X0.038*%
+%ADD116R,0.08087X0.08087*%
+%ADD117O,0.1478X0.08087*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name alarm_USB&OLED.pcb - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name alarm_USB&OLED.pcb - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name alarm_USB&OLED.pcb - circuitry*
+%LPD*%
+*
+G54D15*
+G01X196063Y199606D03*
+X188189D03*
+X180315D03*
+X172441D03*
+X227480Y155197D03*
+Y165039D03*
+Y172913D03*
+Y182756D03*
+G54D75*
+G54D88*
+X111417Y167874D03*
+Y177874D03*
+Y187874D03*
+G54D112*
+X182200Y174985D03*
+Y171835D03*
+X189484D03*
+Y174985D03*
+G54D113*
+X198021Y175285D03*
+Y171348D03*
+X203926Y173316D03*
+G54D114*
+X213780Y187039D03*
+G54D115*
+Y183039D03*
+G54D116*
+X111417Y157874D03*
+G54D117*
+X235354Y139843D03*
+Y198110D03*
+X0Y0D02*
+M02*

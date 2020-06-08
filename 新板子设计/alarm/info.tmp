@@ -1,0 +1,7 @@
+Value	说明	PCB DECAL	直插	表贴	Manufacturer	参考编号	数量
+CBG100505U121T		L0402				S2	1
+不需要焊接		DIP4-2.0-5.08-11.08				J1	1
+不需要焊接		DIP4-1.8-1.1				J2	1
+ESDALC6V1P3	瞬态抑制对管/6.1V	SOT-663		√	ST	Q1	1
+ACM4520-421-2P-T000	共模电感	2012		√	TDK	S3	1
+USB座	直插，母座，卧式	USBA-M-TM				J3	1

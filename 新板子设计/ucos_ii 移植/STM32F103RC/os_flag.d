@@ -1,0 +1,17 @@
+.\os_flag.o: UCOSII\CORE\os_flag.c
+.\os_flag.o: UCOSII\CORE\ucos_ii.h
+.\os_flag.o: .\UCOSII\CONFIG\includes.h
+.\os_flag.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\os_flag.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\os_flag.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\os_flag.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\os_flag.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\os_flag.o: .\UCOSII\CORE\ucos_ii.h
+.\os_flag.o: .\UCOSII\PORT\os_cpu.h
+.\os_flag.o: .\UCOSII\CONFIG\os_cfg.h
+.\os_flag.o: .\UCOSII\CMSIS\stm32f10x.h
+.\os_flag.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\os_flag.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\os_flag.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\os_flag.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\os_flag.o: .\UCOSII\CMSIS\system_stm32f10x.h

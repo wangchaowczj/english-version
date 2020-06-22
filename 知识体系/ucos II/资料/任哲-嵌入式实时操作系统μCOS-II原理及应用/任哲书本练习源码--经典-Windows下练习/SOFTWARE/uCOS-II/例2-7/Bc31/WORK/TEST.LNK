@@ -1,0 +1,11 @@
+/v /s /c /P-          +
+C:\BC31\LIB\C0L.OBJ   +
+..\OBJ\TEST.OBJ       +
+..\OBJ\OS_CPU_A.OBJ   +
+..\OBJ\OS_CPU_C.OBJ   +
+..\OBJ\PC.OBJ         +
+..\OBJ\uCOS_II.OBJ
+..\OBJ\TEST,..\OBJ\TEST
+C:\BC31\LIB\EMU.LIB   +
+C:\BC31\LIB\MATHL.LIB +
+C:\BC31\LIB\CL.LIB

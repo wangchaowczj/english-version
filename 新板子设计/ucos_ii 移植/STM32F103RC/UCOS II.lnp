@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+".\os_cpu_a.o"
+".\os_cpu_c.o"
+".\os_core.o"
+".\os_flag.o"
+".\os_mbox.o"
+".\os_mem.o"
+".\os_mutex.o"
+".\os_q.o"
+".\os_sem.o"
+".\os_task.o"
+".\os_time.o"
+".\os_tmr.o"
+".\startup_stm32f10x_hd.o"
+".\system_stm32f10x.o"
+".\sys.o"
+".\stm32f10x_it.o"
+".\main.o"
+--strict --scatter ".\UCOS II.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\UCOS II.map" -o ".\UCOS II.axf"

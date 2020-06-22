@@ -1,0 +1,17 @@
+.\os_task.o: UCOSII\CORE\os_task.c
+.\os_task.o: UCOSII\CORE\ucos_ii.h
+.\os_task.o: .\UCOSII\CONFIG\includes.h
+.\os_task.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\os_task.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\os_task.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\os_task.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\os_task.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\os_task.o: .\UCOSII\CORE\ucos_ii.h
+.\os_task.o: .\UCOSII\PORT\os_cpu.h
+.\os_task.o: .\UCOSII\CONFIG\os_cfg.h
+.\os_task.o: .\UCOSII\CMSIS\stm32f10x.h
+.\os_task.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\os_task.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\os_task.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\os_task.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\os_task.o: .\UCOSII\CMSIS\system_stm32f10x.h

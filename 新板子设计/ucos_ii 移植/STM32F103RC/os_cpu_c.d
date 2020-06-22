@@ -1,0 +1,17 @@
+.\os_cpu_c.o: UCOSII\PORT\os_cpu_c.c
+.\os_cpu_c.o: .\UCOSII\CONFIG\includes.h
+.\os_cpu_c.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\os_cpu_c.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\os_cpu_c.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\os_cpu_c.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\os_cpu_c.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\os_cpu_c.o: .\UCOSII\CORE\ucos_ii.h
+.\os_cpu_c.o: .\UCOSII\CONFIG\includes.h
+.\os_cpu_c.o: .\UCOSII\CONFIG\os_cfg.h
+.\os_cpu_c.o: .\UCOSII\PORT\os_cpu.h
+.\os_cpu_c.o: .\UCOSII\CMSIS\stm32f10x.h
+.\os_cpu_c.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\os_cpu_c.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\os_cpu_c.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\os_cpu_c.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\os_cpu_c.o: .\UCOSII\CMSIS\system_stm32f10x.h

@@ -8,7 +8,7 @@ I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
-I (.\UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (.\UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\CONFIG\os_cfg.h)(0x55057DDE)
 I (.\UCOSII\PORT\os_cpu.h)(0x502E57CB)
 I (.\UCOSII\CMSIS\stm32f10x.h)(0x5EF036A4)
@@ -26,7 +26,7 @@ I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
-I (.\UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (.\UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\CONFIG\os_cfg.h)(0x55057DDE)
 I (.\UCOSII\PORT\os_cpu.h)(0x502E57CB)
 I (.\UCOSII\CMSIS\stm32f10x.h)(0x5EF036A4)
@@ -36,14 +36,14 @@ I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
 I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
 I (.\UCOSII\CMSIS\system_stm32f10x.h)(0x4D783CAA)
 F (.\UCOSII\CORE\os_flag.c)(0x500F7B58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\UCOSII\CMSIS -I.\UCOSII\CONFIG -I.\UCOSII\CORE -I.\UCOSII\PORT-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\os_flag.o --omf_browse .\os_flag.crf --depend .\os_flag.d)
-I (UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\CONFIG\includes.h)(0x5EF0388D)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
-I (.\UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (.\UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\PORT\os_cpu.h)(0x502E57CB)
 I (.\UCOSII\CONFIG\os_cfg.h)(0x55057DDE)
 I (.\UCOSII\CMSIS\stm32f10x.h)(0x5EF036A4)
@@ -53,14 +53,14 @@ I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
 I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
 I (.\UCOSII\CMSIS\system_stm32f10x.h)(0x4D783CAA)
 F (.\UCOSII\CORE\os_mbox.c)(0x500F7B58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\UCOSII\CMSIS -I.\UCOSII\CONFIG -I.\UCOSII\CORE -I.\UCOSII\PORT-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\os_mbox.o --omf_browse .\os_mbox.crf --depend .\os_mbox.d)
-I (UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\CONFIG\includes.h)(0x5EF0388D)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
-I (.\UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (.\UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\PORT\os_cpu.h)(0x502E57CB)
 I (.\UCOSII\CONFIG\os_cfg.h)(0x55057DDE)
 I (.\UCOSII\CMSIS\stm32f10x.h)(0x5EF036A4)
@@ -76,7 +76,7 @@ I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
-I (.\UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (.\UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\CONFIG\os_cfg.h)(0x55057DDE)
 I (.\UCOSII\PORT\os_cpu.h)(0x502E57CB)
 I (.\UCOSII\CMSIS\stm32f10x.h)(0x5EF036A4)
@@ -86,14 +86,14 @@ I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
 I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
 I (.\UCOSII\CMSIS\system_stm32f10x.h)(0x4D783CAA)
 F (.\UCOSII\CORE\os_mutex.c)(0x500F7B58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\UCOSII\CMSIS -I.\UCOSII\CONFIG -I.\UCOSII\CORE -I.\UCOSII\PORT-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\os_mutex.o --omf_browse .\os_mutex.crf --depend .\os_mutex.d)
-I (UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\CONFIG\includes.h)(0x5EF0388D)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
-I (.\UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (.\UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\PORT\os_cpu.h)(0x502E57CB)
 I (.\UCOSII\CONFIG\os_cfg.h)(0x55057DDE)
 I (.\UCOSII\CMSIS\stm32f10x.h)(0x5EF036A4)
@@ -103,14 +103,14 @@ I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
 I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
 I (.\UCOSII\CMSIS\system_stm32f10x.h)(0x4D783CAA)
 F (.\UCOSII\CORE\os_q.c)(0x500F7B58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\UCOSII\CMSIS -I.\UCOSII\CONFIG -I.\UCOSII\CORE -I.\UCOSII\PORT-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\os_q.o --omf_browse .\os_q.crf --depend .\os_q.d)
-I (UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\CONFIG\includes.h)(0x5EF0388D)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
-I (.\UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (.\UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\PORT\os_cpu.h)(0x502E57CB)
 I (.\UCOSII\CONFIG\os_cfg.h)(0x55057DDE)
 I (.\UCOSII\CMSIS\stm32f10x.h)(0x5EF036A4)
@@ -120,14 +120,14 @@ I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
 I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
 I (.\UCOSII\CMSIS\system_stm32f10x.h)(0x4D783CAA)
 F (.\UCOSII\CORE\os_sem.c)(0x500F7B58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\UCOSII\CMSIS -I.\UCOSII\CONFIG -I.\UCOSII\CORE -I.\UCOSII\PORT-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\os_sem.o --omf_browse .\os_sem.crf --depend .\os_sem.d)
-I (UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\CONFIG\includes.h)(0x5EF0388D)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
-I (.\UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (.\UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\PORT\os_cpu.h)(0x502E57CB)
 I (.\UCOSII\CONFIG\os_cfg.h)(0x55057DDE)
 I (.\UCOSII\CMSIS\stm32f10x.h)(0x5EF036A4)
@@ -137,14 +137,14 @@ I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
 I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
 I (.\UCOSII\CMSIS\system_stm32f10x.h)(0x4D783CAA)
 F (.\UCOSII\CORE\os_task.c)(0x500F7B58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\UCOSII\CMSIS -I.\UCOSII\CONFIG -I.\UCOSII\CORE -I.\UCOSII\PORT-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\os_task.o --omf_browse .\os_task.crf --depend .\os_task.d)
-I (UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\CONFIG\includes.h)(0x5EF0388D)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
-I (.\UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (.\UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\PORT\os_cpu.h)(0x502E57CB)
 I (.\UCOSII\CONFIG\os_cfg.h)(0x55057DDE)
 I (.\UCOSII\CMSIS\stm32f10x.h)(0x5EF036A4)
@@ -154,14 +154,14 @@ I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
 I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
 I (.\UCOSII\CMSIS\system_stm32f10x.h)(0x4D783CAA)
 F (.\UCOSII\CORE\os_time.c)(0x500F7B58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\UCOSII\CMSIS -I.\UCOSII\CONFIG -I.\UCOSII\CORE -I.\UCOSII\PORT-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\os_time.o --omf_browse .\os_time.crf --depend .\os_time.d)
-I (UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\CONFIG\includes.h)(0x5EF0388D)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
-I (.\UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (.\UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\PORT\os_cpu.h)(0x502E57CB)
 I (.\UCOSII\CONFIG\os_cfg.h)(0x55057DDE)
 I (.\UCOSII\CMSIS\stm32f10x.h)(0x5EF036A4)
@@ -171,14 +171,14 @@ I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
 I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
 I (.\UCOSII\CMSIS\system_stm32f10x.h)(0x4D783CAA)
 F (.\UCOSII\CORE\os_tmr.c)(0x500F7B58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\UCOSII\CMSIS -I.\UCOSII\CONFIG -I.\UCOSII\CORE -I.\UCOSII\PORT-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\os_tmr.o --omf_browse .\os_tmr.crf --depend .\os_tmr.d)
-I (UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\CONFIG\includes.h)(0x5EF0388D)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
-I (.\UCOSII\CORE\ucos_ii.h)(0x500F7C17)
+I (.\UCOSII\CORE\ucos_ii.h)(0x5EF07206)
 I (.\UCOSII\PORT\os_cpu.h)(0x502E57CB)
 I (.\UCOSII\CONFIG\os_cfg.h)(0x55057DDE)
 I (.\UCOSII\CMSIS\stm32f10x.h)(0x5EF036A4)
@@ -215,7 +215,7 @@ I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
 I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
 I (.\UCOSII\CMSIS\system_stm32f10x.h)(0x4D783CAA)
 F (.\USER\stm32f10x_it.h)(0x4D99A427)()
-F (.\USER\main.c)(0x5EF03E52)()
+F (.\USER\main.c)(0x5EF03E52)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\UCOSII\CMSIS -I.\UCOSII\CONFIG -I.\UCOSII\CORE -I.\UCOSII\PORT-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\main.o --omf_browse .\main.crf --depend .\main.d)
 I (.\UCOSII\CMSIS\stm32f10x.h)(0x5EF036A4)
 I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5209A730)
 I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)

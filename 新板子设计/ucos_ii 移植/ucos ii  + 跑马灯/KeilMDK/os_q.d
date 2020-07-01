@@ -1,0 +1,15 @@
+.\os_q.o: ..\UCOSII\CORE\os_q.c
+.\os_q.o: ..\UCOSII\CORE\ucos_ii.h
+.\os_q.o: ..\UCOSII\CONFIG\includes.h
+.\os_q.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\os_q.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\os_q.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\os_q.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\os_q.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\os_q.o: ..\UCOSII\CORE\ucos_ii.h
+.\os_q.o: ..\UCOSII\PORT\os_cpu.h
+.\os_q.o: ..\UCOSII\CONFIG\os_cfg.h
+.\os_q.o: C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h
+.\os_q.o: ..\CMSIS\core_cm3.h
+.\os_q.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\os_q.o: C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h

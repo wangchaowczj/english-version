@@ -1,0 +1,15 @@
+.\os_mbox.o: ..\UCOSII\CORE\os_mbox.c
+.\os_mbox.o: ..\UCOSII\CORE\ucos_ii.h
+.\os_mbox.o: ..\UCOSII\CONFIG\includes.h
+.\os_mbox.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\os_mbox.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\os_mbox.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\os_mbox.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\os_mbox.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\os_mbox.o: ..\UCOSII\CORE\ucos_ii.h
+.\os_mbox.o: ..\UCOSII\PORT\os_cpu.h
+.\os_mbox.o: ..\UCOSII\CONFIG\os_cfg.h
+.\os_mbox.o: C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h
+.\os_mbox.o: ..\CMSIS\core_cm3.h
+.\os_mbox.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\os_mbox.o: C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h

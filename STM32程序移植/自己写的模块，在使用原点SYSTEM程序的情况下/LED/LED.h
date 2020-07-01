@@ -1,0 +1,13 @@
+#ifndef __LED_H
+#define __LED_H
+#include "sys.h"
+
+#define LED1 PBout(5)//PB5
+#define LED3 PAout(15)//PA15
+#define LED4 PBout(7)//PB7
+#define OUT PAout(0)//PA0
+
+void LED_Init(void);//≥ı ºªØ
+
+#endif
+

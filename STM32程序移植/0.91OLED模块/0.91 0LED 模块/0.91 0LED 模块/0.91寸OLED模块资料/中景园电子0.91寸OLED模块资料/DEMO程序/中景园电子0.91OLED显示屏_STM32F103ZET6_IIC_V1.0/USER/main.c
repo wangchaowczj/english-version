@@ -25,16 +25,16 @@
 #include "oled.h"
 #include "bmp.h"
  int main(void)
-  {	u8 t;
+  {//	u8 t;
 		delay_init();	    	 //延时函数初始化	  
 		NVIC_Configuration(); 	 //设置NVIC中断分组2:2位抢占优先级，2位响应优先级 	LED_Init();			     //LED端口初始化
 	//		delay_ms(8000);
 		OLED_Init();			//初始化OLED  
 		OLED_Clear()  	; 
 	
-		t=' ';
+//		t=' ';
 		OLED_ShowCHinese(0,0,0);//中
-				OLED_ShowCHinese(18,0,1);//景
+		OLED_ShowCHinese(18,0,1);//景
 		OLED_ShowCHinese(36,0,2);//园
 		OLED_ShowCHinese(54,0,3);//电
 		OLED_ShowCHinese(72,0,4);//子
@@ -45,17 +45,25 @@
 OLED_Clear();
 	   OLED_ShowString(0,0,"0.91OLEDTEST",8);
 		 OLED_ShowString(0,1,"0123456789AB",8);
+         LED0=0;
+         LED1=1;
+         LED2=1;
 			delay_ms(1000);
 	  	delay_ms(1000);
 	  	delay_ms(1000);
 	 	  OLED_Clear();
 	   OLED_ShowString(0,0,"0.91OLEDTEST",16);
+                 LED0=1;
+         LED1=0;
+         LED2=1;
 			delay_ms(1000);
 	  	delay_ms(1000);
 	  	delay_ms(1000);
 	 	  OLED_Clear();
 		 OLED_ShowString(0,0,"0123456789AB",16);
-
+                     LED0=1;
+         LED1=1;
+         LED2=0;
 			delay_ms(1000);
 	  	delay_ms(1000);
 	  	delay_ms(1000);
@@ -72,6 +80,9 @@ OLED_Clear();
 	  	delay_ms(1000);
 			OLED_Clear();
 	OLED_DrawBMP(0,0,128,8,BMP1);
+             LED0=0;
+         LED1=1;
+         LED2=1;
 			delay_ms(1000);
 			delay_ms(1000);
 	  	delay_ms(1000);

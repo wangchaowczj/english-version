@@ -31,7 +31,10 @@
 #define Max_Row		64
 #define	Brightness	0xFF 
 #define X_WIDTH 	128
-#define Y_WIDTH 	64	    						  
+#define Y_WIDTH 	64	    	
+#define LED0 PAout(15)
+#define LED1 PBout(5)
+#define LED2 PBout(7)
 //-----------------OLED IIC端口定义----------------  					   
 
 #define OLED_SCLK_Clr() GPIO_ResetBits(GPIOB,GPIO_Pin_9)//SDA IIC接口的时钟信号

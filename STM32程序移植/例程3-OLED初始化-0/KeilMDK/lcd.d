@@ -1,5 +1,8 @@
 .\lcd.o: ..\USER\LCD\Lcd.c
-.\lcd.o: ..\USER\LCD\lcd.h
+.\lcd.o: ..\USER\includes.h
+.\lcd.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\lcd.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\lcd.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
 .\lcd.o: ..\CMSIS\stm32f10x.h
 .\lcd.o: ..\CMSIS\core_cm3.h
 .\lcd.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
@@ -29,5 +32,7 @@
 .\lcd.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
 .\lcd.o: ..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 .\lcd.o: ..\STM32F10x_FWLib\inc\misc.h
-.\lcd.o: ..\USER\LCD\LcdUtils.h
+.\lcd.o: ..\SYSTEM\Delay.h
 .\lcd.o: ..\USER\I2C\i2c.h
+.\lcd.o: ..\USER\LCD\lcd.h
+.\lcd.o: ..\USER\LCD\LcdUtils.h

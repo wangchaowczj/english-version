@@ -1,9 +1,10 @@
-//#include "includes.h"
-#include "stm32f10x.h"
-#include "i2c.h"
-#include "sys.h"
-#include "stm32f10x_gpio.h"
-#include "delay.h"
+#include "includes.h"
+//#include "stm32f10x.h"
+//#include "i2c.h"
+//#include "stm32f10x_gpio.h"
+//#include "Delay.h"
+//#include "stm32f10x_rcc.h"
+//#include "stdio.h"
 
 
 //==================================================================================================
@@ -39,12 +40,20 @@ void I2C_GPIO_Config(void)
 	GPIO_InitTypeDef GPIO_InitStructure;
 
 	/***时钟配置***/
-	RCC_AHB1PeriphClockCmd(I2C_SCL_PORT_RCC | I2C_SDA_PORT_RCC , ENABLE);
+	RCC_APB2PeriphClockCmd(I2C_SCL_PORT_RCC | I2C_SDA_PORT_RCC , ENABLE);
 		
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
-	GPIO_InitStructure.GPIO_OType = GPIO_OType_OD;//
-	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL; 
+	//GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
+	//GPIO_InitStructure.GPIO_OType = GPIO_OType_OD;//
+	//GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+	//GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL; 
+    
+	//RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA|RCC_APB2Periph_GPIOB|RCC_APB2Periph_AFIO,ENABLE);//使能PA PB端口时钟
+	
+	//GPIO_PinRemapConfig(GPIO_Remap_SWJ_JTAGDisable,ENABLE);
+	
+	//GPIO_InitStructure.GPIO_Pin = GPIO_Pin_5;           //LED1->PB5
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;   //设置传输速度，传输速度一共有三种 2 10 50
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_OD;    //设置传输方式，传输方式是推挽输出
 
 	/***时钟线SDL, 开漏模式***/
 	GPIO_InitStructure.GPIO_Pin = I2C_SCL_PIN; 

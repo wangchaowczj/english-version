@@ -4,92 +4,86 @@
 <h1>礦ision Build Log</h1>
 <h2>Project:</h2>
 E:\Git\english version\STM32程序移植\例程3-OLED初始化-0\KeilMDK\OLED-Init.uvproj
-Project File Date:  07/03/2020
+Project File Date:  07/06/2020
 
 <h2>Output:</h2>
-Build target 'OLED-Init'
+Build target 'OLED'
+compiling stm32f10x_it.c...
+compiling main.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_rcc.c...
+compiling sys.c...
+compiling usart.c...
+compiling Delay.c...
 compiling i2c.c...
-..\USER\I2C\i2c.c(42): warning:  #223-D: function "RCC_AHB1PeriphClockCmd" declared implicitly
-        RCC_AHB1PeriphClockCmd(I2C_SCL_PORT_RCC | I2C_SDA_PORT_RCC , ENABLE);
-..\USER\I2C\i2c.c(42): error:  #20: identifier "RCC_AHB1Periph_GPIOD" is undefined
-        RCC_AHB1PeriphClockCmd(I2C_SCL_PORT_RCC | I2C_SDA_PORT_RCC , ENABLE);
-..\USER\I2C\i2c.c(44): error:  #20: identifier "GPIO_Mode_OUT" is undefined
-        GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
-..\USER\I2C\i2c.c(45): error:  #136: struct "<unnamed>" has no field "GPIO_OType"
-        GPIO_InitStructure.GPIO_OType = GPIO_OType_OD;//
-..\USER\I2C\i2c.c(45): error:  #20: identifier "GPIO_OType_OD" is undefined
-        GPIO_InitStructure.GPIO_OType = GPIO_OType_OD;//
-..\USER\I2C\i2c.c(47): error:  #136: struct "<unnamed>" has no field "GPIO_PuPd"
-        GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL; 
-..\USER\I2C\i2c.c(47): error:  #20: identifier "GPIO_PuPd_NOPULL" is undefined
-        GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL; 
-..\USER\I2C\i2c.c(80): warning:  #223-D: function "System168MDelay1us" declared implicitly
-                System168MDelay1us();
-..\USER\I2C\i2c.c(447): error:  #20: identifier "NULL" is undefined
-        if(pDat != NULL)
-..\USER\I2C\i2c.c(535): warning:  #223-D: function "memset" declared implicitly
-        memset(pDat, 0, nLen);
-..\USER\I2C\i2c.c: 3 warnings, 7 errors
-".\OLED-Init.axf" - 7 Error(s), 3 Warning(s).
-Target not created
-      LcdWriteDataBytes(&LcdBuffer[y][0], sizeof(LcdBuffer[0]));     
-..\USER\LCD\LcdUtils.c(165): warning:  #223-D: function "memcmp" declared implicitly
-                        if(memcmp(pdata,ptempaddr+(i*2),2) == 0)
-..\USER\LCD\LcdUtils.c: 3 warnings, 0 errors
-".\OLED-Init.axf" - 3 Error(s), 9 Warning(s).
-Target not created
-:  #20: identifier "u8" is undefined
-        u8 Clenth;                              //字符占的字节数
-..\USER\LCD\LcdUtils.c(13): error:  #20: identifier "u8" is undefined
-        u8 HWidth;                              //汉字的宽度
-..\USER\LCD\LcdUtils.c(14): error:  #20: identifier "u8" is undefined
-        u8 HHigh;                               //汉字的高度
-..\USER\LCD\LcdUtils.c(15): error:  #20: identifier "u8" is undefined
-        u8 Hlenth;                              //汉字占的字节数
-..\USER\LCD\LcdUtils.c(19): error:  #20: identifier "u16" is undefined
-        u16 FrontColor;                         //前景色
-..\USER\LCD\LcdUtils.c(20): error:  #20: identifier "u16" is undefined
-        u16 BackColor;                          //背景色
-..\USER\LCD\LcdUtils.c(21): error:  #20: identifier "LCDFONT" is undefined
-        LCDFONT Font;                           //字体
-..\USER\LCD\LcdUtils.c(22): error:  #20: identifier "LCDREVERSE" is undefined
-        LCDREVERSE BackCoState;         //是否更新背景色
-..\USER\LCD\LcdUtils.c(25): error:  #20: identifier "LCDREVERSE" is undefined
-  void LcdSetFontState(LCDREVERSE state)
-..\USER\LCD\LcdUtils.c(30): error:  #20: identifier "LCDREVERSE" is undefined
-  LCDREVERSE LcdGetFontState(void)
-..\USER\LCD\LcdUtils.c(34): error:  #20: identifier "u16" is undefined
-  void LcdSetFrontBackColor(u16 Front, u16 Back)
-..\USER\LCD\LcdUtils.c(34): error:  #20: identifier "u16" is undefined
-  void LcdSetFrontBackColor(u16 Front, u16 Back)
-..\USER\LCD\LcdUtils.c(39): error:  #20: identifier "u16" is undefined
-  u16 LcdGetFrontColor(void)
-..\USER\LCD\LcdUtils.c(43): error:  #20: identifier "u16" is undefined
-  u16 LcdGetBackColor(void)
-..\USER\LCD\LcdUtils.c(47): error:  #20: identifier "LCDFONT" is undefined
-  void LcdSetFont(LCDFONT state)
-..\USER\LCD\LcdUtils.c(52): error:  #20: identifier "FONT_16" is undefined
-                case FONT_16:
-..\USER\LCD\LcdUtils.c(53): error:  #20: identifier "FONT16_CWIDTH" is undefined
-                        LcdFont.CWidth = FONT16_CWIDTH;
-..\USER\LCD\LcdUtils.c(54): error:  #20: identifier "FONT16_CHIGH" is undefined
-                        LcdFont.CHigh = FONT16_CHIGH;
-..\USER\LCD\LcdUtils.c(55): error:  #20: identifier "FONT16_CLEN" is undefined
-                        LcdFont.Clenth = FONT16_CLEN;
-..\USER\LCD\LcdUtils.c(56): error:  #20: identifier "FONT16_HWIDTH" is undefined
-                        LcdFont.HWidth = FONT16_HWIDTH;
-..\USER\LCD\LcdUtils.c(57): error:  #20: identifier "FONT16_HHIGH" is undefined
-                        LcdFont.HHigh = FONT16_HHIGH;
-..\USER\LCD\LcdUtils.c(58): error:  #20: identifier "FONT16_HLEN" is undefined
-                        LcdFont.Hlenth = FONT16_HLEN;
-..\USER\LCD\LcdUtils.c(60): error:  #20: identifier "FONT_24" is undefined
-                case FONT_24:
-..\USER\LCD\LcdUtils.c(61): error:  #20: identifier "FONT24_CWIDTH" is undefined
-                        LcdFont.CWidth = FONT24_CWIDTH;
-..\USER\LCD\LcdUtils.c(62): error:  #20: identifier "FONT24_CHIGH" is undefined
-                        LcdFont.CHigh = FONT24_CHIGH;
-..\USER\LCD\LcdUtils.c(63): error:  #20: identifier "FONT24_CLEN" is undefined
-                        LcdFont.Clenth = FONT24_CLEN;
-..\USER\LCD\LcdUtils.c: 0 warnings, 30 errors
-".\OLED-Init.axf" - 33 Error(s), 6 Warning(s).
-Target not created
+compiling Lcd.c...
+compiling LcdUtils.c...
+linking...
+Program Size: Code=3416 RO-data=7580 RW-data=20 ZI-data=2220  
+FromELF: creating hex file...
+".\OLED-Init.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Git\\english version\\STM32程序移植\\例程3-OLED初始化-0\\KeilMDK\\OLED-Init.axf" 
+Set JLink Project File to "E:\Git\english version\STM32程序移植\例程3-OLED初始化-0\KeilMDK\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40b, compiled Dec 22 2011 10:54:45
+Firmware: J-Link V9 compiled Oct 25 2018 11:46:07
+Hardware: V9.60
+S/N : 69613334 
+Feature(s) : RDI, GDB, FlashDL, FlashBP, JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.214V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+</pre>
+</body>
+</html>
+le to "E:\Git\english version\STM32程序移植\例程3-OLED初始化-0\KeilMDK\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40b, compiled Dec 22 2011 10:54:45
+Firmware: J-Link V9 compiled Oct 25 2018 11:46:07
+Hardware: V9.60
+S/N : 69613334 
+Feature(s) : RDI, GDB, FlashDL, FlashBP, JFlash 
+ 
+Error: Flash Download failed  -  Target DLL has been cancelled

@@ -1,7 +1,4 @@
-#include "lcd.h"
-#include "stm32f10x.h"
-#include "LcdUtils.h"
-#include "i2c.h"
+#include "includes.h"
 
 u8 LcdWriteCommand(u8 Cmd)
 {
@@ -75,25 +72,26 @@ void LcdOn(void)
 //96*32
 ErrorStatus LcdInit(void)
 {
-    if(LcdWriteCommand(0xAE) == 0)//关闭显示
+   if(LcdWriteCommand(0xAE) == 0)//关闭显示
 	{
-        return ERROR;
+       return ERROR;
     }
-	LcdWriteCommand(0x00);//---set low column address
+	
+    LcdWriteCommand(0x00);//---set low column address
 	LcdWriteCommand(0x10);//---set high column address
 
 	
 	LcdWriteCommand(0x40);//set display start line
 	LcdWriteCommand(0xB0);//set page address
 
-	LcdWriteCommand(0x81);//设置对比度
+	LcdWriteCommand(0x81);//?????
 	LcdWriteCommand(0x45);
 
-	LcdWriteCommand(0xa1);//set segment remap a0，c8时旋转180度
+	LcdWriteCommand(0xa1);//set segment remap a0,c8???180?
 	LcdWriteCommand(0xc0);/*Com scan direction 0XC0 */
 	LcdWriteCommand(0xa6);//normal / reverse
 	
-	LcdWriteCommand(0xa8);//设置驱动路数
+	LcdWriteCommand(0xa8);//??????
 	LcdWriteCommand(0x1f);//duty = 1/32
 	
 
@@ -119,13 +117,14 @@ ErrorStatus LcdInit(void)
     
 	LcdClear();
     LcdBufferClear();
-    
+ 
     LcdSetFont(FONT_16);
     LcdSetFontState(REVERSE_MODE);//刷新背景色
-//    LcdDrawStringHCenter(0, "德州鲲程");
-//    LcdDrawStringHCenter(16, "V1.0");
-//    LcdBufferPaint();
+   // LcdDrawStringHCenter(0, "德州鲲程");
+   // LcdDrawStringHCenter(16, "V1.0");
+    //LcdBufferPaint();
 
     return SUCCESS;
 }
+
 

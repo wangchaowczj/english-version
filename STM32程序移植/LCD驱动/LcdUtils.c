@@ -326,7 +326,7 @@ void LcdShowStr2Center(char *Str1, char *Str2)
     Yspace = (LCD_HEIGHT_PIX - LcdFont.HHigh*2)/3;
     
     LcdBufferClear();
-	LcdDrawStringHCenter(Yspace, Str1);
+  	LcdDrawStringHCenter(Yspace, Str1);
     LcdDrawStringHCenter(Yspace*2+LcdFont.HHigh, Str2);
     LcdBufferPaint();
 }

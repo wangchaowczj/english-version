@@ -1,6 +1,8 @@
-.\delay.o: ..\SYSTEM\delay\delay.c
-.\delay.o: ..\SYSTEM\delay\delay.h
-.\delay.o: ..\SYSTEM\sys\sys.h
+.\delay.o: ..\SYSTEM\Delay.c
+.\delay.o: ..\USER\includes.h
+.\delay.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\delay.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\delay.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
 .\delay.o: ..\CMSIS\stm32f10x.h
 .\delay.o: ..\CMSIS\core_cm3.h
 .\delay.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
@@ -30,3 +32,7 @@
 .\delay.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
 .\delay.o: ..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 .\delay.o: ..\STM32F10x_FWLib\inc\misc.h
+.\delay.o: ..\SYSTEM\Delay.h
+.\delay.o: ..\USER\I2C\i2c.h
+.\delay.o: ..\USER\LCD\lcd.h
+.\delay.o: ..\USER\LCD\LcdUtils.h

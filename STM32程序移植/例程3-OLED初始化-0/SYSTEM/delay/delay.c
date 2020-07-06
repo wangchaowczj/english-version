@@ -125,6 +125,22 @@ void SysTick_Handler(void)
 //当使用OS的时候,此函数会初始化OS的时钟节拍
 //SYSTICK的时钟固定为HCLK时钟的1/8
 //SYSCLK:系统时钟
+/**
+  *************************************************************************************
+  * @brief  延时函数
+  * @param  dly：延时微秒数
+  * @retval 无
+  * @author ZH
+  * @date   2014年9月10日
+  * @note   必需先调用SysTickConfig初始化滴答定时器
+  *************************************************************************************  
+  */
+void System168MDelay1us(void)
+{
+	u8 i=30;
+	
+	while(i--);
+}
 void delay_init()
 {
 #if SYSTEM_SUPPORT_OS  							//如果需要支持OS.

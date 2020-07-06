@@ -1,4 +1,8 @@
 .\lcdutils.o: ..\USER\LCD\LcdUtils.c
+.\lcdutils.o: ..\USER\includes.h
+.\lcdutils.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\lcdutils.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\lcdutils.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
 .\lcdutils.o: ..\CMSIS\stm32f10x.h
 .\lcdutils.o: ..\CMSIS\core_cm3.h
 .\lcdutils.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
@@ -28,6 +32,9 @@
 .\lcdutils.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
 .\lcdutils.o: ..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 .\lcdutils.o: ..\STM32F10x_FWLib\inc\misc.h
+.\lcdutils.o: ..\SYSTEM\Delay.h
+.\lcdutils.o: ..\USER\I2C\i2c.h
+.\lcdutils.o: ..\USER\LCD\lcd.h
 .\lcdutils.o: ..\USER\LCD\LcdUtils.h
 .\lcdutils.o: ..\USER\LCD\char8_16.h
 .\lcdutils.o: ..\USER\LCD\hz16_16.h

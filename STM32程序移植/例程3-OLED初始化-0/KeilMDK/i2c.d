@@ -1,4 +1,8 @@
 .\i2c.o: ..\USER\I2C\i2c.c
+.\i2c.o: ..\USER\includes.h
+.\i2c.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\i2c.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\i2c.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
 .\i2c.o: ..\CMSIS\stm32f10x.h
 .\i2c.o: ..\CMSIS\core_cm3.h
 .\i2c.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
@@ -28,6 +32,7 @@
 .\i2c.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
 .\i2c.o: ..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 .\i2c.o: ..\STM32F10x_FWLib\inc\misc.h
+.\i2c.o: ..\SYSTEM\Delay.h
 .\i2c.o: ..\USER\I2C\i2c.h
-.\i2c.o: ..\SYSTEM\sys\sys.h
-.\i2c.o: ..\SYSTEM\delay\delay.h
+.\i2c.o: ..\USER\LCD\lcd.h
+.\i2c.o: ..\USER\LCD\LcdUtils.h

@@ -1,13 +1,14 @@
 #ifndef _I2C_H_
 #define _I2C_H_
 
-#define I2C_SCL_PORT             GPIOD
-#define I2C_SCL_PORT_RCC         RCC_AHB1Periph_GPIOD
-#define I2C_SCL_PIN              GPIO_Pin_12
 
-#define I2C_SDA_PORT             GPIOD
-#define I2C_SDA_PORT_RCC         RCC_AHB1Periph_GPIOD
-#define I2C_SDA_PIN              GPIO_Pin_11
+#define I2C_SCL_PORT             GPIOB
+#define I2C_SCL_PORT_RCC         RCC_APB2Periph_GPIOB
+#define I2C_SCL_PIN              GPIO_Pin_8
+
+#define I2C_SDA_PORT             GPIOB
+#define I2C_SDA_PORT_RCC         RCC_APB2Periph_GPIOB
+#define I2C_SDA_PIN              GPIO_Pin_9
 
 #define I2C_SCL_H        		GPIO_SetBits(I2C_SCL_PORT, I2C_SCL_PIN)  //时钟线拉高
 #define I2C_SCL_L        		GPIO_ResetBits(I2C_SCL_PORT, I2C_SCL_PIN)//时钟线拉低
@@ -24,3 +25,4 @@ extern unsigned char I2C_ReadByte(unsigned int ReadAddress,  unsigned char Devic
 extern u8 I2C_WriteData(unsigned char DeviceAddress, unsigned int WriteAddress, unsigned char* pDat, unsigned int nLen);
 extern u8 I2C_ReadData(unsigned char DeviceAddress, unsigned int ReadAddress,  unsigned char* pDat, unsigned int nLen);
 #endif
+

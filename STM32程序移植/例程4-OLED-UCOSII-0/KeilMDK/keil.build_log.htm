@@ -1,0 +1,610 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\f103\KeilMDK\keil.uvproj
+Project File Date:  05/21/2018
+
+<h2>Output:</h2>
+Build target 'STM32F103'
+compiling stm32f10x_it.c...
+linking...
+Program Size: Code=12806 RO-data=594 RW-data=112 ZI-data=8336  
+FromELF: creating hex file...
+".\obj\keil.axf" - 0 Error(s), 0 Warning(s).
+ and 1 error messages.
+".\obj\keil.axf" - 1 Error(s), 0 Warning(s).
+Target not created
+ usb_istr.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 3 error messages.
+".\obj\keil.axf" - 3 Error(s), 0 Warning(s).
+Target not created
+defined symbol msg_sem (referred from usb_endp.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 2 error messages.
+".\obj\keil.axf" - 2 Error(s), 2 Warning(s).
+Target not created
+
+        LCD_RESET_PIN_H();
+..\User\FSMC.c: 2 warnings, 3 errors
+compiling stm32f10x_it.c...
+".\obj\keil.axf" - 3 Error(s), 2 Warning(s).
+Target not created
+143): error:  #20: identifier "DeviceSelfwaveFlag" is undefined
+        if(DeviceSelfwaveFlag != 0)
+..\User\stm32f10x_it.c(145): warning:  #223-D: function "SET_LIN_REVERSE" declared implicitly
+                SET_LIN_REVERSE();
+..\User\stm32f10x_it.c(179): error:  #20: identifier "Uart3Data" is undefined
+                if(Uart3Data.status == RECIEVING)//Èç¹ûÒÑ¾­½ÓÊÕµ½Êý¾Ý°üÍ·°üÎ²ÔòµÈ´ý´¦ÀíÍê³ÉºóÔÙ¼ÌÐø¼ÌÐø
+..\User\stm32f10x_it.c(225): error:  #20: identifier "Uart2Receive" is undefined
+                if(Uart2Receive.status == RECIEVING)//Èç¹ûÒÑ¾­½ÓÊÕµ½Êý¾Ý°üÍ·°üÎ²ÔòµÈ´ý´¦ÀíÍê³ÉºóÔÙ¼ÌÐø¼ÌÐø
+..\User\stm32f10x_it.c(263): error:  #20: identifier "DetProtocol" is undefined
+                switch(DetProtocol.SendBuffer.State)
+..\User\stm32f10x_it.c(265): error:  #20: identifier "DET_SEND" is undefined
+                        case DET_SEND://´¦ÓÚ·¢ËÍÃüÁî×´Ì¬
+..\User\stm32f10x_it.c(266): warning:  #223-D: function "SET_LIN_REVERSE" declared implicitly
+                                SET_LIN_REVERSE();
+..\User\stm32f10x_it.c(274): error:  #20: identifier "DET_DELAY_REC" is undefined
+                                        DetProtocol.SendBuffer.State = DET_DELAY_REC;
+..\User\stm32f10x_it.c(278): error:  #20: identifier "DET_END" is undefined
+                                        DetProtocol.SendBuffer.State = DET_END;//²»½ÓÊÕÊý¾Ý
+..\User\stm32f10x_it.c(282): error:  #20: identifier "DET_DELAY_REC" is undefined
+                        case DET_DELAY_REC://´¦ÓÚÑÓÊ±µÈ´ý½ÓÊÕ×´Ì¬
+..\User\stm32f10x_it.c(283): error:  #20: identifier "DET_WAITING_REC" is undefined
+                                DetProtocol.SendBuffer.State = DET_WAITING_REC;//¿ªÊ¼½ÓÊÕ
+..\User\stm32f10x_it.c(289): warning:  #223-D: function "ExtiConfig" declared implicitly
+                                ExtiConfig(EXTI_Line15, EXTI_Trigger_Rising_Falling, ENABLE);                           
+..\User\stm32f10x_it.c(293): error:  #20: identifier "DET_TIMEOUT" is undefined
+                                DetProtocol.SendBuffer.State = DET_TIMEOUT;
+..\User\stm32f10x_it.c(343): error:  #20: identifier "DetProtocol" is undefined
+                        if(DetProtocol.RecBuffer.Count < DET_REC_BUFFER_MAX)
+..\User\stm32f10x_it.c(343): error:  #20: identifier "DET_REC_BUFFER_MAX" is undefined
+                        if(DetProtocol.RecBuffer.Count < DET_REC_BUFFER_MAX)
+..\User\stm32f10x_it.c: 3 warnings, 12 errors
+compiling Task.c...
+compiling diskio.c...
+..\FatFs\src\diskio.c(174): warning:  #940-D: missing return statement at end of non-void function "get_fattime"
+  }
+..\FatFs\src\diskio.c: 1 warning, 0 errors
+compiling usb_endp.c...
+compiling usb_HwConfig.c...
+".\obj\keil.axf" - 15 Error(s), 6 Warning(s).
+Target not created
+..\User\DetHardware.c(61): error:  #20: identifier "HV_EN_PORT" is undefined
+        GPIO_Init(HV_EN_PORT, &GPIO_InitStruct);        
+..\User\DetHardware.c(62): warning:  #223-D: function "HV_EN_ON" declared implicitly
+        HV_EN_ON();     
+..\User\DetHardware.c(65): error:  #20: identifier "BRIDGE_HIGH_PIN" is undefined
+        GPIO_InitStruct.GPIO_Pin = BRIDGE_HIGH_PIN;
+..\User\DetHardware.c(68): error:  #20: identifier "BRIDGE_HIGH_PORT" is undefined
+        GPIO_Init(BRIDGE_HIGH_PORT, &GPIO_InitStruct);
+..\User\DetHardware.c(71): error:  #20: identifier "BRIDGE_SW_PIN" is undefined
+        GPIO_InitStruct.GPIO_Pin = BRIDGE_SW_PIN;
+..\User\DetHardware.c(74): error:  #20: identifier "BRIDGE_SW_PORT" is undefined
+        GPIO_Init(BRIDGE_SW_PORT, &GPIO_InitStruct);
+..\User\DetHardware.c(76): warning:  #223-D: function "CLOSE_BRIDGE_SW" declared implicitly
+        CLOSE_BRIDGE_SW();//¶Ï¿ªÉè±¸ÄÚ²¿Ä£ÄâÇÅÍ·
+..\User\DetHardware.c(79): error:  #20: identifier "BRIDGE_LOW_PIN" is undefined
+        GPIO_InitStruct.GPIO_Pin = BRIDGE_LOW_PIN;
+..\User\DetHardware.c(82): error:  #20: identifier "BRIDGE_LOW_PORT" is undefined
+        GPIO_Init(BRIDGE_LOW_PORT, &GPIO_InitStruct);
+..\User\DetHardware.c(85): error:  #20: identifier "DET_TX_PIN" is undefined
+        GPIO_InitStruct.GPIO_Pin = DET_TX_PIN;
+..\User\DetHardware.c(88): error:  #20: identifier "DET_TX_PORT" is undefined
+        GPIO_Init(DET_TX_PORT, &GPIO_InitStruct);
+..\User\DetHardware.c(91): error:  #20: identifier "DET_TX1_PIN" is undefined
+        GPIO_InitStruct.GPIO_Pin = DET_TX1_PIN;
+..\User\DetHardware.c(94): error:  #20: identifier "DET_TX1_PORT" is undefined
+        GPIO_Init(DET_TX1_PORT, &GPIO_InitStruct);
+..\User\DetHardware.c(96): warning:  #223-D: function "SET_LIN_AHBL" declared implicitly
+        SET_LIN_AHBL();
+..\User\DetHardware.c(101): error:  #20: identifier "DET_RX_PIN" is undefined
+        GPIO_InitStruct.GPIO_Pin = DET_RX_PIN;
+..\User\DetHardware.c(104): error:  #20: identifier "DET_RX_PORT" is undefined
+        GPIO_Init(DET_RX_PORT, &GPIO_InitStruct);
+..\User\DetHardware.c(121): error:  #20: identifier "HV_SW_PIN" is undefined
+        GPIO_InitStruct.GPIO_Pin = HV_SW_PIN;
+..\User\DetHardware.c: 4 warnings, 30 errors
+compiling Display.c...
+..\User\Task.h(37): error:  #20: identifier "MSG_QEUE" is undefined
+  extern MSG_QEUE msg_qeue;
+..\User\Task.h(38): error:  #20: identifier "OPERATE_DATA" is undefined
+  extern OPERATE_DATA op_data;
+..\User\Task.h(39): error:  #20: identifier "ELECTRIC_PARAM" is undefined
+  extern ELECTRIC_PARAM ElectricParam;
+..\User\Display.c(663): error:  #20: identifier "DET_ERR_CODE" is undefined
+  void ShowDetTestState(u8 flag, u8 num, DET_ERR_CODE state)
+..\User\Display.c(671): error:  #20: identifier "dev_info" is undefined
+        if(5 == dev_info.channel)
+..\User\Display.c(695): error:  #20: identifier "DET_PASS" is undefined
+        if (state == DET_PASS)
+..\User\Display.c(699): error:  #20: identifier "HW_OFF" is undefined
+        else if(state == HW_OFF)
+..\User\Display.c(703): error:  #20: identifier "COMM_ERR" is undefined
+        else if(state == COMM_ERR)
+..\User\Display.c(707): error:  #20: identifier "DET_TESTING" is undefined
+        else if(state == DET_TESTING)
+..\User\Display.c(719): error:  #20: identifier "TIME" is undefined
+        TIME time;
+..\User\Display.c(723): warning:  #223-D: function "RTC_GetTime" declared implicitly
+        RTC_GetTime(&time);
+..\User\Display.c(733): error:  #20: identifier "DET_TYPE_XA_I" is undefined
+        if(DET_TYPE_XA_I == test_param.det_type)
+..\User\Display.c(733): error:  #20: identifier "test_param" is undefined
+        if(DET_TYPE_XA_I == test_param.det_type)
+..\User\Display.c(737): error:  #20: identifier "DET_TYPE_XA_II" is undefined
+        else if(DET_TYPE_XA_II == test_param.det_type)
+..\User\Display.c(741): error:  #20: identifier "DET_TYPE_XA_III" is undefined
+        else if(DET_TYPE_XA_III == test_param.det_type)
+..\User\Display.c(753): error:  #20: identifier "dev_info" is undefined
+        for(i=0;i<dev_info.channel; i++)
+..\User\Display.c(755): error:  #20: identifier "board" is undefined
+                ShowDetTestState(0,i+1,board[i].det_info.state);
+..\User\Display.c(760): error:  #20: identifier "oldboard" is undefined
+                ShowDetTestState(1,i+1,oldboard[i].det_info.state);
+..\User\Display.c(769): warning:  #223-D: function "U32ToAscii" declared implicitly
+        U32ToAscii(op_data.HistoryCount + op_data.TodayCount-op_data.HistoryErrorCount-op_data.TodayErrorCount, (u8*)DisplayBuffer);
+..\User\Display.c(820): error:  #20: identifier "READ_SERIAL" is undefined
+        if(READ_SERIAL == dev_info.type)
+..\User\Display.c(820): error:  #20: identifier "dev_info" is undefined
+        if(READ_SERIAL == dev_info.type)
+..\User\Display.c(824): error:  #20: identifier "FACTORY_FIRST" is undefined
+        else if(FACTORY_FIRST == dev_info.type)
+..\User\Display.c(828): error:  #20: identifier "FACTORY_SECOND" is undefined
+        else if(FACTORY_SECOND == dev_info.type)
+..\User\Display.c(832): error:  #20: identifier "FACTORY_THIRD" is undefined
+        else if(FACTORY_THIRD == dev_info.type)
+..\User\Display.c(885): error:  #20: identifier "dev_info" is undefined
+        for(i=0;i<dev_info.channel;i++)
+..\User\Display.c(908): error:  #20: identifier "DET_PASS" is undefined
+                        if(DET_PASS == board[i].det_info.state)
+..\User\Display.c(908): error:  #20: identifier "board" is undefined
+                        if(DET_PASS == board[i].det_info.state)
+..\User\Display.c(914): error:  #20: identifier "test_param" is undefined
+                                if((test_param.test_ctrl&DET_LV_CURRENT_TEST_MASK_BIT) ||
+..\User\Display.c(914): error:  #20: identifier "DET_LV_CURRENT_TEST_MASK_BIT" is undefined
+                                if((test_param.test_ctrl&DET_LV_CURRENT_TEST_MASK_BIT) ||
+..\User\Display.c(915): error:  #20: identifier "DET_LV_REVERSE_CURRENT_TEST_MASK_BIT" is undefined
+                                        (test_param.test_ctrl&DET_LV_REVERSE_CURRENT_TEST_MASK_BIT)||
+..\User\Display.c(916): error:  #20: identifier "DET_CHARGE_TEST_MASK_BIT" is undefined
+                                        ((test_param.test_ctrl&DET_CHARGE_TEST_MASK_BIT) &&
+..\User\Display.c(917): error:  #20: identifier "DET_CHARGE_HV_CURRENT_TEST_MASK_BIT" is undefined
+                                        (test_param.test_ctrl&DET_CHARGE_HV_CURRENT_TEST_MASK_BIT)||
+..\User\Display.c: 2 warnings, 30 errors
+compiling FSMC.c...
+..\User\Task.h(37): error:  #20: identifier "MSG_QEUE" is undefined
+  extern MSG_QEUE msg_qeue;
+..\User\Task.h(38): error:  #20: identifier "OPERATE_DATA" is undefined
+  extern OPERATE_DATA op_data;
+..\User\Task.h(39): error:  #20: identifier "ELECTRIC_PARAM" is undefined
+  extern ELECTRIC_PARAM ElectricParam;
+..\User\FSMC.c(28): error:  #20: identifier "LCD_RESET_PORT_RCC" is undefined
+                LCD_RESET_PORT_RCC | LCD_STATE_PORT_RCC | LCD_MODE_PORT_RCC |RCC_APB2Periph_AFIO, ENABLE);
+..\User\FSMC.c(41): error:  #20: identifier "LCD_RESET_PIN" is undefined
+      GPIO_InitStructure.GPIO_Pin = LCD_RESET_PIN ;      
+..\User\FSMC.c(42): error:  #20: identifier "LCD_RESET_PORT" is undefined
+      GPIO_Init(LCD_RESET_PORT, &GPIO_InitStructure);              
+..\User\FSMC.c(43): warning:  #223-D: function "LCD_RESET_PIN_L" declared implicitly
+      LCD_RESET_PIN_L();
+..\User\FSMC.c(49): warning:  #223-D: function "LCD_RESET_PIN_H" declared implicitly
+        LCD_RESET_PIN_H();
+..\User\FSMC.c: 2 warnings, 6 errors
+compiling RA8875.c...
+..\User\Task.h(37): error:  #20: identifier "MSG_QEUE" is undefined
+  extern MSG_QEUE msg_qeue;
+..\User\Task.h(38): error:  #20: identifier "OPERATE_DATA" is undefined
+  extern OPERATE_DATA op_data;
+..\User\Task.h(39): error:  #20: identifier "ELECTRIC_PARAM" is undefined
+  extern ELECTRIC_PARAM ElectricParam;
+..\User\RA8875.c(5): warning:  #223-D: function "LCD_CS_L" declared implicitly
+        LCD_CS_L();
+..\User\RA8875.c(6): warning:  #223-D: function "LcdSpi3SendByte" declared implicitly
+        LcdSpi3SendByte(SPI_WRITE_CMD);
+..\User\RA8875.c(8): warning:  #223-D: function "LCD_CS_H" declared implicitly
+        LCD_CS_H();
+..\User\RA8875.c(12): warning:  #223-D: function "LCD_CS_L" declared implicitly
+        LCD_CS_L();
+..\User\RA8875.c(13): warning:  #223-D: function "LcdSpi3SendByte" declared implicitly
+        LcdSpi3SendByte(SPI_WRITE_DATA);
+..\User\RA8875.c(15): warning:  #223-D: function "LCD_CS_H" declared implicitly
+        LCD_CS_H();
+..\User\RA8875.c(19): warning:  #223-D: function "LCD_CS_L" declared implicitly
+        LCD_CS_L();
+..\User\RA8875.c(20): warning:  #223-D: function "LcdSpi3SendByte" declared implicitly
+        LcdSpi3SendByte(SPI_WRITE_DATA);
+..\User\RA8875.c(22): warning:  #223-D: function "LCD_CS_H" declared implicitly
+        LCD_CS_H();
+..\User\RA8875.c(32): warning:  #223-D: function "LCD_CS_L" declared implicitly
+        LCD_CS_L();
+..\User\RA8875.c(33): warning:  #223-D: function "LcdSpi3SendByte" declared implicitly
+        LcdSpi3SendByte(SPI_READ_DATA);
+..\User\RA8875.c(35): warning:  #223-D: function "LCD_CS_H" declared implicitly
+        LCD_CS_H();
+..\User\RA8875.c(43): warning:  #223-D: function "LCD_CS_L" declared implicitly
+        LCD_CS_L();
+..\User\RA8875.c(44): warning:  #223-D: function "LcdSpi3SendByte" declared implicitly
+        LcdSpi3SendByte(SPI_READ_DATA);
+..\User\RA8875.c(46): warning:  #223-D: function "LCD_CS_H" declared implicitly
+        LCD_CS_H();
+..\User\RA8875.c(59): warning:  #223-D: function "LCD_CS_L" declared implicitly
+        LCD_CS_L();
+..\User\RA8875.c(60): warning:  #223-D: function "LcdSpi3SendByte" declared implicitly
+        LcdSpi3SendByte(SPI_READ_STATUS);
+..\User\RA8875.c(62): warning:  #223-D: function "LCD_CS_H" declared implicitly
+        LCD_CS_H();
+..\User\RA8875.c(68): warning:  #223-D: function "LCD_RESET_PIN_L" declared implicitly
+        LCD_RESET_PIN_L();//SPI·½Ê½Ó²¼þ¸´Î»
+..\User\RA8875.c(70): warning:  #223-D: function "LCD_RESET_PIN_H" declared implicitly
+        LCD_RESET_PIN_H();//SPI·½Ê½Ó²¼þ¸´Î»
+..\User\RA8875.c: 20 warnings, 3 errors
+compiling RTC.c...
+..\User\Task.h(37): error:  #20: identifier "MSG_QEUE" is undefined
+  extern MSG_QEUE msg_qeue;
+..\User\Task.h(38): error:  #20: identifier "OPERATE_DATA" is undefined
+  extern OPERATE_DATA op_data;
+..\User\Task.h(39): error:  #20: identifier "ELECTRIC_PARAM" is undefined
+  extern ELECTRIC_PARAM ElectricParam;
+..\User\RTC.c(296): error:  #20: identifier "TIME" is undefined
+  void RTC_GetTime(TIME* time)
+..\User\RTC.c(300): error:  #20: identifier "TIME" is undefined
+        TIME time_temp;
+..\User\RTC.c: 0 warnings, 5 errors
+compiling SdCard.c...
+..\User\Task.h(37): error:  #20: identifier "MSG_QEUE" is undefined
+  extern MSG_QEUE msg_qeue;
+..\User\Task.h(38): error:  #20: identifier "OPERATE_DATA" is undefined
+  extern OPERATE_DATA op_data;
+..\User\Task.h(39): error:  #20: identifier "ELECTRIC_PARAM" is undefined
+  extern ELECTRIC_PARAM ElectricParam;
+..\User\SdCard.c(43): warning:  #223-D: function "Spi1SendByte" declared implicitly
+        Spi1SendByte(0xFF);
+..\User\SdCard.c(86): warning:  #223-D: function "SPI1_CS_H" declared implicitly
+      SPI1_CS_H();                               // CSÒý½ÅÀ­¸ß
+..\User\SdCard.c(87): warning:  #223-D: function "SPI1_CS_L" declared implicitly
+      SPI1_CS_L();                                // CSÒý½ÅÀ­µÍ
+..\User\SdCard.c(95): warning:  #223-D: function "Spi1SendByte" declared implicitly
+      Spi1SendByte(cmd);
+..\User\SdCard.c(163): warning:  #223-D: function "Spi1SendByte" declared implicitly
+          tmp[0] = Spi1SendByte(0xFF);
+..\User\SdCard.c(171): warning:  #223-D: function "Spi1SendByte" declared implicitly
+              *buff++ = Spi1SendByte(0xFF);
+..\User\SdCard.c(173): warning:  #223-D: function "Spi1SendByte" declared implicitly
+          Spi1SendByte(0xFF);        // ¶ÁCRCÐ£Ñé,ÔÝÊ±²»×ö´¦Àí
+..\User\SdCard.c(240): warning:  #223-D: function "SPI1_CS_H" declared implicitly
+      SPI1_CS_H();                               // CSÒý½ÅÀ­¸ß
+..\User\SdCard.c(241): warning:  #223-D: function "Spi1SendByte" declared implicitly
+      Spi1SendByte(0xFF);
+..\User\SdCard.c(267): warning:  #223-D: function "Spi1SendByte" declared implicitly
+      value = Spi1SendByte(token);
+..\User\SdCard.c(357): warning:  #223-D: function "SPI1_CS_H" declared implicitly
+      SPI1_CS_H();                               // CSÒý½ÅÀ­¸ß
+..\User\SdCard.c(359): warning:  #223-D: function "Spi1SendByte" declared implicitly
+      Spi1SendByte(0xFF);
+..\User\SdCard.c(409): warning:  #223-D: function "SPI1_CS_L" declared implicitly
+                                SPI1_CS_L();                                // CSÒý½ÅÀ­µÍ
+..\User\SdCard.c(450): warning:  #223-D: function "Spi1SendByte" declared implicitly
+                                                                Spi1SendByte(0xFF);     /* Purge trailing data */
+..\User\SdCard.c(508): warning:  #223-D: function "Spi1SendByte" declared implicitly
+                                                *ptr++ = Spi1SendByte(0xFF);
+..\User\SdCard.c(517): warning:  #223-D: function "Spi1SendByte" declared implicitly
+                                        Spi1SendByte(0xFF);
+..\User\SdCard.c(529): warning:  #223-D: function "SPI1_CS_H" declared implicitly
+          SPI1_CS_H();                               // CSÒý½ÅÀ­¸ß   
+..\User\SdCard.c(530): warning:  #223-D: function "Spi1SendByte" declared implicitly
+          Spi1SendByte(0xFF);
+..\User\SdCard.c(556): warning:  #223-D: function "Spi1GetBaud" declared implicitly
+      baud = Spi1GetBaud();
+..\User\SdCard.c(557): warning:  #223-D: function "Spi1SetBaud" declared implicitly
+      Spi1SetBaud(SPI_BaudRatePrescaler_256);        // ½øÈëµÍËÙÄ£Ê½
+..\User\SdCard.c(559): warning:  #223-D: function "SPI1_CS_H" declared implicitly
+      SPI1_CS_H();                               // CSÒý½ÅÀ­¸ß
+..\User\SdCard.c(563): warning:  #223-D: function "Spi1SendByte" declared implicitly
+          Spi1SendByte(0xFF);
+..\User\SdCard.c(566): warning:  #223-D: function "Spi1GetFrequency" declared implicitly
+      SdCardDelay1sCount = Spi1GetFrequency() >> 3;  // ÑÓÊ±1sÐèÒª·¢ËÍµÄ×Ö½ÚÊý    
+..\User\SdCard.c(569): warning:  #223-D: function "SPI1_CS_L" declared implicitly
+      SPI1_CS_L();                                // CSÀ­µÍ
+..\User\SdCard.c(630): warning:  #223-D: function "Spi1SendByte" declared implicitly
+      Spi1SendByte(0xFF);
+..\User\SdCard.c: 25 warnings, 3 errors
+compiling stm32f10x_it.c...
+..\User\Task.h(37): error:  #20: identifier "MSG_QEUE" is undefined
+  extern MSG_QEUE msg_qeue;
+..\User\Task.h(38): error:  #20: identifier "OPERATE_DATA" is undefined
+  extern OPERATE_DATA op_data;
+..\User\Task.h(39): error:  #20: identifier "ELECTRIC_PARAM" is undefined
+  extern ELECTRIC_PARAM ElectricParam;
+..\User\stm32f10x_it.c(145): warning:  #223-D: function "SET_LIN_REVERSE" declared implicitly
+                SET_LIN_REVERSE();
+..\User\stm32f10x_it.c(179): error:  #20: identifier "Uart3Data" is undefined
+                if(Uart3Data.status == RECIEVING)//Èç¹ûÒÑ¾­½ÓÊÕµ½Êý¾Ý°üÍ·°üÎ²ÔòµÈ´ý´¦ÀíÍê³ÉºóÔÙ¼ÌÐø¼ÌÐø
+..\User\stm32f10x_it.c(225): error:  #20: identifier "Uart2Receive" is undefined
+                if(Uart2Receive.status == RECIEVING)//Èç¹ûÒÑ¾­½ÓÊÕµ½Êý¾Ý°üÍ·°üÎ²ÔòµÈ´ý´¦ÀíÍê³ÉºóÔÙ¼ÌÐø¼ÌÐø
+..\User\stm32f10x_it.c(263): error:  #20: identifier "DetProtocol" is undefined
+                switch(DetProtocol.SendBuffer.State)
+..\User\stm32f10x_it.c(265): error:  #20: identifier "DET_SEND" is undefined
+                        case DET_SEND://´¦ÓÚ·¢ËÍÃüÁî×´Ì¬
+..\User\stm32f10x_it.c(266): warning:  #223-D: function "SET_LIN_REVERSE" declared implicitly
+                                SET_LIN_REVERSE();
+..\User\stm32f10x_it.c(274): error:  #20: identifier "DET_DELAY_REC" is undefined
+                                        DetProtocol.SendBuffer.State = DET_DELAY_REC;
+..\User\stm32f10x_it.c(278): error:  #20: identifier "DET_END" is undefined
+                                        DetProtocol.SendBuffer.State = DET_END;//²»½ÓÊÕÊý¾Ý
+..\User\stm32f10x_it.c(282): error:  #20: identifier "DET_DELAY_REC" is undefined
+                        case DET_DELAY_REC://´¦ÓÚÑÓÊ±µÈ´ý½ÓÊÕ×´Ì¬
+..\User\stm32f10x_it.c(283): error:  #20: identifier "DET_WAITING_REC" is undefined
+                                DetProtocol.SendBuffer.State = DET_WAITING_REC;//¿ªÊ¼½ÓÊÕ
+..\User\stm32f10x_it.c(289): warning:  #223-D: function "ExtiConfig" declared implicitly
+                                ExtiConfig(EXTI_Line15, EXTI_Trigger_Rising_Falling, ENABLE);                           
+..\User\stm32f10x_it.c(293): error:  #20: identifier "DET_TIMEOUT" is undefined
+                                DetProtocol.SendBuffer.State = DET_TIMEOUT;
+..\User\stm32f10x_it.c(343): error:  #20: identifier "DetProtocol" is undefined
+                        if(DetProtocol.RecBuffer.Count < DET_REC_BUFFER_MAX)
+..\User\stm32f10x_it.c(343): error:  #20: identifier "DET_REC_BUFFER_MAX" is undefined
+                        if(DetProtocol.RecBuffer.Count < DET_REC_BUFFER_MAX)
+..\User\stm32f10x_it.c: 3 warnings, 14 errors
+compiling SystemConfig.c...
+..\User\Task.h(37): error:  #20: identifier "MSG_QEUE" is undefined
+  extern MSG_QEUE msg_qeue;
+..\User\Task.h(38): error:  #20: identifier "OPERATE_DATA" is undefined
+  extern OPERATE_DATA op_data;
+..\User\Task.h(39): error:  #20: identifier "ELECTRIC_PARAM" is undefined
+  extern ELECTRIC_PARAM ElectricParam;
+..\User\SystemConfig.c(162): warning:  #223-D: function "LcdSpi3Config" declared implicitly
+        LcdSpi3Config();        
+..\User\SystemConfig.c(165): warning:  #223-D: function "KeyConfig" declared implicitly
+        KeyConfig();
+..\User\SystemConfig.c(168): warning:  #223-D: function "AdcConfig" declared implicitly
+        AdcConfig();
+..\User\SystemConfig.c(171): warning:  #223-D: function "Uart2Config" declared implicitly
+        Uart2Config();  
+..\User\SystemConfig.c(174): warning:  #223-D: function "Spi1Config" declared implicitly
+        Spi1Config();
+..\User\SystemConfig.c(177): warning:  #223-D: function "DetHardwareInit" declared implicitly
+        DetHardwareInit();
+..\User\SystemConfig.c(186): warning:  #223-D: function "SoundConfig" declared implicitly
+        SoundConfig();
+..\User\SystemConfig.c(208): error:  #20: identifier "TIME" is undefined
+        TIME time;
+..\User\SystemConfig.c(211): error:  #20: identifier "MSG" is undefined
+        msg_qeue.PartitionPt = OSMemCreate(msg_qeue.Partition, QEUE_MSG_SIZE, sizeof(MSG), &err);//´´½¨ÄÚ´æ·ÖÇøÓÃÓÚ±£´æÏûÏ¢
+..\User\SystemConfig.c(215): warning:  #223-D: function "FileInitOS" declared implicitly
+        FileInitOS();
+..\User\SystemConfig.c(216): warning:  #223-D: function "TestBoardUartOS" declared implicitly
+        TestBoardUartOS();
+..\User\SystemConfig.c(225): warning:  #223-D: function "RTC_Config" declared implicitly
+        if(ERROR == RTC_Config())
+..\User\SystemConfig.c(264): error:  #20: identifier "CONFIG_PARAM_FILE_PATH" is undefined
+        res = f_opendir(&dir, CONFIG_PARAM_FILE_PATH);
+..\User\SystemConfig.c(277): warning:  #223-D: function "ReadConfigParam" declared implicitly
+        ReadConfigParam();
+..\User\SystemConfig.c(280): warning:  #223-D: function "RTC_GetTime" declared implicitly
+        RTC_GetTime(&time);//»ñÈ¡µ±Ç°Ê±¼ä
+..\User\SystemConfig.c(281): warning:  #223-D: function "DeleteOverdueFile" declared implicitly
+        DeleteOverdueFile(DET_TEST_RECORD_FILE_PATH, &time, DET_TEST_RECORD_KEEP_MONTHS);
+..\User\SystemConfig.c(281): error:  #20: identifier "DET_TEST_RECORD_FILE_PATH" is undefined
+        DeleteOverdueFile(DET_TEST_RECORD_FILE_PATH, &time, DET_TEST_RECORD_KEEP_MONTHS);
+..\User\SystemConfig.c(281): error:  #20: identifier "DET_TEST_RECORD_KEEP_MONTHS" is undefined
+        DeleteOverdueFile(DET_TEST_RECORD_FILE_PATH, &time, DET_TEST_RECORD_KEEP_MONTHS);
+..\User\SystemConfig.c(282): error:  #20: identifier "SYSTEM_LOG_FILE_PATH" is undefined
+        DeleteOverdueFile(SYSTEM_LOG_FILE_PATH,&time, SYSTEM_LOG_KEEP_MONTHS);//É¾³ýN¸öÔÂÖ®Ç°µÄÈÕÖ¾ÎÄ¼þ
+..\User\SystemConfig.c(282): error:  #20: identifier "SYSTEM_LOG_KEEP_MONTHS" is undefined
+        DeleteOverdueFile(SYSTEM_LOG_FILE_PATH,&time, SYSTEM_LOG_KEEP_MONTHS);//É¾³ýN¸öÔÂÖ®Ç°µÄÈÕÖ¾ÎÄ¼þ
+..\User\SystemConfig.c(285): warning:  #223-D: function "ReadRecordForTestCount" declared implicitly
+        ReadRecordForTestCount();
+..\User\SystemConfig.c(287): warning:  #223-D: function "WriteSystemLog" declared implicitly
+        WriteSystemLog(NULL, 0, DEV_START);
+..\User\SystemConfig.c(287): error:  #20: identifier "DEV_START" is undefined
+        WriteSystemLog(NULL, 0, DEV_START);
+..\User\SystemConfig.c(290): warning:  #223-D: function "OldBoardTestSateInit" declared implicitly
+        OldBoardTestSateInit();
+..\User\SystemConfig.c(292): warning:  #223-D: function "Sound" declared implicitly
+        Sound(1);
+..\User\SystemConfig.c: 17 warnings, 11 errors
+compiling Task.c...
+..\User\Task.h(37): error:  #20: identifier "MSG_QEUE" is undefined
+  extern MSG_QEUE msg_qeue;
+..\User\Task.h(38): error:  #20: identifier "OPERATE_DATA" is undefined
+  extern OPERATE_DATA op_data;
+..\User\Task.h(39): error:  #20: identifier "ELECTRIC_PARAM" is undefined
+  extern ELECTRIC_PARAM ElectricParam;
+..\User\Task.c: 0 warnings, 3 errors
+compiling diskio.c...
+..\User\Task.h(37): error:  #20: identifier "MSG_QEUE" is undefined
+  extern MSG_QEUE msg_qeue;
+..\User\Task.h(38): error:  #20: identifier "OPERATE_DATA" is undefined
+  extern OPERATE_DATA op_data;
+..\User\Task.h(39): error:  #20: identifier "ELECTRIC_PARAM" is undefined
+  extern ELECTRIC_PARAM ElectricParam;
+..\FatFs\src\diskio.c(174): warning:  #940-D: missing return statement at end of non-void function "get_fattime"
+  }
+..\FatFs\src\diskio.c: 1 warning, 3 errors
+compiling usb_endp.c...
+..\User\Task.h(37): error:  #20: identifier "MSG_QEUE" is undefined
+  extern MSG_QEUE msg_qeue;
+..\User\Task.h(38): error:  #20: identifier "OPERATE_DATA" is undefined
+  extern OPERATE_DATA op_data;
+..\User\Task.h(39): error:  #20: identifier "ELECTRIC_PARAM" is undefined
+  extern ELECTRIC_PARAM ElectricParam;
+..\USB_APP\src\usb_endp.c: 0 warnings, 3 errors
+compiling usb_HwConfig.c...
+..\User\Task.h(37): error:  #20: identifier "MSG_QEUE" is undefined
+  extern MSG_QEUE msg_qeue;
+..\User\Task.h(38): error:  #20: identifier "OPERATE_DATA" is undefined
+  extern OPERATE_DATA op_data;
+..\User\Task.h(39): error:  #20: identifier "ELECTRIC_PARAM" is undefined
+  extern ELECTRIC_PARAM ElectricParam;
+..\USB_APP\src\usb_HwConfig.c: 0 warnings, 3 errors
+".\obj\keil.axf" - 120 Error(s), 74 Warning(s).
+Target not created
+\Task.h(37): error:  #20: identifier "MSG_QEUE" is undefined
+  extern MSG_QEUE msg_qeue;
+..\User\Task.h(38): error:  #20: identifier "OPERATE_DATA" is undefined
+  extern OPERATE_DATA op_data;
+..\User\Task.h(39): error:  #20: identifier "ELECTRIC_PARAM" is undefined
+  extern ELECTRIC_PARAM ElectricParam;
+..\User\Task.c(5): error:  #20: identifier "MSG_QEUE" is undefined
+  MSG_QEUE msg_qeue;
+..\User\Task.c(6): error:  #20: identifier "OPERATE_DATA" is undefined
+  OPERATE_DATA op_data;
+..\User\Task.c(7): error:  #20: identifier "ELECTRIC_PARAM" is undefined
+  ELECTRIC_PARAM ElectricParam;
+..\User\Task.c(25): error:  #20: identifier "MSG" is undefined
+        MSG* msg;
+..\User\Task.c(25): error:  #20: identifier "msg" is undefined
+        MSG* msg;
+..\User\Task.c(31): warning:  #223-D: function "MatrixKeyScan" declared implicitly
+                current_key_code = MatrixKeyScan(); //¾ØÕóÉ¨Ãè
+..\User\Task.c(34): warning:  #223-D: function "KeyCodeFilter" declared implicitly
+                        if(ERROR != KeyCodeFilter(current_key_code))//°Ñ°´¼ü´úÂë×ª»»Îª°´¼üÏûÏ¢
+..\User\Task.c(39): warning:  #223-D: function "GetCurrentState" declared implicitly
+                                        state = (u8)GetCurrentState();//Á¬»÷²úÉúµÄÏûÏ¢×´Ì¬²»¸Ä±ä
+..\User\Task.c(40): error:  #29: expected an expression
+                                        msg = (MSG*)OSMemGet(msg_qeue.PartitionPt, &err);//ÉêÇëÄÚ´æ
+..\User\Task.c(40): error:  #65: expected a ";"
+                                        msg = (MSG*)OSMemGet(msg_qeue.PartitionPt, &err);//ÉêÇëÄÚ´æ
+..\User\Task.c(52): error:  #29: expected an expression
+                                        msg = (MSG*)OSMemGet(msg_qeue.PartitionPt, &err);
+..\User\Task.c(52): error:  #65: expected a ";"
+                                        msg = (MSG*)OSMemGet(msg_qeue.PartitionPt, &err);
+..\User\Task.c(132): error:  #20: identifier "Uart3Data" is undefined
+        Uart3Data.bytenum = 0;
+..\User\Task.c(136): warning:  #223-D: function "Uart3Config" declared implicitly
+        Uart3Config();  
+..\User\Task.c(148): warning:  #223-D: function "Communication" declared implicitly
+                        Communication(&Uart3Data);
+..\User\Task.c(151): warning:  #223-D: function "Uart3SendData" declared implicitly
+                                Uart3SendData(Uart3Data.uch_buf, Uart3Data.bytenum);
+..\User\Task.c(172): error:  #20: identifier "UsbData" is undefined
+        UsbData.bytenum = 0;
+..\User\Task.c(192): warning:  #223-D: function "Communication" declared implicitly
+                                Communication(&UsbData);
+..\User\Task.c(223): warning:  #223-D: function "FileLock" declared implicitly
+        FileLock();
+..\User\Task.c(224): warning:  #223-D: function "WriteSystemLog" declared implicitly
+        WriteSystemLog("½øÈëTestBoardDetTestTask",strlen("½øÈëTestBoardDetTestTask"),TASK_DATA);
+..\User\Task.c(224): error:  #20: identifier "TASK_DATA" is undefined
+        WriteSystemLog("½øÈëTestBoardDetTestTask",strlen("½øÈëTestBoardDetTestTask"),TASK_DATA);
+..\User\Task.c(225): warning:  #223-D: function "FileUnlock" declared implicitly
+        FileUnlock();   
+..\User\Task.c(232): error:  #20: identifier "oldboard" is undefined
+                        memcpy((u8*)&oldboard, (u8*)&board, sizeof(BOARD)*BOARD_NUM);                   
+..\User\Task.c(232): error:  #20: identifier "board" is undefined
+                        memcpy((u8*)&oldboard, (u8*)&board, sizeof(BOARD)*BOARD_NUM);                   
+..\User\Task.c(232): error:  #20: identifier "BOARD" is undefined
+                        memcpy((u8*)&oldboard, (u8*)&board, sizeof(BOARD)*BOARD_NUM);                   
+..\User\Task.c(232): error:  #20: identifier "BOARD_NUM" is undefined
+                        memcpy((u8*)&oldboard, (u8*)&board, sizeof(BOARD)*BOARD_NUM);                   
+..\User\Task.c(237): error:  #20: identifier "BOARD_OFF" is undefined
+                        if(BOARD_OFF != board[i].state)
+..\User\Task.c(237): error:  #20: identifier "board" is undefined
+                        if(BOARD_OFF != board[i].state)
+..\User\Task.c(239): error:  #20: identifier "DET_TESTING" is undefined
+                                board[i].det_info.state = DET_TESTING;//±íÊ¾ÕýÔÚ²âÊÔ
+..\User\Task.c(246): warning:  #223-D: function "TestBoardUartLock" declared implicitly
+                TestBoardUartLock();
+..\User\Task.c(247): warning:  #223-D: function "AllTestBoardDetTest" declared implicitly
+                AllTestBoardDetTest();
+..\User\Task.c(248): warning:  #223-D: function "TestBoardUartUnlock" declared implicitly
+                TestBoardUartUnlock();  
+..\User\Task.c(269): error:  #20: identifier "BOARD_NUM" is undefined
+        u16 U16Temp1[BOARD_NUM+1], U16Temp2[BOARD_NUM+1];
+..\User\Task.c(271): warning:  #223-D: function "FileLock" declared implicitly
+        FileLock();
+..\User\Task.c(272): warning:  #223-D: function "WriteSystemLog" declared implicitly
+        WriteSystemLog("½øÈëTestBoardTask",strlen("½øÈëTestBoardTask"),TASK_DATA);
+..\User\Task.c(272): error:  #20: identifier "TASK_DATA" is undefined
+        WriteSystemLog("½øÈëTestBoardTask",strlen("½øÈëTestBoardTask"),TASK_DATA);
+..\User\Task.c(273): warning:  #223-D: function "FileUnlock" declared implicitly
+        FileUnlock();   
+..\User\Task.c(281): warning:  #223-D: function "SET_LIN_AHBL" declared implicitly
+                                SET_LIN_AHBL();                         
+..\User\Task.c(291): warning:  #223-D: function "TestBoardUartLock" declared implicitly
+                        TestBoardUartLock();
+..\User\Task.c(292): warning:  #223-D: function "GetAllTestBoardElectricParameter" declared implicitly
+                        GetAllTestBoardElectricParameter(&U16Temp1[0], &U16Temp2[0]);
+..\User\Task.c(293): warning:  #223-D: function "TestBoardUartUnlock" declared implicitly
+                        TestBoardUartUnlock();
+..\User\Task.c(295): warning:  #223-D: function "GetLinABVoltage" declared implicitly
+                        U16Temp1[dev_info.channel] = GetLinABVoltage();
+..\User\Task.c(296): warning:  #223-D: function "GetLVCurrentValue" declared implicitly
+                        U16Temp2[dev_info.channel] = GetLVCurrentValue(10);
+..\User\Task.c(307): warning:  #223-D: function "TestBoardUartLock" declared implicitly
+                                TestBoardUartLock();
+..\User\Task.c(308): warning:  #223-D: function "SetAllTestBoardOutputWave" declared implicitly
+                                SetAllTestBoardOutputWave();
+..\User\Task.c(309): warning:  #223-D: function "TestBoardUartUnlock" declared implicitly
+                                TestBoardUartUnlock();
+..\User\Task.c(331): error:  #20: identifier "TIME" is undefined
+        TIME time;
+..\User\Task.c(346): warning:  #223-D: function "RTC_GetTime" declared implicitly
+                RTC_GetTime(&time);
+..\User\Task.c(354): warning:  #223-D: function "FileLock" declared implicitly
+                        FileLock();
+..\User\Task.c(355): warning:  #223-D: function "ReadRecordForTestCount" declared implicitly
+                        ReadRecordForTestCount();
+..\User\Task.c(356): warning:  #223-D: function "FileUnlock" declared implicitly
+                        FileUnlock();
+..\User\Task.c(362): warning:  #223-D: function "GetCurrentState" declared implicitly
+                switch(GetCurrentState())
+..\User\Task.c(364): error:  #20: identifier "SHOW_SYSTEM_SET_INPUT_PASSWORD" is undefined
+                        case SHOW_SYSTEM_SET_INPUT_PASSWORD:
+..\User\Task.c(365): error:  #20: identifier "SHOW_SYSTEM_SET_INPUT_DET_TYPE" is undefined
+                        case SHOW_SYSTEM_SET_INPUT_DET_TYPE:
+..\User\Task.c(366): error:  #20: identifier "SHOW_SYSTEM_SET_INPUT_CHANNEL" is undefined
+                        case SHOW_SYSTEM_SET_INPUT_CHANNEL:
+..\User\Task.c(367): error:  #20: identifier "SHOW_SYSTEM_SET_INPUT_RECORDE" is undefined
+                        case SHOW_SYSTEM_SET_INPUT_RECORDE:
+..\User\Task.c: 30 warnings, 30 errors
+compiling diskio.c...
+..\User\Main.h(67): error:  #20: identifier "SELFTEST_STATE" is undefined
+        SELFTEST_STATE self_result;     /**<×Ô¼ì½á¹û*/
+..\User\Task.h(37): error:  #20: identifier "MSG_QEUE" is undefined
+  extern MSG_QEUE msg_qeue;
+..\User\Task.h(38): error:  #20: identifier "OPERATE_DATA" is undefined
+  extern OPERATE_DATA op_data;
+..\User\Task.h(39): error:  #20: identifier "ELECTRIC_PARAM" is undefined
+  extern ELECTRIC_PARAM ElectricParam;
+..\FatFs\src\diskio.c(156): error:  #20: identifier "TIME" is undefined
+      TIME time;
+..\FatFs\src\diskio.c(158): warning:  #223-D: function "RTC_GetTime" declared implicitly
+      RTC_GetTime(&time);
+..\FatFs\src\diskio.c: 1 warning, 5 errors
+compiling usb_endp.c...
+..\User\Main.h(67): error:  #20: identifier "SELFTEST_STATE" is undefined
+        SELFTEST_STATE self_result;     /**<×Ô¼ì½á¹û*/
+..\User\Task.h(37): error:  #20: identifier "MSG_QEUE" is undefined
+  extern MSG_QEUE msg_qeue;
+..\User\Task.h(38): error:  #20: identifier "OPERATE_DATA" is undefined
+  extern OPERATE_DATA op_data;
+..\User\Task.h(39): error:  #20: identifier "ELECTRIC_PARAM" is undefined
+  extern ELECTRIC_PARAM ElectricParam;
+..\USB_APP\src\usb_endp.c: 0 warnings, 4 errors
+compiling usb_HwConfig.c...
+..\User\Main.h(67): error:  #20: identifier "SELFTEST_STATE" is undefined
+        SELFTEST_STATE self_result;     /**<×Ô¼ì½á¹û*/
+..\User\Task.h(37): error:  #20: identifier "MSG_QEUE" is undefined
+  extern MSG_QEUE msg_qeue;
+..\User\Task.h(38): error:  #20: identifier "OPERATE_DATA" is undefined
+  extern OPERATE_DATA op_data;
+..\User\Task.h(39): error:  #20: identifier "ELECTRIC_PARAM" is undefined
+  extern ELECTRIC_PARAM ElectricParam;
+..\USB_APP\src\usb_HwConfig.c: 0 warnings, 4 errors
+".\obj\keil.axf" - 159 Error(s), 104 Warning(s).
+Target not created
+ä*/
+..\USB_APP\src\usb_endp.c: 0 warnings, 4 errors
+compiling usb_HwConfig.c...
+..\User\Main.h(67): error:  #20: identifier "SELFTEST_STATE" is undefined
+        SELFTEST_STATE self_result;     /**<×Ô¼ì½á¹û*/
+..\User\Task.h(6): error:  #20: identifier "BOARD_NUM" is undefined
+        u16 Voltage[BOARD_NUM+1];
+..\User\Task.h(23): error:  #20: identifier "MSG" is undefined
+        u8 Partition[QEUE_MSG_SIZE][sizeof(MSG)]; /*<ÄÚ´æ·ÖÇø´óÐ¡>*/
+..\User\Task.h(32): error:  #20: identifier "TIME" is undefined
+        TIME RecordTime;                /**<Í³¼Æ¼ÇÂ¼Ê±µÄÊ±¼ä*/
+..\USB_APP\src\usb_HwConfig.c: 0 warnings, 4 errors
+".\obj\keil.axf" - 158 Error(s), 104 Warning(s).
+Target not created

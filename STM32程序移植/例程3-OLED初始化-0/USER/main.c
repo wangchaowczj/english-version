@@ -4,12 +4,11 @@ int main(void)
 {
     I2C_GPIO_Config();    
 
-    LcdInit();
-    LcdShowStr2Center("德州鲲程","V1.0");
-    
+    LcdInit();    
     while(1)
     {
-        ;
+   
+    LcdShowStr2Center("鲲版本号","V1.0");  
     }     
 }
 

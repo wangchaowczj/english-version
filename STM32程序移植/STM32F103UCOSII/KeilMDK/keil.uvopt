@@ -225,7 +225,7 @@
       <GroupNumber>1</GroupNumber>
       <FileNumber>1</FileNumber>
       <FileType>1</FileType>
-      <tvExp>0</tvExp>
+      <tvExp>1</tvExp>
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -243,10 +243,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>3</ColumnNumber>
+      <ColumnNumber>24</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>159</TopLine>
+      <CurrentLine>193</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\CMSIS\system_stm32f10x.c</PathWithFileName>
       <FilenameWithoutPath>system_stm32f10x.c</FilenameWithoutPath>
@@ -261,7 +261,7 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>138</TopLine>
+      <TopLine>139</TopLine>
       <CurrentLine>151</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\CMSIS\startup_stm32f10x_hd.s</PathWithFileName>
@@ -273,7 +273,7 @@
 
   <Group>
     <GroupName>STM32F10x_StdPeriph_Driver</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -661,7 +661,7 @@
       <Focus>0</Focus>
       <ColumnNumber>63</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>10</TopLine>
+      <TopLine>14</TopLine>
       <CurrentLine>39</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\USER\Delay.c</PathWithFileName>
@@ -691,9 +691,9 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>4</ColumnNumber>
+      <ColumnNumber>16</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>130</TopLine>
+      <TopLine>132</TopLine>
       <CurrentLine>178</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\USER\stm32f10x_it.c</PathWithFileName>
@@ -741,7 +741,7 @@
       <Focus>0</Focus>
       <ColumnNumber>1</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>129</TopLine>
+      <TopLine>131</TopLine>
       <CurrentLine>174</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\USER\Uart.c</PathWithFileName>
@@ -795,10 +795,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>12</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>152</TopLine>
-      <CurrentLine>177</CurrentLine>
+      <TopLine>153</TopLine>
+      <CurrentLine>181</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\USER\Task.c</PathWithFileName>
       <FilenameWithoutPath>Task.c</FilenameWithoutPath>
@@ -893,8 +893,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1751</TopLine>
-      <CurrentLine>1762</CurrentLine>
+      <TopLine>1727</TopLine>
+      <CurrentLine>1763</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\uCOS-II\Source\os_core.c</PathWithFileName>
       <FilenameWithoutPath>os_core.c</FilenameWithoutPath>

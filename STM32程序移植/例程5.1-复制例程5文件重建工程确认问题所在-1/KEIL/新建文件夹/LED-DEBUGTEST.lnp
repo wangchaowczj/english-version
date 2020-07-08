@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\core_cm3.o"
+".\startup_stm32f10x_hd.o"
+".\system_stm32f10x.o"
+".\misc.o"
+".\stm32f10x_gpio.o"
+".\stm32f10x_rcc.o"
+".\main.o"
+".\systemconfig.o"
+".\stm32f10x_it.o"
+".\led.o"
+".\delay.o"
+--strict --scatter ".\LED-DEBUGTEST.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\LED-DEBUGTEST.map" -o .\LED-DEBUGTEST.axf

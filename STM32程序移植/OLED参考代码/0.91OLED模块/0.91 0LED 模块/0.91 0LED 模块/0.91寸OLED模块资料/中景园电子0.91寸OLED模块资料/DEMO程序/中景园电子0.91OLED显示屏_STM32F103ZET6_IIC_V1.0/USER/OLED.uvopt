@@ -195,7 +195,7 @@
       <Focus>0</Focus>
       <ColumnNumber>42</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>20</TopLine>
+      <TopLine>1</TopLine>
       <CurrentLine>49</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\main.c</PathWithFileName>
@@ -287,9 +287,9 @@
       <FileType>1</FileType>
       <tvExp>1</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>38</ColumnNumber>
+      <ColumnNumber>44</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>151</TopLine>
+      <TopLine>350</TopLine>
       <CurrentLine>376</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\HARDWARE\OLED\oled.c</PathWithFileName>
@@ -332,7 +332,7 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>118</TopLine>
+      <TopLine>119</TopLine>
       <CurrentLine>136</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\SYSTEM\delay\delay.c</PathWithFileName>

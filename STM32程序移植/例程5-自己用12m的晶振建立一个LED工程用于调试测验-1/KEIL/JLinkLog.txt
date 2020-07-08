@@ -1,0 +1,37 @@
+
+T309C 000:777 SEGGER J-Link V4.40b Log File (0001ms, 0606ms total)
+T309C 000:777 DLL Compiled: Dec 22 2011 10:54:45 (0001ms, 0606ms total)
+T309C 000:777 Logging started @ 2020-07-08 16:04 (0001ms, 0606ms total)
+T309C 000:778 JLINK_SetWarnOutHandler(...) (0000ms, 0607ms total)
+T309C 000:778 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Oct 25 2018 11:46:07
+Hardware: V9.60
+S/N: 69613334
+Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash  returns O.K. (0302ms, 0607ms total)
+T309C 001:080 JLINK_SetErrorOutHandler(...) (0000ms, 0909ms total)
+T309C 001:080 JLINK_ExecCommand("ProjectFile = "E:\Git\english version\STM32程序移植\例程5-自己用12m的晶振建立一个LED工程用于调试测验\KEIL\JLinkSettings.ini"", ...)  returns 0x00 (0000ms, 0909ms total)
+T309C 001:080 JLINK_ExecCommand("Device = STM32F103RC", ...)
+                JLINK_ExecCommand("map ram 0x20000000 - 0x2000BFFF", ...)  returns 0x00 (0000ms, 0000ms total)
+                JLINK_AddMirrorAreaEx(Addr = 0x00000000, Size = 0x00000000) (0000ms, 0000ms total)
+              Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).  returns 0x00 (0001ms, 0909ms total)
+T309C 001:081 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x00 (0000ms, 0910ms total)
+T309C 001:082 JLINK_GetHardwareVersion()  returns 0x17700 (0000ms, 0910ms total)
+T309C 001:082 JLINK_GetDLLVersion()  returns 44002 (0000ms, 0910ms total)
+T309C 001:082 JLINK_GetFirmwareString(...) (0000ms, 0910ms total)
+T309C 001:082 JLINK_GetDLLVersion()  returns 44002 (0000ms, 0910ms total)
+T309C 001:082 JLINK_GetCompileDateTime() (0000ms, 0910ms total)
+T309C 001:082 JLINK_GetFirmwareString(...) (0000ms, 0910ms total)
+T309C 001:082 JLINK_GetHardwareVersion()  returns 0x17700 (0000ms, 0910ms total)
+T309C 001:082 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0000ms, 0910ms total)
+T309C 001:082 JLINK_SetSpeed(1000) (0001ms, 0910ms total)
+T309C 001:083 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0911ms total)
+T309C 001:083 JLINK_Reset() >0x108 TIF>Found SWD-DP with ID 0x1BA01477 >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x35 TIF> >0x35 TIF> >0x35 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x33 TIF>TPIU fitted.ETM fitted. >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF>  FPUnit: 6 code (BP) slots and 2 literal slots
+ >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x35 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF>Found Cortex-M3 r1p1, Little endian. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) >0x35 TIF> -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) (0031ms, 0911ms total)
+T309C 001:114 JLINK_GetId() >0x33 TIF>  returns 0x1BA01477 (0000ms, 0942ms total)
+T309C 001:119 JLINK_GetFirmwareString(...) (0000ms, 0942ms total)
+T309C 033:152 JLINK_EMU_SelectIP()  returns 0xFFFFFFFF (0085ms, 0942ms total)
+T309C 034:161 JLINK_EMU_SelectIP()  returns 0xFFFFFFFF (0085ms, 1027ms total)
+T309C 046:892 JLINK_Close() (0050ms, 1112ms total)
+T309C 046:942 JLINK_Close() (0000ms, 1162ms total)
+T309C 046:943 JLINK_Close() (0000ms, 1162ms total)

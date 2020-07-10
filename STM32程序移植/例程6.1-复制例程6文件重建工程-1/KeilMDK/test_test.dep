@@ -38,7 +38,7 @@ I (..\CMSIS\system_stm32f10x.h)(0x5C049118)
 I (..\USER\stm32f10x_conf.h)(0x5F0574D0)
 I (..\FWLIB\inc\stm32f10x_gpio.h)(0x5C049118)
 I (..\FWLIB\inc\misc.h)(0x5C049118)
-F (..\USER\main.c)(0x5F056A89)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CMSIS -I..\FWLIB\inc -I..\USER-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+F (..\USER\main.c)(0x5F06A428)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CMSIS -I..\FWLIB\inc -I..\USER-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
 I (..\CMSIS\stm32f10x.h)(0x5C049118)
 I (..\CMSIS\core_cm3.h)(0x5C049118)
 I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)

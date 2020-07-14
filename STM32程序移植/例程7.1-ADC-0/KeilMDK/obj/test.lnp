@@ -17,6 +17,7 @@
 ".\obj\lcdutils.o"
 ".\obj\i_tx.o"
 ".\obj\v_shift.o"
+".\obj\get_usb.o"
 --strict --scatter ".\obj\test.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

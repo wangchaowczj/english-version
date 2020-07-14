@@ -1,0 +1,9 @@
+.\obj\scan.o: ..\Icon\Scan.c
+.\obj\scan.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\scan.o: ..\STemWinLibrary522\inc\GUI.h
+.\obj\scan.o: ..\STemWinLibrary522\inc\GUI_ConfDefaults.h
+.\obj\scan.o: ..\STemWinLibrary522\Config\GUIConf.h
+.\obj\scan.o: ..\STemWinLibrary522\inc\GUI_Type.h
+.\obj\scan.o: ..\STemWinLibrary522\inc\LCD.h
+.\obj\scan.o: ..\STemWinLibrary522\inc\Global.h
+.\obj\scan.o: ..\STemWinLibrary522\inc\GUI_Version.h

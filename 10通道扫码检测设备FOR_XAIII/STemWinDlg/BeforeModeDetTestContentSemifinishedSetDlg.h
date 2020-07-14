@@ -1,0 +1,7 @@
+#ifndef _BEFOREDETTESTCONTENTSEMIFINISHEDSETDLG_H_
+#define _BEFOREDETTESTCONTENTSEMIFINISHEDSETDLG_H_
+
+extern void ShowBeforeModeDetTestContentSemifinishedSetDlg(void);
+
+
+#endif

@@ -1,0 +1,9 @@
+.\obj\usbnonsupporticon.o: ..\Icon\USBNonSupportIcon.c
+.\obj\usbnonsupporticon.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\usbnonsupporticon.o: ..\STemWinLibrary522\inc\GUI.h
+.\obj\usbnonsupporticon.o: ..\STemWinLibrary522\inc\GUI_ConfDefaults.h
+.\obj\usbnonsupporticon.o: ..\STemWinLibrary522\Config\GUIConf.h
+.\obj\usbnonsupporticon.o: ..\STemWinLibrary522\inc\GUI_Type.h
+.\obj\usbnonsupporticon.o: ..\STemWinLibrary522\inc\LCD.h
+.\obj\usbnonsupporticon.o: ..\STemWinLibrary522\inc\Global.h
+.\obj\usbnonsupporticon.o: ..\STemWinLibrary522\inc\GUI_Version.h

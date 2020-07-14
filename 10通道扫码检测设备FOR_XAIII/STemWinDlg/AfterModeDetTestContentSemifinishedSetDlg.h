@@ -1,0 +1,7 @@
+#ifndef _AFTERMODEDETTESTCONTENTSEMIFINISHEDSETDLG_H_
+#define _AFTERMODEDETTESTCONTENTSEMIFINISHEDSETDLG_H_
+
+extern void ShowAfterModeDetTestContentSemifinishedSetDlg(void);
+
+
+#endif

@@ -4,8 +4,8 @@
 #define VSHIFT_PORT             GPIOC
 #define VSHIFT_PORT_RCC         RCC_APB2Periph_GPIOC
 #define VSHIFT_PIN              GPIO_Pin_9
-#define VSHIFT_L() GPIO_ResetBits(VSHIFT_PORT,VSHIFT_PIN) //I_TX«Â¡„
-#define VSHIFT_H() GPIO_SetBits(VSHIFT_PORT,VSHIFT_PIN)  //I_TX÷√1
+#define VSHIFT_L() GPIO_ResetBits(VSHIFT_PORT,VSHIFT_PIN) 
+#define VSHIFT_H() GPIO_SetBits(VSHIFT_PORT,VSHIFT_PIN)  
 
 #define SW5V_PORT             GPIOA
 #define SW5V_PORT_RCC         RCC_APB2Periph_GPIOA

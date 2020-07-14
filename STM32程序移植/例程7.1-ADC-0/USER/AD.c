@@ -22,24 +22,23 @@ void AdcConfig(void)
 	ADC_InitTypeDef ADC_InitStruct;
 	
 	//GPIO和ADC1时钟配置
-	RCC_APB2PeriphClockCmd(AD_LINEA_PORT_RCC | AD_LINEB_PORT_RCC | ADC1_RCC, ENABLE);
+	RCC_APB2PeriphClockCmd(AD_I1_PORT_RCC| AD_12V_PORT_RCC| ADC1_RCC, ENABLE);
 
 	//GPIO配置为ADC模式
 	GPIO_InitStruct.GPIO_Speed = GPIO_Speed_10MHz;
 	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_AIN;
 			
-	GPIO_InitStruct.GPIO_Pin = AD_LINEA_PIN;
-	GPIO_Init(AD_LINEA_PORT, &GPIO_InitStruct);
- 	
-	GPIO_InitStruct.GPIO_Pin = AD_LINEB_PIN;
-	GPIO_Init(AD_LINEB_PORT, &GPIO_InitStruct);
- 	
-
+	GPIO_InitStruct.GPIO_Pin = AD_12V_PIN|AD_LINEA_PIN|AD_LINEB_PIN|AD_COMOUT_PIN;
+	GPIO_Init(AD_12V_PORT, &GPIO_InitStruct);
+    
+ 	GPIO_InitStruct.GPIO_Pin = AD_I1_PIN|AD_I2_PIN;
+	GPIO_Init(AD_I1_PORT, &GPIO_InitStruct); 
+     	
 	RCC_ADCCLKConfig(RCC_PCLK2_Div6);//手册要求ADC的频率不能超时14M
 	
 	//ADC1参数配置
-	ADC_InitStruct.ADC_Mode = ADC_Mode_Independent;
-	ADC_InitStruct.ADC_ScanConvMode = ENABLE;
+    ADC_InitStruct.ADC_Mode = ADC_Mode_Independent;//独立模式
+	ADC_InitStruct.ADC_ScanConvMode = ENABLE;//模数转换为单通道模式
 	ADC_InitStruct.ADC_ContinuousConvMode = DISABLE;	  //不连续转换
 	ADC_InitStruct.ADC_ExternalTrigConv = ADC_ExternalTrigConv_None;	 //不用外部触发启动
 	ADC_InitStruct.ADC_DataAlign = ADC_DataAlign_Right;
@@ -48,13 +47,13 @@ void AdcConfig(void)
 	
 	  
 	/* Enable ADC1 */
-	ADC_Cmd(ADC1, ENABLE);
+	ADC_Cmd(ADC1, ENABLE);//使能ADC1
 	
 	/* Enable ADC1 reset calibaration register */   
-	ADC_ResetCalibration(ADC1);
+	ADC_ResetCalibration(ADC1);//校准方式为复位校准
 
 	/* Check the end of ADC1 reset calibration register */
-	while(ADC_GetResetCalibrationStatus(ADC1));
+	while(ADC_GetResetCalibrationStatus(ADC1));//等待复位校准结束
 	
 	/* Start ADC1 calibaration */
 	ADC_StartCalibration(ADC1);
@@ -140,7 +139,7 @@ u16 GetAdcMeasureValue(uint8_t adc1_channel, u8 retry)
 		retry = 10;
 	}
 	
-	ADC_RegularChannelConfig(ADC1, (uint8_t)adc1_channel, 1, ADC_SampleTime_1Cycles5);
+	ADC_RegularChannelConfig(ADC1, (uint8_t)adc1_channel, 1, ADC_SampleTime_239Cycles5 );
  	for(i=0; i<retry; i++)
 	{
 		ADC_SoftwareStartConvCmd(ADC1, ENABLE);
@@ -201,8 +200,52 @@ u16 MeasureVoltage (uint8_t adc1_channel,u8 retry)
 	return ((u16)temp);
 }
 
-
-
+u16 GetBusLeakCurrent(u16* AdcValue)
+{
+	u8 i;
+	u16 ad_temp[10],rank_temp[10];
+	s32 value,ad_value = 0;
+	
+	SW5V_H();  //
+	VSHIFT_H();//
+	
+	System72MDelay1ms(2);//AD??????
+	
+	for(i=0;i<10;i++)
+	{
+	System72MDelay100us(5);
+	value = GetAdcMeasureValue(ADC_I2_CHANNEL,1);//??????????
+	if(value < 3561)//???????1mA,?????3.029V,??95%???????,3.029*95%/3.3*4096=3561
+		{
+			value *= 0.2660;	
+		}
+	else
+		{
+		value = GetAdcMeasureValue(ADC_I1_CHANNEL,1);	
+		value *= 2.6596;	
+		}
+	if(value < 0)
+		{
+			value = 0;	
+		}	
+		ad_temp[i] = (u16)value;
+	}		
+	SW5V_L();  //??5V??
+	VSHIFT_L();//???6.7V
+	
+	U16DataFallRank(ad_temp, rank_temp, 10);//??????
+	for(i=2; i < 8; i++)//??????????????????
+	{
+		ad_value += rank_temp[i];
+	}
+	ad_value /= 6;
+	
+	if(NULL != AdcValue)
+	{
+		*AdcValue = ad_value;
+	}
+	return ad_value;
+}
 
 
 

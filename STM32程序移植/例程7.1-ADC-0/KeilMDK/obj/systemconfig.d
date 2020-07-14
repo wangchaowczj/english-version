@@ -26,3 +26,4 @@
 .\obj\systemconfig.o: ..\USER\LcdUtils.h
 .\obj\systemconfig.o: ..\USER\I_TX.h
 .\obj\systemconfig.o: ..\USER\V_SHIFT.h
+.\obj\systemconfig.o: ..\USER\GET_USB.h

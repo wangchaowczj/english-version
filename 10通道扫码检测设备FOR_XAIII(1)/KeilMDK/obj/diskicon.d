@@ -1,0 +1,9 @@
+.\obj\diskicon.o: ..\Icon\DiskIcon.c
+.\obj\diskicon.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\diskicon.o: ..\STemWinLibrary522\inc\GUI.h
+.\obj\diskicon.o: ..\STemWinLibrary522\inc\GUI_ConfDefaults.h
+.\obj\diskicon.o: ..\STemWinLibrary522\Config\GUIConf.h
+.\obj\diskicon.o: ..\STemWinLibrary522\inc\GUI_Type.h
+.\obj\diskicon.o: ..\STemWinLibrary522\inc\LCD.h
+.\obj\diskicon.o: ..\STemWinLibrary522\inc\Global.h
+.\obj\diskicon.o: ..\STemWinLibrary522\inc\GUI_Version.h

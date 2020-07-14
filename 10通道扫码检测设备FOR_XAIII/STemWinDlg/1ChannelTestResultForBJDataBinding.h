@@ -1,0 +1,7 @@
+#ifndef _CHANNEL1TESTRESULTFORBJDATABINDINGDLG_H_
+#define _CHANNEL1TESTRESULTFORBJDATABINDINGDLG_H_
+
+extern void Show1ChannelTestResultForBJDataBindingDlg(void);
+
+
+#endif

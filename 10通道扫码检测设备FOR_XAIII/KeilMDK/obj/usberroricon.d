@@ -1,0 +1,9 @@
+.\obj\usberroricon.o: ..\Icon\USBErrorIcon.c
+.\obj\usberroricon.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\usberroricon.o: ..\STemWinLibrary522\inc\GUI.h
+.\obj\usberroricon.o: ..\STemWinLibrary522\inc\GUI_ConfDefaults.h
+.\obj\usberroricon.o: ..\STemWinLibrary522\Config\GUIConf.h
+.\obj\usberroricon.o: ..\STemWinLibrary522\inc\GUI_Type.h
+.\obj\usberroricon.o: ..\STemWinLibrary522\inc\LCD.h
+.\obj\usberroricon.o: ..\STemWinLibrary522\inc\Global.h
+.\obj\usberroricon.o: ..\STemWinLibrary522\inc\GUI_Version.h

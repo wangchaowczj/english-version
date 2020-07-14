@@ -26,3 +26,4 @@
 .\obj\v_shift.o: ..\USER\LcdUtils.h
 .\obj\v_shift.o: ..\USER\I_TX.h
 .\obj\v_shift.o: ..\USER\V_SHIFT.h
+.\obj\v_shift.o: ..\USER\GET_USB.h

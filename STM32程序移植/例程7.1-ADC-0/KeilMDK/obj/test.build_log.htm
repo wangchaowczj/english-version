@@ -4,15 +4,37 @@
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
 E:\Git\english version\STM32³ÌÐòÒÆÖ²\Àý³Ì7.1-ADC-0\KeilMDK\test.uvproj
-Project File Date:  07/09/2020
+Project File Date:  07/10/2020
 
 <h2>Output:</h2>
 Build target 'test'
-compiling I_TX.c...
+compiling main.c...
+..\USER\main.c(10): warning:  #550-D: variable "V_LINEA" was set but never used
+      float V_LINEA,V_LINEB,V_12V,V_I1,V_I2,V_COMOUT,I_I1,I_I2;
+..\USER\main.c(10): warning:  #550-D: variable "V_LINEB" was set but never used
+      float V_LINEA,V_LINEB,V_12V,V_I1,V_I2,V_COMOUT,I_I1,I_I2;
+..\USER\main.c(10): warning:  #550-D: variable "V_12V" was set but never used
+      float V_LINEA,V_LINEB,V_12V,V_I1,V_I2,V_COMOUT,I_I1,I_I2;
+..\USER\main.c(10): warning:  #177-D: variable "V_I1" was declared but never referenced
+      float V_LINEA,V_LINEB,V_12V,V_I1,V_I2,V_COMOUT,I_I1,I_I2;
+..\USER\main.c(10): warning:  #177-D: variable "V_I2" was declared but never referenced
+      float V_LINEA,V_LINEB,V_12V,V_I1,V_I2,V_COMOUT,I_I1,I_I2;
+..\USER\main.c(10): warning:  #550-D: variable "V_COMOUT" was set but never used
+      float V_LINEA,V_LINEB,V_12V,V_I1,V_I2,V_COMOUT,I_I1,I_I2;
+..\USER\main.c(10): warning:  #550-D: variable "I_I1" was set but never used
+      float V_LINEA,V_LINEB,V_12V,V_I1,V_I2,V_COMOUT,I_I1,I_I2;
+..\USER\main.c(12): warning:  #177-D: variable "Temp1" was declared but never referenced
+      static char Temp1[5];
+..\USER\main.c(14): warning:  #177-D: variable "Temp3" was declared but never referenced
+      static char Temp3[1];
+..\USER\main.c(15): warning:  #177-D: variable "Temp4" was declared but never referenced
+      static char Temp4[1];
+..\USER\main.c: 10 warnings, 0 errors
+compiling AD.c...
 linking...
-Program Size: Code=13292 RO-data=7756 RW-data=64 ZI-data=2032  
+Program Size: Code=13812 RO-data=7416 RW-data=76 ZI-data=2020  
 FromELF: creating hex file...
-".\obj\test.axf" - 0 Error(s), 0 Warning(s).
+".\obj\test.axf" - 0 Error(s), 10 Warning(s).
 Load "E:\\Git\\english version\\STM32³ÌÐòÒÆÖ²\\Àý³Ì7.1-ADC-0\\KeilMDK\\obj\\test.axf" 
 Set JLink Project File to "E:\Git\english version\STM32³ÌÐòÒÆÖ²\Àý³Ì7.1-ADC-0\KeilMDK\JLinkSettings.ini"
 * JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
@@ -40,7 +62,7 @@ ROMTableAddr = 0xE00FF003
 Target info:
 ------------
 Device: STM32F103RC
-VTarget = 3.275V
+VTarget = 3.224V
 State of Pins: 
 TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
 Hardware-Breakpoints: 6
@@ -57,181 +79,277 @@ Verify OK.
 * JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
 * JLink Info: Found Cortex-M3 r1p1, Little endian.
 Application running ...
- JLink Info: ETM fitted.
-* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-Application running ...
-Programming Done.
-Verify OK.
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-Application running ...
-DI, GDB, FlashDL, FlashBP, JFlash 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
- 
-Target info:
-------------
-Device: STM32F103RC
-VTarget = 3.217V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-Application running ...
-Load "E:\\Git\\english version\\STM32³ÌÐòÒÆÖ²\\Àý³Ì7.1-ADC-0\\KeilMDK\\obj\\test.axf" 
-Set JLink Project File to "E:\Git\english version\STM32³ÌÐòÒÆÖ²\Àý³Ì7.1-ADC-0\KeilMDK\JLinkSettings.ini"
-* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.40b, compiled Dec 22 2011 10:54:45
-Firmware: J-Link V9 compiled Oct 25 2018 11:46:07
-Hardware: V9.60
-S/N : 69613334 
-Feature(s) : RDI, GDB, FlashDL, FlashBP, JFlash 
- 
-Error: Flash Download failed  -  Target DLL has been cancelled
-U fitted.
-* JLink Info: ETM fitted.
-* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
- 
-Target info:
-------------
-Device: STM32F103RC
-VTarget = 3.258V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-Application running ...
-Load "E:\\Git\\english version\\STM32³ÌÐòÒÆÖ²\\Àý³Ì7.1-ADC-0\\KeilMDK\\obj\\test.axf" 
-Set JLink Project File to "E:\Git\english version\STM32³ÌÐòÒÆÖ²\Àý³Ì7.1-ADC-0\KeilMDK\JLinkSettings.ini"
-* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.40b, compiled Dec 22 2011 10:54:45
-Firmware: J-Link V9 compiled Oct 25 2018 11:46:07
-Hardware: V9.60
-S/N : 69613334 
-Feature(s) : RDI, GDB, FlashDL, FlashBP, JFlash 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
- 
-Target info:
-------------
-Device: STM32F103RC
-VTarget = 3.222V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-Application running ...
-Load "E:\\Git\\english version\\STM32³ÌÐòÒÆÖ²\\Àý³Ì7.1-ADC-0\\KeilMDK\\obj\\test.axf" 
-Set JLink Project File to "E:\Git\english version\STM32³ÌÐòÒÆÖ²\Àý³Ì7.1-ADC-0\KeilMDK\JLinkSettings.ini"
-* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.40b, compiled Dec 22 2011 10:54:45
-Firmware: J-Link V9 compiled Oct 25 2018 11:46:07
-Hardware: V9.60
-S/N : 69613334 
-Feature(s) : RDI, GDB, FlashDL, FlashBP, JFlash 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
- 
-Target info:
-------------
-Device: STM32F103RC
-VTarget = 3.269V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-Application running ...
+</pre>
+</body>
+</html>
+6): error:  #20: identifier "FONT_16" is undefined
+        FONT_16,
+..\USER\LcdUtils.h(7): error:  #20: identifier "FONT_24" is undefined
+        FONT_24
+..\USER\LcdUtils.h(8): error:  #65: expected a ";"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): warning:  #940-D: missing return statement at end of non-void function "GetBusLeakCurrent"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): error:  #77-D: this declaration has no storage class or type specifier
+  }LCDFONT;
+..\USER\LcdUtils.h(98): error:  #757: variable "LCDFONT" is not a type name
+  extern void LcdSetFont(LCDFONT state);
+..\USER\LcdUtils.h(99): error:  #757: variable "LCDFONT" is not a type name
+  extern LCDFONT LcdGetFont(void);
+..\USER\stm32f10x_it.c: 2 warnings, 8 errors
+compiling SystemConfig.c...
+..\USER\AD.h(47): error:  #7: unrecognized token
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\AD.h(47): error:  #130: expected a "{"
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\LcdUtils.h(5): warning:  #12-D: parsing restarts here after previous syntax error
+  {
+..\USER\LcdUtils.h(6): error:  #20: identifier "FONT_16" is undefined
+        FONT_16,
+..\USER\LcdUtils.h(7): error:  #20: identifier "FONT_24" is undefined
+        FONT_24
+..\USER\LcdUtils.h(8): error:  #65: expected a ";"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): warning:  #940-D: missing return statement at end of non-void function "GetBusLeakCurrent"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): error:  #77-D: this declaration has no storage class or type specifier
+  }LCDFONT;
+..\USER\LcdUtils.h(98): error:  #757: variable "LCDFONT" is not a type name
+  extern void LcdSetFont(LCDFONT state);
+..\USER\LcdUtils.h(99): error:  #757: variable "LCDFONT" is not a type name
+  extern LCDFONT LcdGetFont(void);
+..\USER\SystemConfig.c: 2 warnings, 8 errors
+compiling Delay.c...
+..\USER\AD.h(47): error:  #7: unrecognized token
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\AD.h(47): error:  #130: expected a "{"
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\LcdUtils.h(5): warning:  #12-D: parsing restarts here after previous syntax error
+  {
+..\USER\LcdUtils.h(6): error:  #20: identifier "FONT_16" is undefined
+        FONT_16,
+..\USER\LcdUtils.h(7): error:  #20: identifier "FONT_24" is undefined
+        FONT_24
+..\USER\LcdUtils.h(8): error:  #65: expected a ";"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): warning:  #940-D: missing return statement at end of non-void function "GetBusLeakCurrent"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): error:  #77-D: this declaration has no storage class or type specifier
+  }LCDFONT;
+..\USER\LcdUtils.h(98): error:  #757: variable "LCDFONT" is not a type name
+  extern void LcdSetFont(LCDFONT state);
+..\USER\LcdUtils.h(99): error:  #757: variable "LCDFONT" is not a type name
+  extern LCDFONT LcdGetFont(void);
+..\USER\Delay.c: 2 warnings, 8 errors
+compiling LED.c...
+..\USER\AD.h(47): error:  #7: unrecognized token
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\AD.h(47): error:  #130: expected a "{"
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\LcdUtils.h(5): warning:  #12-D: parsing restarts here after previous syntax error
+  {
+..\USER\LcdUtils.h(6): error:  #20: identifier "FONT_16" is undefined
+        FONT_16,
+..\USER\LcdUtils.h(7): error:  #20: identifier "FONT_24" is undefined
+        FONT_24
+..\USER\LcdUtils.h(8): error:  #65: expected a ";"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): warning:  #940-D: missing return statement at end of non-void function "GetBusLeakCurrent"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): error:  #77-D: this declaration has no storage class or type specifier
+  }LCDFONT;
+..\USER\LcdUtils.h(98): error:  #757: variable "LCDFONT" is not a type name
+  extern void LcdSetFont(LCDFONT state);
+..\USER\LcdUtils.h(99): error:  #757: variable "LCDFONT" is not a type name
+  extern LCDFONT LcdGetFont(void);
+..\USER\LED.c: 2 warnings, 8 errors
+compiling AD.c...
+..\USER\AD.h(47): error:  #7: unrecognized token
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\AD.h(47): error:  #130: expected a "{"
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\LcdUtils.h(5): warning:  #12-D: parsing restarts here after previous syntax error
+  {
+..\USER\LcdUtils.h(6): error:  #20: identifier "FONT_16" is undefined
+        FONT_16,
+..\USER\LcdUtils.h(7): error:  #20: identifier "FONT_24" is undefined
+        FONT_24
+..\USER\LcdUtils.h(8): error:  #65: expected a ";"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): warning:  #940-D: missing return statement at end of non-void function "GetBusLeakCurrent"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): error:  #77-D: this declaration has no storage class or type specifier
+  }LCDFONT;
+..\USER\LcdUtils.h(98): error:  #757: variable "LCDFONT" is not a type name
+  extern void LcdSetFont(LCDFONT state);
+..\USER\LcdUtils.h(99): error:  #757: variable "LCDFONT" is not a type name
+  extern LCDFONT LcdGetFont(void);
+..\USER\AD.c(203): error:  #247: function "GetBusLeakCurrent" has already been defined
+  u16 GetBusLeakCurrent(u16* AdcValue)
+..\USER\AD.c: 2 warnings, 9 errors
+compiling i2c.c...
+..\USER\AD.h(47): error:  #7: unrecognized token
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\AD.h(47): error:  #130: expected a "{"
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\LcdUtils.h(5): warning:  #12-D: parsing restarts here after previous syntax error
+  {
+..\USER\LcdUtils.h(6): error:  #20: identifier "FONT_16" is undefined
+        FONT_16,
+..\USER\LcdUtils.h(7): error:  #20: identifier "FONT_24" is undefined
+        FONT_24
+..\USER\LcdUtils.h(8): error:  #65: expected a ";"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): warning:  #940-D: missing return statement at end of non-void function "GetBusLeakCurrent"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): error:  #77-D: this declaration has no storage class or type specifier
+  }LCDFONT;
+..\USER\LcdUtils.h(98): error:  #757: variable "LCDFONT" is not a type name
+  extern void LcdSetFont(LCDFONT state);
+..\USER\LcdUtils.h(99): error:  #757: variable "LCDFONT" is not a type name
+  extern LCDFONT LcdGetFont(void);
+..\USER\i2c.c: 2 warnings, 8 errors
+compiling Lcd.c...
+..\USER\AD.h(47): error:  #7: unrecognized token
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\AD.h(47): error:  #130: expected a "{"
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\LcdUtils.h(5): warning:  #12-D: parsing restarts here after previous syntax error
+  {
+..\USER\LcdUtils.h(6): error:  #20: identifier "FONT_16" is undefined
+        FONT_16,
+..\USER\LcdUtils.h(7): error:  #20: identifier "FONT_24" is undefined
+        FONT_24
+..\USER\LcdUtils.h(8): error:  #65: expected a ";"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): warning:  #940-D: missing return statement at end of non-void function "GetBusLeakCurrent"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): error:  #77-D: this declaration has no storage class or type specifier
+  }LCDFONT;
+..\USER\LcdUtils.h(98): error:  #757: variable "LCDFONT" is not a type name
+  extern void LcdSetFont(LCDFONT state);
+..\USER\LcdUtils.h(99): error:  #757: variable "LCDFONT" is not a type name
+  extern LCDFONT LcdGetFont(void);
+..\USER\Lcd.c(5): warning:  #223-D: function "I2C_WriteByte" declared implicitly
+      return I2C_WriteByte(Cmd, 0x00, 0x78);
+..\USER\Lcd.c(11): warning:  #223-D: function "I2C_WriteByte" declared implicitly
+      return I2C_WriteByte(Data, 0x40, 0x78);
+..\USER\Lcd.c(17): warning:  #223-D: function "I2C_WriteData" declared implicitly
+      return I2C_WriteData(0x78, 0x40, Data, bytes);
+..\USER\Lcd.c(120): error:  #20: identifier "FONT_16" is undefined
+      LcdSetFont(FONT_16);
+..\USER\Lcd.c: 5 warnings, 9 errors
+compiling LcdUtils.c...
+..\USER\AD.h(47): error:  #7: unrecognized token
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\AD.h(47): error:  #130: expected a "{"
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\LcdUtils.h(5): warning:  #12-D: parsing restarts here after previous syntax error
+  {
+..\USER\LcdUtils.h(6): error:  #20: identifier "FONT_16" is undefined
+        FONT_16,
+..\USER\LcdUtils.h(7): error:  #20: identifier "FONT_24" is undefined
+        FONT_24
+..\USER\LcdUtils.h(8): error:  #65: expected a ";"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): warning:  #940-D: missing return statement at end of non-void function "GetBusLeakCurrent"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): error:  #77-D: this declaration has no storage class or type specifier
+  }LCDFONT;
+..\USER\LcdUtils.h(98): error:  #757: variable "LCDFONT" is not a type name
+  extern void LcdSetFont(LCDFONT state);
+..\USER\LcdUtils.h(99): error:  #757: variable "LCDFONT" is not a type name
+  extern LCDFONT LcdGetFont(void);
+..\USER\LcdUtils.c(21): error:  #757: variable "LCDFONT" is not a type name
+        LCDFONT Font;                           //×ÖÌå
+..\USER\LcdUtils.c(47): error:  #757: variable "LCDFONT" is not a type name
+  void LcdSetFont(LCDFONT state)
+..\USER\LcdUtils.c(52): error:  #20: identifier "FONT_16" is undefined
+                case FONT_16:
+..\USER\LcdUtils.c(60): error:  #20: identifier "FONT_24" is undefined
+                case FONT_24:
+..\USER\LcdUtils.c(70): error:  #757: variable "LCDFONT" is not a type name
+  LCDFONT LcdGetFont(void)
+..\USER\LcdUtils.c(93): warning:  #223-D: function "LcdSetPos" declared implicitly
+          LcdSetPos(0, y);
+..\USER\LcdUtils.c(94): warning:  #223-D: function "LcdWriteDataBytes" declared implicitly
+          LcdWriteDataBytes(&LcdBuffer[y][0], sizeof(LcdBuffer[0]));     
+..\USER\LcdUtils.c(149): error:  #20: identifier "FONT_16" is undefined
+                        case FONT_16:                                   //16*16ºº×Ö
+..\USER\LcdUtils.c(154): error:  #20: identifier "FONT_24" is undefined
+                        case FONT_24:                                   //24*24ºº×Ö
+..\USER\LcdUtils.c(162): warning:  #128-D: loop is not reachable
+                while(i<num)            //ËÑË÷×Ö·ûËùÔÚµÄÎ»ÖÃ
+..\USER\LcdUtils.c(180): error:  #20: identifier "FONT_16" is undefined
+                        case FONT_16:                                   //8*16Ó¢ÎÄ×Ö·û
+..\USER\LcdUtils.c(183): error:  #20: identifier "FONT_24" is undefined
+                        case FONT_24:                                   //12*24Ó¢ÎÄ×Ö·û
+..\USER\LcdUtils.c: 5 warnings, 17 errors
+compiling I_TX.c...
+..\USER\AD.h(47): error:  #7: unrecognized token
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\AD.h(47): error:  #130: expected a "{"
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\LcdUtils.h(5): warning:  #12-D: parsing restarts here after previous syntax error
+  {
+..\USER\LcdUtils.h(6): error:  #20: identifier "FONT_16" is undefined
+        FONT_16,
+..\USER\LcdUtils.h(7): error:  #20: identifier "FONT_24" is undefined
+        FONT_24
+..\USER\LcdUtils.h(8): error:  #65: expected a ";"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): warning:  #940-D: missing return statement at end of non-void function "GetBusLeakCurrent"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): error:  #77-D: this declaration has no storage class or type specifier
+  }LCDFONT;
+..\USER\LcdUtils.h(98): error:  #757: variable "LCDFONT" is not a type name
+  extern void LcdSetFont(LCDFONT state);
+..\USER\LcdUtils.h(99): error:  #757: variable "LCDFONT" is not a type name
+  extern LCDFONT LcdGetFont(void);
+..\USER\I_TX.c: 2 warnings, 8 errors
+compiling V_SHIFT.c...
+..\USER\AD.h(47): error:  #7: unrecognized token
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\AD.h(47): error:  #130: expected a "{"
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\LcdUtils.h(5): warning:  #12-D: parsing restarts here after previous syntax error
+  {
+..\USER\LcdUtils.h(6): error:  #20: identifier "FONT_16" is undefined
+        FONT_16,
+..\USER\LcdUtils.h(7): error:  #20: identifier "FONT_24" is undefined
+        FONT_24
+..\USER\LcdUtils.h(8): error:  #65: expected a ";"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): warning:  #940-D: missing return statement at end of non-void function "GetBusLeakCurrent"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): error:  #77-D: this declaration has no storage class or type specifier
+  }LCDFONT;
+..\USER\LcdUtils.h(98): error:  #757: variable "LCDFONT" is not a type name
+  extern void LcdSetFont(LCDFONT state);
+..\USER\LcdUtils.h(99): error:  #757: variable "LCDFONT" is not a type name
+  extern LCDFONT LcdGetFont(void);
+..\USER\V_SHIFT.c: 2 warnings, 8 errors
+compiling GET_USB.c...
+..\USER\AD.h(47): error:  #7: unrecognized token
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\AD.h(47): error:  #130: expected a "{"
+  extern u16 GetBusLeakCurrent(u16* AdcValue)£»
+..\USER\LcdUtils.h(5): warning:  #12-D: parsing restarts here after previous syntax error
+  {
+..\USER\LcdUtils.h(6): error:  #20: identifier "FONT_16" is undefined
+        FONT_16,
+..\USER\LcdUtils.h(7): error:  #20: identifier "FONT_24" is undefined
+        FONT_24
+..\USER\LcdUtils.h(8): error:  #65: expected a ";"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): warning:  #940-D: missing return statement at end of non-void function "GetBusLeakCurrent"
+  }LCDFONT;
+..\USER\LcdUtils.h(8): error:  #77-D: this declaration has no storage class or type specifier
+  }LCDFONT;
+..\USER\LcdUtils.h(98): error:  #757: variable "LCDFONT" is not a type name
+  extern void LcdSetFont(LCDFONT state);
+..\USER\LcdUtils.h(99): error:  #757: variable "LCDFONT" is not a type name
+  extern LCDFONT LcdGetFont(void);
+..\USER\GET_USB.c: 2 warnings, 8 errors
+".\obj\test.axf" - 108 Error(s), 42 Warning(s).
+Target not created

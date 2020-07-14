@@ -26,6 +26,7 @@
 .\obj\lcdutils.o: ..\USER\LcdUtils.h
 .\obj\lcdutils.o: ..\USER\I_TX.h
 .\obj\lcdutils.o: ..\USER\V_SHIFT.h
+.\obj\lcdutils.o: ..\USER\GET_USB.h
 .\obj\lcdutils.o: ..\USER\char8_16.h
 .\obj\lcdutils.o: ..\USER\hz16_16.h
 .\obj\lcdutils.o: ..\USER\char12_24.h

@@ -27,3 +27,4 @@
 .\obj\stm32f10x_it.o: ..\USER\LcdUtils.h
 .\obj\stm32f10x_it.o: ..\USER\I_TX.h
 .\obj\stm32f10x_it.o: ..\USER\V_SHIFT.h
+.\obj\stm32f10x_it.o: ..\USER\GET_USB.h

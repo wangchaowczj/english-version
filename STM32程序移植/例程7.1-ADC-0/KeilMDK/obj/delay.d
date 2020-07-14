@@ -26,3 +26,4 @@
 .\obj\delay.o: ..\USER\LcdUtils.h
 .\obj\delay.o: ..\USER\I_TX.h
 .\obj\delay.o: ..\USER\V_SHIFT.h
+.\obj\delay.o: ..\USER\GET_USB.h

@@ -26,3 +26,4 @@
 .\obj\lcd.o: ..\USER\LcdUtils.h
 .\obj\lcd.o: ..\USER\I_TX.h
 .\obj\lcd.o: ..\USER\V_SHIFT.h
+.\obj\lcd.o: ..\USER\GET_USB.h

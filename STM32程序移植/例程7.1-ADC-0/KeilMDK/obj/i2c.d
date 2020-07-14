@@ -26,3 +26,4 @@
 .\obj\i2c.o: ..\USER\LcdUtils.h
 .\obj\i2c.o: ..\USER\I_TX.h
 .\obj\i2c.o: ..\USER\V_SHIFT.h
+.\obj\i2c.o: ..\USER\GET_USB.h

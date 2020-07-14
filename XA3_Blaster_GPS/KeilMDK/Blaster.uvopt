@@ -312,7 +312,7 @@
 
   <Group>
     <GroupName>User</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -324,7 +324,7 @@
       <Focus>1</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>513</TopLine>
+      <TopLine>516</TopLine>
       <CurrentLine>530</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\stm32f4xx_it.c</PathWithFileName>
@@ -354,10 +354,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>1</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>30</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>3</TopLine>
-      <CurrentLine>20</CurrentLine>
+      <TopLine>311</TopLine>
+      <CurrentLine>340</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\Task.c</PathWithFileName>
       <FilenameWithoutPath>Task.c</FilenameWithoutPath>
@@ -372,7 +372,7 @@
       <Focus>1</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
+      <TopLine>117</TopLine>
       <CurrentLine>1</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\det_operart.c</PathWithFileName>
@@ -386,10 +386,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>1</Focus>
-      <ColumnNumber>100</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>188</TopLine>
-      <CurrentLine>197</CurrentLine>
+      <TopLine>2962</TopLine>
+      <CurrentLine>313</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\MidFunction.c</PathWithFileName>
       <FilenameWithoutPath>MidFunction.c</FilenameWithoutPath>
@@ -402,10 +402,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>1</Focus>
-      <ColumnNumber>53</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>4134</TopLine>
-      <CurrentLine>4360</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>5</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\Recorder.c</PathWithFileName>
       <FilenameWithoutPath>Recorder.c</FilenameWithoutPath>
@@ -450,9 +450,9 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>1</Focus>
-      <ColumnNumber>4</ColumnNumber>
+      <ColumnNumber>52</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>605</TopLine>
+      <TopLine>608</TopLine>
       <CurrentLine>610</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\GuestRespond.c</PathWithFileName>
@@ -498,10 +498,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>1</Focus>
-      <ColumnNumber>75</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>194</TopLine>
-      <CurrentLine>195</CurrentLine>
+      <TopLine>195</TopLine>
+      <CurrentLine>196</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\BlueMaster.c</PathWithFileName>
       <FilenameWithoutPath>BlueMaster.c</FilenameWithoutPath>
@@ -636,7 +636,7 @@
       <Focus>1</Focus>
       <ColumnNumber>28</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>353</TopLine>
+      <TopLine>356</TopLine>
       <CurrentLine>374</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UserGUI\TopTitleDlg.c</PathWithFileName>
@@ -860,7 +860,7 @@
       <Focus>1</Focus>
       <ColumnNumber>32</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>91</TopLine>
+      <TopLine>94</TopLine>
       <CurrentLine>125</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UserGUI\DelayModifySingleDlg.c</PathWithFileName>
@@ -1580,7 +1580,7 @@
       <Focus>1</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>48</TopLine>
+      <TopLine>1</TopLine>
       <CurrentLine>1</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UserGUI\DelaySampleProcessDelaySelDlg.c</PathWithFileName>
@@ -2140,7 +2140,7 @@
       <Focus>1</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>52</TopLine>
+      <TopLine>55</TopLine>
       <CurrentLine>71</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UserGUI\WaitPowerOffDlg.c</PathWithFileName>
@@ -2180,7 +2180,7 @@
       <Focus>1</Focus>
       <ColumnNumber>63</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>21</TopLine>
+      <TopLine>24</TopLine>
       <CurrentLine>39</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\Delay.c</PathWithFileName>
@@ -2194,10 +2194,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>1</Focus>
-      <ColumnNumber>51319708</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>5</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>1</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\rtc.c</PathWithFileName>
       <FilenameWithoutPath>rtc.c</FilenameWithoutPath>
@@ -2210,10 +2210,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>1</Focus>
-      <ColumnNumber>51319708</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>5</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>1</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\Charge.c</PathWithFileName>
       <FilenameWithoutPath>Charge.c</FilenameWithoutPath>
@@ -2306,10 +2306,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>1</Focus>
-      <ColumnNumber>42</ColumnNumber>
+      <ColumnNumber>21</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>350</TopLine>
-      <CurrentLine>365</CurrentLine>
+      <TopLine>708</TopLine>
+      <CurrentLine>722</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\adc.c</PathWithFileName>
       <FilenameWithoutPath>adc.c</FilenameWithoutPath>
@@ -2356,7 +2356,7 @@
       <Focus>1</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
+      <TopLine>57</TopLine>
       <CurrentLine>1</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\USB\usb.c</PathWithFileName>
@@ -2452,7 +2452,7 @@
       <Focus>1</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>366</TopLine>
+      <TopLine>369</TopLine>
       <CurrentLine>383</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\Flash.c</PathWithFileName>
@@ -2532,7 +2532,7 @@
       <Focus>1</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>390</TopLine>
+      <TopLine>393</TopLine>
       <CurrentLine>407</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\I2C.c</PathWithFileName>
@@ -2700,7 +2700,7 @@
       <Focus>1</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1511</TopLine>
+      <TopLine>1514</TopLine>
       <CurrentLine>1526</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</PathWithFileName>
@@ -3732,7 +3732,7 @@
       <Focus>1</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>359</TopLine>
+      <TopLine>362</TopLine>
       <CurrentLine>393</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\USB\user_usb\src\usbh_usr.c</PathWithFileName>
@@ -3802,10 +3802,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>1</Focus>
-      <ColumnNumber>51319708</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>5</CurrentLine>
+      <TopLine>124</TopLine>
+      <CurrentLine>154</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\STemWinLibrary522\OS\GUI_X_UCOSII.c</PathWithFileName>
       <FilenameWithoutPath>GUI_X_UCOSII.c</FilenameWithoutPath>

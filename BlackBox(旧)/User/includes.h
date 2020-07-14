@@ -1,0 +1,33 @@
+#ifndef _INCLUDES_H_
+#define _INCLUDES_H_
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include "stm32f4xx.h"
+#include "stm32f4xx_conf.h"
+#include "System.h"
+#include "os_includes.h"
+#include "Delay.h"
+#include "Utils.h"
+#include "SystemConfig.h"
+#include "rtc.h"
+#include "Power.h"
+#include "adc.h"
+#include "usb.h"
+#include "SdCard.h"
+#include "ff.h"
+#include "diskio.h"
+#include "aes.h"
+#include "slip.h"
+#include "Package.h"
+#include "CRC16.h"
+#include "GuestRespond.h"
+#include "MsgQeue.h"
+#include "usb.h"
+#include "Task.h"
+#include "TaskUtils.h"
+#include "DetTransceiver.h"
+#include "SdCard.h"
+#include "Recorder.h"
+
+#endif

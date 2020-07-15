@@ -245,8 +245,8 @@ u16 GetBusLeakCurrent(u16* AdcValue)
 	SW5V_L();  //关闭5V输出
 	VSHIFT_L();//切换到6.7V
 	
-	U16DataFallRank(ad_temp, rank_temp, 10);//′ó′óμ?D???Dò
-	for(i=2; i < 8; i++)//è￥μ?2??×?′ó?μ?￠2??×?D??μoó?ó???ù?μ
+	U16DataFallRank(ad_temp, rank_temp, 10);//从大到小排序
+	for(i=2; i < 8; i++)//去掉两个最大值两个最小值后求取平均值
 	{
 		ad_value += rank_temp[i];
 	}
@@ -259,4 +259,46 @@ u16 GetBusLeakCurrent(u16* AdcValue)
 	return ad_value;
 }
 
+//判断电流脉冲函数
+//函数功能：判断第一发雷管接入网络后的电流脉冲
+//触发阈值：100uA（阈值没有准确测定，只是用万用表测到的粗略值）
+//返回值：返回标志位
+void DeterminePulse(void)
+{
+	u16 temp;
+	int value = 0;
+	temp = GetAdcMeasureValue(ADC_I2_CHANNEL, 1);
+	if(temp > 376) //100uA对应AD转换到的数字量是376
+		{
+			value = 1;
+		} 
+	else
+		{
+			value = 0;	
+		}
+	return value;		
+}
+
+//判断上电函数
+//函数功能：判断电源电压是否接入
+//判断阈值：电池的最低电压10.5V
+//如果电源供电则发送一个信号让蜂鸣器响一下，可以通过写标志位的方式来写函数。比如上电前标志位为0，上电后标志位变为1，然后触发蜂鸣器，蜂鸣器响应以后就变回0.就是一个上升沿判断。
+//之后该标志位一直为0.就不会再触发了。两个条件，条件1是上升沿，条件2是标志位
+//返回值：返回标志位
+
+void DeterminePower(void)
+{
+	u16 temp;
+	int value = 0;
+	temp = GetAdcMeasureValue(ADC_12V_CHANNEL,1);
+	if(temp > 2606)	//10.5V对应AD转换后的数字量是2606
+		{
+			value = 1;
+		}
+	else
+		{
+			value = 0;	
+		}
+	return value;
+}
                                                                                    

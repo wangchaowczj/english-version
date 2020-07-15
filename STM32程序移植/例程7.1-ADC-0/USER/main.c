@@ -42,7 +42,7 @@ int main(void)
         ADC_LINEB = GetAdcMeasureValue(ADC_LINEB_CHANNEL,10);
         ADC_12V = GetAdcMeasureValue(ADC_12V_CHANNEL,10);
         ADC_I1 = GetAdcMeasureValue(ADC_I1_CHANNEL,10);
-        ADC_I2 = GetBusLeakCurrent(NULL);
+        ADC_I2 = GetAdcMeasureValue(ADC_I1_CHANNEL,10);
         ADC_COMOUT = GetAdcMeasureValue(ADC_COMOUT_CHANNEL,10);
         
         

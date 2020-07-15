@@ -247,7 +247,22 @@ u16 GetBusLeakCurrent(u16* AdcValue)
 	return ad_value;
 }
 
-
+u16 GetPowerFlag(void)
+{
+	u16 temp;
+	u16 value;
+	temp = GetAdcMeasureValue(ADC_12V_CHANNEL,1);
+	if(temp > 2606)	//10.5V??AD????????2606
+		{
+			value = 1;
+		}
+	else
+		{
+			value = 0;	
+		}
+        
+	return value;
+}
 
 
 

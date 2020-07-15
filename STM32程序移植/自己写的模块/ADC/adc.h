@@ -82,3 +82,12 @@ extern ADC_ADJUST adc_adjust; //ADC校准参数
 
 void AdcConfig(void);
 u16 GetAdcMeasureValue(uint8_t adc1_channel, u8 retry);
+void GetWaveAdcValue(void);
+u16 Adc2VoltageOrCurrent(u16 Adc, ADJUST_PARAMETER* Adjust, float Default);
+s16 GetLinABAdcValue(void);
+u8 BusIsShort(void);
+u16 GetBusLeakCurrent(u16* AdcValue);
+void DeterminePulse(void);
+void DeterminePower(void);
+void SoundBee(void);
+

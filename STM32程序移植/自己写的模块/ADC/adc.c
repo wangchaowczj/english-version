@@ -182,6 +182,7 @@ u16 Adc2VoltageOrCurrent(u16 Adc, ADJUST_PARAMETER* Adjust, float Default)
 		value = 0;
 	}
 	return value;  
+}
 
 //获得电池电压值（未写，对海哥的程序表示疑惑,按理说有之前Adc2VoltageOrCurrent这个函数就够了）
 
@@ -259,4 +260,97 @@ u16 GetBusLeakCurrent(u16* AdcValue)
 	return ad_value;
 }
 
-                                                                                   
+//判断电流脉冲函数
+//函数功能：判断第一发雷管接入网络后的电流脉冲
+//触发阈值：100uA（阈值没有准确测定，只是用万用表测到的粗略值）
+//返回值：返回标志位
+void DeterminePulse(void)
+{
+	u16 temp;
+	int value = 0;
+	temp = GetAdcMeasureValue(ADC_I2_CHANNEL, 1);
+	if(temp > 376) //100uA对应AD转换到的数字量是376
+		{
+			value = 1;
+		} 
+	else
+		{
+			value = 0;	
+		}
+	return value;		
+}
+
+//判断上电函数
+//函数功能：判断电源电压是否接入
+//判断阈值：电池的最低电压10.5V
+//如果电源供电则发送一个信号让蜂鸣器响一下，可以通过写标志位的方式来写函数。比如上电前标志位为0，上电后标志位变为1，然后触发蜂鸣器，蜂鸣器响应以后就变回0.就是一个上升沿判断。
+//之后该标志位一直为0.就不会再触发了。两个条件，条件1是上升沿，条件2是标志位
+//返回值：返回标志位
+
+void DeterminePower(void)
+{
+	u16 temp;
+	int value = 0;
+	temp = GetAdcMeasureValue(ADC_12V_CHANNEL,1);
+	if(temp > 2606)	//10.5V对应AD转换后的数字量是2606
+		{
+			value = 1;
+		}
+	else
+		{
+			value = 0;	
+		}
+	return value;
+}
+     
+//用于判断是否触发蜂鸣器
+//函数功能：在遇到第一次上电和接入第一发雷管后蜂鸣器响一下
+//判断条件：一个是电流或者电压，另一个就是人为设置的标志位，有两个，一个是电源标志位，单片机上电前是0，上电后是1，响应之后变成0，另一个是雷管电流标志位（小量程）
+//标志位不能同时写在同一个函数里面，应该写在两个函数里，要不然标志位可能会变得不起作用
+
+void SoundBee(void)
+{
+	int i,j,value_power,value_pulse,power_flag,pulse_flag;
+	value_power = DeterminePower();
+	value_pulse = DeterminePulse();
+	if(value_power == 1)
+		{
+			if(i > 10)
+				{
+					i = 10;	
+					power_flag = 1;
+				}
+			else
+				{
+					i+=1;	
+					power_flag = 0;
+				}	
+		}
+	else
+		{
+			i = 0;	
+		}	
+	if(value_pluse == 1)
+		{
+			if(j > 10)
+				{
+					j = 10;	
+					pulse_flag = 1;
+				}
+			else
+				{
+					i+=1;	
+					pulse_flag = 0;
+				}	
+		}
+	else
+		{
+			i = 0;	
+		}	
+	if((power_flag & value_power)|(pulse_flag & value_pluse)
+		{
+			OUT_ON();
+			System72MDelay1ms(200);
+			OUT_OFF();				
+		}	
+}                                                                              

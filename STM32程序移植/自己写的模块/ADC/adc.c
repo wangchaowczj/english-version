@@ -287,7 +287,7 @@ void DeterminePulse(void)
 //之后该标志位一直为0.就不会再触发了。两个条件，条件1是上升沿，条件2是标志位
 //返回值：返回标志位
 
-void DeterminePower(void)
+int DeterminePower(void)
 {
 	u16 temp;
 	int value = 0;
@@ -349,7 +349,7 @@ void SoundBee(void)
 		}	
 	if((power_flag & value_power)|(pulse_flag & value_pluse)
 		{
-			OUT_ON();
+			OUT_ON();//这里指的是光和灯输出端口的开和关
 			System72MDelay1ms(200);
 			OUT_OFF();				
 		}	

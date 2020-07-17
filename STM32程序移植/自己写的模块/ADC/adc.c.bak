@@ -182,6 +182,7 @@ u16 Adc2VoltageOrCurrent(u16 Adc, ADJUST_PARAMETER* Adjust, float Default)
 		value = 0;
 	}
 	return value;  
+}
 
 //获得电池电压值（未写，对海哥的程序表示疑惑,按理说有之前Adc2VoltageOrCurrent这个函数就够了）
 
@@ -301,4 +302,55 @@ void DeterminePower(void)
 		}
 	return value;
 }
-                                                                                   
+     
+//用于判断是否触发蜂鸣器
+//函数功能：在遇到第一次上电和接入第一发雷管后蜂鸣器响一下
+//判断条件：一个是电流或者电压，另一个就是人为设置的标志位，有两个，一个是电源标志位，单片机上电前是0，上电后是1，响应之后变成0，另一个是雷管电流标志位（小量程）
+//标志位不能同时写在同一个函数里面，应该写在两个函数里，要不然标志位可能会变得不起作用
+
+void SoundBee(void)
+{
+	int i,j,value_power,value_pulse,power_flag,pulse_flag;
+	value_power = DeterminePower();
+	value_pulse = DeterminePulse();
+	if(value_power == 1)
+		{
+			if(i > 10)
+				{
+					i = 10;	
+					power_flag = 1;
+				}
+			else
+				{
+					i+=1;	
+					power_flag = 0;
+				}	
+		}
+	else
+		{
+			i = 0;	
+		}	
+	if(value_pluse == 1)
+		{
+			if(j > 10)
+				{
+					j = 10;	
+					pulse_flag = 1;
+				}
+			else
+				{
+					i+=1;	
+					pulse_flag = 0;
+				}	
+		}
+	else
+		{
+			i = 0;	
+		}	
+	if((power_flag & value_power)|(pulse_flag & value_pluse)
+		{
+			OUT_ON();//这里指的是光和灯输出端口的开和关
+			System72MDelay1ms(200);
+			OUT_OFF();				
+		}	
+}                                                                              

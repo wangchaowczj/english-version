@@ -45,8 +45,8 @@ void AdcConfig(void);
 u16 GetAdcMeasureValue(uint8_t adc1_channel, u8 retry);
 u16 MeasureVoltage (uint8_t adc1_channel,u8 retry);
 extern u16 GetBusLeakCurrent(u16* AdcValue);
-void DeterminePower(void);
-u16 GetPowerFlag(void);
+extern void DeterminePower(void);
+extern u16 GetPowerFlag(void);
 
 
 

@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+".\obj\core_cm3.o"
+".\obj\startup_stm32f10x_hd.o"
+".\obj\system_stm32f10x.o"
+".\obj\main.o"
+".\obj\stm32f10x_it.o"
+".\obj\systemconfig.o"
+".\obj\misc.o"
+".\obj\stm32f10x_exti.o"
+".\obj\stm32f10x_flash.o"
+".\obj\stm32f10x_rcc.o"
+".\obj\stm32f10x_spi.o"
+".\obj\stm32f10x_gpio.o"
+".\obj\delay.o"
+".\obj\i2c.o"
+".\obj\lcd.o"
+".\obj\lcdutils.o"
+".\obj\led.o"
+".\obj\get_usb.o"
+--strict --scatter ".\obj\USB_Test.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\list\USB_Test.map" -o .\obj\USB_Test.axf

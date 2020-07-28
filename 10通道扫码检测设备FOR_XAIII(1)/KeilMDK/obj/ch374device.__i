@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\FatFs\src -I..\FatFs\src\option -I..\STemWinDlg -I..\STemWinLibrary522\Config -I..\STemWinLibrary522\inc -I..\STemWinLibrary522\Lib -I..\STemWinLibrary522\OS -I..\STM32F4xx_StdPeriph_Driver\inc -I..\UCOSII\Config -I..\UCOSII\Ports -I..\UCOSII\Source -I..\User -I..\CH374
+-I C:\Keil\ARM\RV31\INC
+-I C:\Keil\ARM\CMSIS\Include
+-I C:\Keil\ARM\Inc\ST\STM32F4xx
+-DUSE_STDPERIPH_DRIVER -D__FPU_USED -DSTM32F40XX
+-o .\obj\ch374device.o --omf_browse .\obj\ch374device.crf --depend .\obj\ch374device.d "..\CH374\CH374Device.c"

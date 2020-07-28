@@ -1,0 +1,203 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Git\english version\STM32³ÌÐòÒÆÖ²\Àý³Ì8-USBÒÆÖ²-0\KeilMDK\USB_Test.uvproj
+Project File Date:  07/23/2020
+
+<h2>Output:</h2>
+Build target 'USB'
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling SystemConfig.c...
+compiling Delay.c...
+compiling i2c.c...
+compiling Lcd.c...
+compiling LcdUtils.c...
+compiling LED.c...
+compiling GET_USB.c...
+compiling CRC16.c...
+compiling GuestRespond.c...
+compiling Package.c...
+compiling slip.c...
+compiling CH374Device.c...
+compiling CH374DeviceHid.c...
+..\CH374\CH374DeviceHid.c(159): error:  #20: identifier "OS_ERR_NONE" is undefined
+                if(OS_ERR_NONE != OSSemPost(MsgSem.usb_rcv))
+..\CH374\CH374DeviceHid.c(159): warning:  #223-D: function "OSSemPost" declared implicitly
+                if(OS_ERR_NONE != OSSemPost(MsgSem.usb_rcv))
+..\CH374\CH374DeviceHid.c(159): error:  #20: identifier "MsgSem" is undefined
+                if(OS_ERR_NONE != OSSemPost(MsgSem.usb_rcv))
+..\CH374\CH374DeviceHid.c: 1 warning, 2 errors
+compiling CH374DeviceMsc.c...
+..\CH374\CH374DeviceMsc.c(362): warning:  #223-D: function "SdCardGetCapacity" declared implicitly
+                        cap = SdCardGetCapacity();
+..\CH374\CH374DeviceMsc.c(474): warning:  #223-D: function "SdCardReadBlock" declared implicitly
+        if(SdCardReadBlock(Readbuff, Sector, 1) != ERROR)
+..\CH374\CH374DeviceMsc.c(478): warning:  #188-D: enumerated type mixed with another type
+        return SdCardReadBlock(Readbuff, Sector,1);
+..\CH374\CH374DeviceMsc.c(494): warning:  #223-D: function "SdCardWriteBlock" declared implicitly
+        if(ERROR != SdCardWriteBlock(Writebuff, Sector, 1))
+..\CH374\CH374DeviceMsc.c(498): warning:  #188-D: enumerated type mixed with another type
+        return SdCardWriteBlock(Writebuff, Sector, 1);
+..\CH374\CH374DeviceMsc.c: 5 warnings, 0 errors
+compiling CH374Host.c...
+..\CH374\CH374Host.c(30): warning:  #223-D: function "OSTimeDly" declared implicitly
+        OSTimeDly(ms);
+..\CH374\CH374Host.c(36): warning:  #223-D: function "SystemDelay1us" declared implicitly
+                SystemDelay1us();
+..\CH374\CH374Host.c(41): warning:  #223-D: function "OSTimeGet" declared implicitly
+        return OSTimeGet();
+..\CH374\CH374Host.c(210): warning:  #223-D: function "OSTimeGet" declared implicitly
+        c_time = OSTimeGet();
+..\CH374\CH374Host.c(211): error:  #20: identifier "OS_TICKS_PER_SEC" is undefined
+        while(OSTimeGet() < (c_time+timeout/(1000/OS_TICKS_PER_SEC)))
+..\CH374\CH374Host.c: 4 warnings, 1 error
+compiling CH374HostHid.c...
+..\CH374\CH374HostHid.c(47): error:  #20: identifier "GUI_PID_STATE" is undefined
+        GUI_PID_STATE MouseState;
+..\CH374\CH374HostHid.c(50): warning:  #223-D: function "GUI_PID_GetState" declared implicitly
+        GUI_PID_GetState(&MouseState);
+..\CH374\CH374HostHid.c(94): warning:  #223-D: function "GUI_MOUSE_StoreState" declared implicitly
+        GUI_MOUSE_StoreState(&MouseState);
+..\CH374\CH374HostHid.c: 2 warnings, 1 error
+compiling CH374HostMsc.c...
+compiling CH374Interface.c...
+..\CH374\CH374Interface.c(20): warning:  #223-D: function "RCC_AHB1PeriphClockCmd" declared implicitly
+        RCC_AHB1PeriphClockCmd(CH374_SPI_SCLK_PORT_RCC | CH374_SPI_MISO_PORT_RCC| 
+..\CH374\CH374Interface.c(20): error:  #20: identifier "RCC_AHB1Periph_GPIOB" is undefined
+        RCC_AHB1PeriphClockCmd(CH374_SPI_SCLK_PORT_RCC | CH374_SPI_MISO_PORT_RCC| 
+..\CH374\CH374Interface.c(20): error:  #20: identifier "RCC_AHB1Periph_GPIOC" is undefined
+        RCC_AHB1PeriphClockCmd(CH374_SPI_SCLK_PORT_RCC | CH374_SPI_MISO_PORT_RCC| 
+..\CH374\CH374Interface.c(21): error:  #20: identifier "RCC_AHB1Periph_GPIOD" is undefined
+                CH374_SPI_MOSI_PORT_RCC | CH374_SPI_CS_PORT_RCC | CH374_INT_PORT_RCC, ENABLE);
+..\CH374\CH374Interface.c(24): error:  #20: identifier "RCC_APB2Periph_SYSCFG" is undefined
+        RCC_APB2PeriphClockCmd(RCC_APB2Periph_SYSCFG, ENABLE);
+..\CH374\CH374Interface.c(26): warning:  #223-D: function "GPIO_PinAFConfig" declared implicitly
+        GPIO_PinAFConfig(CH374_SPI_SCLK_PORT, GPIO_PinSource10, GPIO_AF_SPI2);
+..\CH374\CH374Interface.c(26): error:  #20: identifier "GPIO_AF_SPI2" is undefined
+        GPIO_PinAFConfig(CH374_SPI_SCLK_PORT, GPIO_PinSource10, GPIO_AF_SPI2);
+..\CH374\CH374Interface.c(30): error:  #20: identifier "GPIO_Mode_OUT" is undefined
+        GPIO_InitStruct.GPIO_Mode = GPIO_Mode_OUT;
+..\CH374\CH374Interface.c(31): error:  #136: struct "<unnamed>" has no field "GPIO_OType"
+        GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
+..\CH374\CH374Interface.c(31): error:  #20: identifier "GPIO_OType_PP" is undefined
+        GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
+..\CH374\CH374Interface.c(32): error:  #20: identifier "GPIO_Speed_100MHz" is undefined
+        GPIO_InitStruct.GPIO_Speed = GPIO_Speed_100MHz;
+..\CH374\CH374Interface.c(33): error:  #136: struct "<unnamed>" has no field "GPIO_PuPd"
+        GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_NOPULL;
+..\CH374\CH374Interface.c(33): error:  #20: identifier "GPIO_PuPd_NOPULL" is undefined
+        GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_NOPULL;
+..\CH374\CH374Interface.c(39): error:  #20: identifier "GPIO_Mode_AF" is undefined
+        GPIO_InitStruct.GPIO_Mode = GPIO_Mode_AF;
+..\CH374\CH374Interface.c(85): warning:  #223-D: function "RCC_AHB1PeriphClockCmd" declared implicitly
+        RCC_AHB1PeriphClockCmd(CH374_INT_PORT_RCC|USB_GET_IN_PORT_RCC, ENABLE);
+..\CH374\CH374Interface.c(85): error:  #20: identifier "RCC_AHB1Periph_GPIOC" is undefined
+        RCC_AHB1PeriphClockCmd(CH374_INT_PORT_RCC|USB_GET_IN_PORT_RCC, ENABLE);
+..\CH374\CH374Interface.c(85): error:  #20: identifier "RCC_AHB1Periph_GPIOE" is undefined
+        RCC_AHB1PeriphClockCmd(CH374_INT_PORT_RCC|USB_GET_IN_PORT_RCC, ENABLE);
+..\CH374\CH374Interface.c(86): error:  #20: identifier "RCC_APB2Periph_SYSCFG" is undefined
+        RCC_APB2PeriphClockCmd(RCC_APB2Periph_SYSCFG, ENABLE);
+..\CH374\CH374Interface.c(88): error:  #20: identifier "GPIO_Mode_IN" is undefined
+        GPIO_InitStruct.GPIO_Mode = GPIO_Mode_IN;
+..\CH374\CH374Interface.c(89): error:  #136: struct "<unnamed>" has no field "GPIO_OType"
+        GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
+..\CH374\CH374Interface.c(89): error:  #20: identifier "GPIO_OType_PP" is undefined
+        GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
+..\CH374\CH374Interface.c(90): error:  #20: identifier "GPIO_Speed_100MHz" is undefined
+        GPIO_InitStruct.GPIO_Speed = GPIO_Speed_100MHz;
+..\CH374\CH374Interface.c(91): error:  #136: struct "<unnamed>" has no field "GPIO_PuPd"
+        GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_UP;
+..\CH374\CH374Interface.c(91): error:  #20: identifier "GPIO_PuPd_UP" is undefined
+        GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_UP;
+..\CH374\CH374Interface.c(97): error:  #136: struct "<unnamed>" has no field "GPIO_OType"
+        GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
+..\CH374\CH374Interface.c(99): error:  #136: struct "<unnamed>" has no field "GPIO_PuPd"
+        GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_NOPULL;
+..\CH374\CH374Interface.c(99): error:  #20: identifier "GPIO_PuPd_NOPULL" is undefined
+        GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_NOPULL;
+..\CH374\CH374Interface.c(102): error:  #136: struct "<unnamed>" has no field "GPIO_PuPd"
+        GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_DOWN;
+..\CH374\CH374Interface.c(102): error:  #20: identifier "GPIO_PuPd_DOWN" is undefined
+        GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_DOWN;
+..\CH374\CH374Interface.c(105): warning:  #223-D: function "SYSCFG_EXTILineConfig" declared implicitly
+        SYSCFG_EXTILineConfig(EXTI_PortSourceGPIOC, EXTI_PinSource0);//PC0
+..\CH374\CH374Interface.c(105): error:  #20: identifier "EXTI_PortSourceGPIOC" is undefined
+        SYSCFG_EXTILineConfig(EXTI_PortSourceGPIOC, EXTI_PinSource0);//PC0
+..\CH374\CH374Interface.c(105): error:  #20: identifier "EXTI_PinSource0" is undefined
+        SYSCFG_EXTILineConfig(EXTI_PortSourceGPIOC, EXTI_PinSource0);//PC0
+..\CH374\CH374Interface.c: 4 warnings, 28 errors
+compiling CH374Process.c...
+..\CH374\CH374Process.c(5): error:  #20: identifier "OS_EVENT" is undefined
+  static  OS_EVENT   *CH374Mutex = 0;
+..\CH374\CH374Process.c(9): error:  #20: identifier "INT8U" is undefined
+        INT8U  err;
+..\CH374\CH374Process.c(13): warning:  #223-D: function "OSMutexCreate" declared implicitly
+                CH374Mutex = OSMutexCreate(RES_CH374_MUTEX_PRIO, &err);
+..\CH374\CH374Process.c(13): error:  #20: identifier "RES_CH374_MUTEX_PRIO" is undefined
+                CH374Mutex = OSMutexCreate(RES_CH374_MUTEX_PRIO, &err);
+..\CH374\CH374Process.c(13): error:  #513: a value of type "int" cannot be assigned to an entity of type "<error-type> *"
+                CH374Mutex = OSMutexCreate(RES_CH374_MUTEX_PRIO, &err);
+..\CH374\CH374Process.c(15): warning:  #223-D: function "OSMutexPend" declared implicitly
+        OSMutexPend(CH374Mutex,0,&err);
+..\CH374\CH374Process.c(21): warning:  #223-D: function "OSMutexPost" declared implicitly
+                OSMutexPost(CH374Mutex);        
+..\CH374\CH374Process.c(80): warning:  #223-D: function "OSTimeGet" declared implicitly
+                c_time = OSTimeGet();
+..\CH374\CH374Process.c(81): error:  #20: identifier "OS_TICKS_PER_SEC" is undefined
+                while(OSTimeGet() < (c_time+500/(1000/OS_TICKS_PER_SEC))) 
+..\CH374\CH374Process.c(359): warning:  #223-D: function "OSTimeDly" declared implicitly
+                                                                OSTimeDly(9);
+..\CH374\CH374Process.c: 5 warnings, 5 errors
+".\obj\USB_Test.axf" - 37 Error(s), 21 Warning(s).
+Target not created
+</pre>
+</body>
+</html>
+erface.c(91): error:  #20: identifier "GPIO_PuPd_UP" is undefined
+        GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_UP;
+..\CH374\CH374Interface.c(97): error:  #136: struct "<unnamed>" has no field "GPIO_OType"
+        GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
+..\CH374\CH374Interface.c(99): error:  #136: struct "<unnamed>" has no field "GPIO_PuPd"
+        GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_NOPULL;
+..\CH374\CH374Interface.c(99): error:  #20: identifier "GPIO_PuPd_NOPULL" is undefined
+        GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_NOPULL;
+..\CH374\CH374Interface.c(102): error:  #136: struct "<unnamed>" has no field "GPIO_PuPd"
+        GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_DOWN;
+..\CH374\CH374Interface.c(102): error:  #20: identifier "GPIO_PuPd_DOWN" is undefined
+        GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_DOWN;
+..\CH374\CH374Interface.c(105): warning:  #223-D: function "SYSCFG_EXTILineConfig" declared implicitly
+        SYSCFG_EXTILineConfig(EXTI_PortSourceGPIOC, EXTI_PinSource0);//PC0
+..\CH374\CH374Interface.c(105): error:  #20: identifier "EXTI_PortSourceGPIOC" is undefined
+        SYSCFG_EXTILineConfig(EXTI_PortSourceGPIOC, EXTI_PinSource0);//PC0
+..\CH374\CH374Interface.c(105): error:  #20: identifier "EXTI_PinSource0" is undefined
+        SYSCFG_EXTILineConfig(EXTI_PortSourceGPIOC, EXTI_PinSource0);//PC0
+..\CH374\CH374Interface.c: 4 warnings, 29 errors
+compiling CH374Process.c...
+..\USER\SystemConfig.h(106): error:  #20: identifier "STR_COMM" is undefined
+  extern STR_COMM  HidData;
+..\CH374\CH374Process.c(5): error:  #20: identifier "OS_EVENT" is undefined
+  static  OS_EVENT   *CH374Mutex = 0;
+..\CH374\CH374Process.c(9): error:  #20: identifier "INT8U" is undefined
+        INT8U  err;
+..\CH374\CH374Process.c(13): warning:  #223-D: function "OSMutexCreate" declared implicitly
+                CH374Mutex = OSMutexCreate(RES_CH374_MUTEX_PRIO, &err);
+..\CH374\CH374Process.c(13): error:  #20: identifier "RES_CH374_MUTEX_PRIO" is undefined
+                CH374Mutex = OSMutexCreate(RES_CH374_MUTEX_PRIO, &err);
+..\CH374\CH374Process.c(13): error:  #513: a value of type "int" cannot be assigned to an entity of type "<error-type> *"
+                CH374Mutex = OSMutexCreate(RES_CH374_MUTEX_PRIO, &err);
+..\CH374\CH374Process.c(15): warning:  #223-D: function "OSMutexPend" declared implicitly
+        OSMutexPend(CH374Mutex,0,&err);
+..\CH374\CH374Process.c(21): warning:  #223-D: function "OSMutexPost" declared implicitly
+                OSMutexPost(CH374Mutex);        
+..\CH374\CH374Process.c(80): warning:  #223-D: function "OSTimeGet" declared implicitly
+                c_time = OSTimeGet();
+..\CH374\CH374Process.c(81): error:  #20: identifier "OS_TICKS_PER_SEC" is undefined
+                while(OSTimeGet() < (c_time+500/(1000/OS_TICKS_PER_SEC))) 
+..\CH374\CH374Process.c(359): warning:  #223-D: function "OSTimeDly" declared implicitly
+                                                                OSTimeDly(9);
+..\CH374\CH374Process.c: 5 warnings, 6 errors
+".\obj\USB_Test.axf" - 58 Error(s), 21 Warning(s).
+Target not created

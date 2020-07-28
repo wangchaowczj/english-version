@@ -1,0 +1,110 @@
+//从机初始化：
+//使用函数：
+CH374DeviceInit(DEVICE_HID);
+
+//函数体以及声明
+extern void CH374DeviceInit(CH374_DEVICE_TYPE DeviceType);
+//函数在驱动CH374Device.c中
+void CH374DeviceInit(CH374_DEVICE_TYPE DeviceType)  //
+{
+	HostInfo.SupportDeviceType = 0;
+	SetHostEnumState(BUS_FREE);
+	Ch374Device.Type = DeviceType;
+	DeviceMscStage = COMMAND_STAGE;
+	if(DEVICE_HID == Ch374Device.Type)
+	{
+		Ch374Device.Device.Des = CustomHID_DeviceDescriptor;
+		Ch374Device.Device.Size = sizeof(CustomHID_DeviceDescriptor);
+		
+		Ch374Device.Config.Des = CustomHID_ConfigDescriptor;
+		Ch374Device.Config.Size = sizeof(CustomHID_ConfigDescriptor);
+	}
+	else if(DEVICE_MSC == Ch374Device.Type)
+	{
+		Ch374Device.Device.Des = MSC_DeviceDescriptor;
+		Ch374Device.Device.Size = sizeof(MSC_DeviceDescriptor);
+		Ch374Device.Config.Des = MSC_ConfigDescriptor;
+		Ch374Device.Config.Size = sizeof(MSC_ConfigDescriptor);	
+	}
+	
+	Ch374Device.Langage.Des = LangDescr;
+	Ch374Device.Langage.Size = sizeof(LangDescr);
+	
+	Ch374Device.Manu.Des = ManuInfo;
+	Ch374Device.Manu.Size = sizeof(ManuInfo);
+	
+	Ch374Device.Produce.Des = ProdInfo;
+	Ch374Device.Produce.Size = sizeof(ProdInfo);
+
+	Write374Byte(0x05, Read374Byte(0x05)|BIT_CTRL_RESET_NOW);
+	Ch374DelayMs(5);  // μè′yCH374?′??íê3é
+	Write374Byte(0x05, Read374Byte(0x05)&(~BIT_CTRL_RESET_NOW));
+	Ch374DelayMs(5);  // μè′yCH374?′??íê3é
+	
+	Write374Byte( REG_USB_ADDR, 0x00 );
+	Write374Byte( REG_USB_ENDP0, M_SET_EP0_TRAN_NAK( 0 ) );
+	Write374Byte( REG_USB_ENDP1, M_SET_EP1_TRAN_NAK( 0 ) );
+	Write374Byte( REG_USB_ENDP2, M_SET_EP2_TRAN_NAK( 0 ) );
+	Write374Byte( REG_INTER_FLAG, BIT_IF_USB_PAUSE | BIT_IF_INTER_FLAG );  // ???ùóD?D??±ê??
+	Write374Byte( REG_INTER_EN, BIT_IE_TRANSFER | BIT_IE_BUS_RESET | BIT_IE_USB_SUSPEND );  // ?êDí′?ê?íê3é?D??oíUSB×ü???′???D??ò??°USB×ü??1ò?e?D??,D?????D?íê3é?D??
+	Write374Byte( REG_SYS_CTRL, BIT_CTRL_OE_POLAR );  // ??óúCH374T?ò??UENòy??Dü??μ?CH374S±?D???BIT_CTRL_OE_POLAR?a1
+	Write374Byte( REG_USB_SETUP, BIT_SETP_TRANS_EN | BIT_SETP_PULLUP_EN );  // ???ˉUSBéè±?
+}
+
+//中断服务函数：
+extern void CH374DeviceInterrupt(void);
+//函数在驱动CH374Device.c中
+//被CH374Process.c中中断回调函数调用
+
+//HID设备通信任务
+//HID通信任务在系统初始化的时候就建立起来了，也就是说该任务是随时准备着的
+void AppUsbTask(void* p_arg)
+{	
+	INT8U Err;
+		
+	MsgSem.usb_rcv =  OSSemCreate(0);
+	
+	while(1)
+	{
+		OSSemPend(MsgSem.usb_rcv,0,&Err);
+		SetSystemSleepCount(OSTimeGet());
+		if(RECIEVED == HidData.status)
+		{//usb
+			if(SUCCESS == Unpack(&HidData, &GusetTempBuffer))
+			{
+				GuestRespond(&GusetTempBuffer, &GusetSendBuffer);//???óê?μ?μ?êy?Y??DD′|àí
+				if(GusetSendBuffer.bytenum != 0)
+				{
+					Pack(&GusetSendBuffer, &GusetTempBuffer);
+					DeviceHidSendData(&GusetTempBuffer.uch_buf[0], GusetTempBuffer.bytenum);
+				}				
+			}
+			HidData.bytenum = 0;
+			HidData.status = RECIEVING;		
+		}	
+	}
+}
+
+//主机初始化
+Ch374HostInit(SUPPORT_DEVICE_MSC|SUPPORT_DEVICE_KEYBOARD);//必须得有需要支持的设备型号
+
+//主机进程_查询方式
+//在主机初始化后就进入主机进程模式
+HostProcess();
+
+//中断设置，主机的中断是软件中断，不是硬件中断
+//stm32f103_it.c文件中中断设置和stm32f1xx_exti.c文件中的函数相关
+void EXTI0_IRQHandler(void)
+{
+//	u8 i;
+	
+	OSIntEnter();
+	if(EXTI_GetITStatus(EXTI_Line0) != RESET)
+	{
+		EXTI_ClearITPendingBit(EXTI_Line0);
+		CH374InterruptCallBack();//中断回调函数，包含从机的中断服务程序
+	}	
+	OSIntExit();	
+}
+
+//主机从机通讯是调用到的其他函数（以及源文件）

@@ -5,7 +5,7 @@ volatile u32 RS485RecTimeLatest = 0;
 volatile u32 RS232RecTimeLatest  = 0; 
 volatile u8 MCU_IO_IN1_Flag = 0; 
 
-STR_COMM  HidData ;
+STR_COMM  HidData ;//数据帧格式
 STR_COMM  RS485Data ;
 STR_COMM  RS232Data ;
 MSG_SEM MsgSem;

@@ -1,0 +1,15 @@
+.\obj\lcd.o: ..\USER\lcd.c
+.\obj\lcd.o: ..\USER\lcd.h
+.\obj\lcd.o: ..\CMSIS\stm32f10x.h
+.\obj\lcd.o: ..\CMSIS\core_cm3.h
+.\obj\lcd.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\lcd.o: ..\CMSIS\system_stm32f10x.h
+.\obj\lcd.o: ..\USER\stm32f10x_conf.h
+.\obj\lcd.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+.\obj\lcd.o: ..\CMSIS\stm32f10x.h
+.\obj\lcd.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h
+.\obj\lcd.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\obj\lcd.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\obj\lcd.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+.\obj\lcd.o: ..\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\obj\lcd.o: ..\USER\lcd_botton.h

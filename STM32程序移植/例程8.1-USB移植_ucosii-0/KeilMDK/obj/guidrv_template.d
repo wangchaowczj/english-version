@@ -1,0 +1,16 @@
+.\obj\guidrv_template.o: ..\STemWinLibrary532\Config\GUIDRV_Template.c
+.\obj\guidrv_template.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\obj\guidrv_template.o: ..\STemWinLibrary532\inc\LCD_Private.h
+.\obj\guidrv_template.o: ..\STemWinLibrary532\Config\LCDConf.h
+.\obj\guidrv_template.o: ..\STemWinLibrary532\inc\LCD_Protected.h
+.\obj\guidrv_template.o: ..\STemWinLibrary532\inc\LCD.h
+.\obj\guidrv_template.o: ..\STemWinLibrary532\inc\GUI_ConfDefaults.h
+.\obj\guidrv_template.o: ..\STemWinLibrary532\Config\GUIConf.h
+.\obj\guidrv_template.o: ..\STemWinLibrary532\inc\Global.h
+.\obj\guidrv_template.o: ..\STemWinLibrary532\inc\GUI.h
+.\obj\guidrv_template.o: ..\STemWinLibrary532\inc\GUI_Type.h
+.\obj\guidrv_template.o: ..\STemWinLibrary532\inc\GUI_Version.h
+.\obj\guidrv_template.o: ..\STemWinLibrary532\inc\GUI_Private.h
+.\obj\guidrv_template.o: ..\STemWinLibrary532\inc\GUI_Debug.h
+.\obj\guidrv_template.o: ..\STemWinLibrary532\inc\WM_GUI.h
+.\obj\guidrv_template.o: ..\STemWinLibrary532\inc\LCD_ConfDefaults.h

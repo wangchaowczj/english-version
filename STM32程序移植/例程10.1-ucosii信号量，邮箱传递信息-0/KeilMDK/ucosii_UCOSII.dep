@@ -103,7 +103,7 @@ I (..\USER\i2c.h)(0x5F06A6BA)
 I (..\USER\LcdUtils.h)(0x5EFE89E0)
 I (..\USER\LCD.h)(0x5EFE89E0)
 I (..\USER\GET_USB.h)(0x5F0BB3C3)
-F (..\USER\Task.c)(0x5F1EA591)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CMSIS -I..\STM32F10x_StdPeriph_Driver\inc -I..\uCOS-II\Ports -I..\uCOS-II\Source -I..\USER-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\task.o --omf_browse .\obj\task.crf --depend .\obj\task.d)
+F (..\USER\Task.c)(0x5F1F6E4E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CMSIS -I..\STM32F10x_StdPeriph_Driver\inc -I..\uCOS-II\Ports -I..\uCOS-II\Source -I..\USER-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\task.o --omf_browse .\obj\task.crf --depend .\obj\task.d)
 I (..\USER\includes.h)(0x5F1E9F36)
 I (..\USER\stm32f10x_conf.h)(0x5F1E38ED)
 I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5C049118)

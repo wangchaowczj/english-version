@@ -76,21 +76,12 @@ void AppStartUpTask(void* p_arg)
     SW_USB = OSSemCreate(0);
     TaskCreate(APP_GetUSB_TASK_PRIO,(void*)0);
     TaskCreate(APP_LED2_TASK_PRIO,(void*)0);
-
     TaskCreate(APP_LED1_TASK_PRIO,(void*)0);
     TaskCreate(APP_LED_TASK_PRIO,(void*)0);
 
 
 	OSTaskDel(OS_PRIO_SELF);
-/*    OS_PRIO_SELF是一个中转站，设定一个值0XFF,是为了判断
-    * 作用是当编程者知道自己当前任务的优先级的时候就直接写优先级，当不知道的时候就用这个来代替
-    * 在OSTaskDel()函数内部有一个判断程序
-    * if (prio == OS_PRIO_SELF) 
-    * {                                  See if requesting to delete self    
-    *  prio = OSTCBCur->OSTCBPrio;       Set priority to delete to current   
-    * }
-    *这样就实现不管知不知道当前任务的优先级都可以删除当前任务的功能
-*/  
+  
 }
 
 /**
@@ -143,12 +134,19 @@ void AppLED2Task(void* p_arg)
 
 void AppGetUSBTask(void* p_arg)
 {	
+    u8 t=0;
     GET_USB_CONFIG();  
 	while(1)
 	{
 		if(USB_ST==1)
         {
-            OSSemPost(SW_USB);
+            t++;
+            if(t>5)
+            {
+                t = 0; 
+                OSSemPost(SW_USB);
+            }   
+            
         }            
 	}
 }
